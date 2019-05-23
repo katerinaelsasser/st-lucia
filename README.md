@@ -12,3 +12,13 @@ This website needs to have:
 * Images of location
 
 Mockups
+
+
+
+
+UX
+*Surface
+*Strategy
+*Structure
+*Skeleton
+*Scope
