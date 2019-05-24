@@ -43,4 +43,5 @@ the user would want to see.
 As a user, I want to see the island on the map.
 As a user, I want a clear display and can be understood.
 As a user, I want to click on a pin and information about the location will appear.
-As a userm I want to see pictures of the location.
+As a user, I want to see pictures of the location.
+As a user, I want to see locations of where restuarants, hotels and other locations on the map.
