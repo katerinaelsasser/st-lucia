@@ -27,3 +27,6 @@ laptop view. All the mock-ups will help inspire the final outcome of this projec
 *Structure
 *Skeleton
 *Scope
+Before I started putting together the website, I had to get all the information
+that I needed to put on it. I researched about the island and locations that 
+the user would want to see.
