@@ -24,6 +24,9 @@ I put together two different mock-ups three different formats; mobile, tablet an
 laptop view. All the mock-ups will help inspire the final outcome of this project. 
 
 *Strategy
+This website is to inform users about the island and what is on the island, which means
+there must be information and images of the locations. 
+
 *Structure
 
 *Skeleton
