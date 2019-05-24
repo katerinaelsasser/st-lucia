@@ -38,3 +38,9 @@ about that location will appear.
 Before I started putting together the website, I had to get all the information
 that I needed to put on it. I researched about the island and locations that 
 the user would want to see.
+
+*User Stories
+As a user, I want to see the island on the map.
+As a user, I want a clear display and can be understood.
+As a user, I want to click on a pin and information about the location will appear.
+As a userm I want to see pictures of the location.
