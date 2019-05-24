@@ -18,11 +18,11 @@ Mockups
 
 UX
 *Surface
-I started to put together mockups of what I would like the layout to be. Before 
+I started to put together mock-ups of what I would like the layout to be. Before 
 creating them, I knew that it had to be very clear for user and easy to follow. 
-I put together two different mockups three different formats; mobile, tablet and 
-laptop view. All the mockups will help inspire the final outcome of this project.
-Everything 
+I put together two different mock-ups three different formats; mobile, tablet and 
+laptop view. All the mock-ups will help inspire the final outcome of this project. 
+
 *Strategy
 *Structure
 *Skeleton
