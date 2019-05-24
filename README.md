@@ -25,7 +25,12 @@ laptop view. All the mock-ups will help inspire the final outcome of this projec
 
 *Strategy
 *Structure
+
 *Skeleton
+The map of the island will be the main focus and it will also help other features
+appear on the page. For example: when clicking on a pin point on the map, information
+about that location will appear.
+
 *Scope
 Before I started putting together the website, I had to get all the information
 that I needed to put on it. I researched about the island and locations that 
