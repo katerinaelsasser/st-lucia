@@ -11,7 +11,10 @@ I started to put together mock-ups of what I would like the layout to be. Before
 creating them, I knew that it had to be very clear for user and easy to follow. 
 I put together two different mock-ups three different formats; mobile, tablet and 
 laptop view. All the mock-ups will help inspire the final outcome of this project. 
-
+[Mockup 1 - Mobile](/assects/images/mobile-phone-mockup.jpg)
+[Mockup 1 - Laptop](/assects/images/laptop-mockup.jpg)
+[Mockup 2 - Mobile](/assects/images/mobile-phone-mockup_1.jpg)
+[Mockup 2 - Laptop](/assects/images/laptop-mockup_1.jpg)
 ### Strategy
 This website is to inform users about the island and what is on the island, which means
 there must be information and images of the locations. 
