@@ -21,9 +21,14 @@ laptop view. All the mock-ups will help inspire the final outcome of this projec
 
 ### Strategy
 This website is to inform users about the island and what is on the island, which means
-there must be information and images of the locations. 
+there must be information and images of the locations. The information that will
+will be collected from a number of sights, this information will be summaries 
+about that specific location. 
 
-*Structure
+### Structure
+This website will be structured around the map of the island, around the map 
+will be images and information that will appear when a pin point on the map has 
+been clicked on.
 
 ### Skeleton
 The map of the island will be the main focus and it will also help other features
