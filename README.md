@@ -12,9 +12,13 @@ creating them, I knew that it had to be very clear for user and easy to follow.
 I put together two different mock-ups three different formats; mobile, tablet and 
 laptop view. All the mock-ups will help inspire the final outcome of this project. 
 ![Mockup 1 - Mobile](https://github.com/katerinaelsasser/st-lucia-destination/blob/master/asscets/images/laptop-mockup.jpg "Mobile Phone Mockup 1")
+-----
 ![Mockup 1 - Laptop](https://github.com/katerinaelsasser/st-lucia-destination/blob/master/asscets/images/laptop-mockup.jpg "Laptop Mockup 1")
+-----
 ![Mockup 2 - Mobile](https://github.com/katerinaelsasser/st-lucia-destination/blob/master/asscets/images/mobile-phone-mockup_1.jpg "Mobile Phone Mockup 2")
+-----
 ![Mockup 2 - Laptop](https://github.com/katerinaelsasser/st-lucia-destination/blob/master/asscets/images/laptop-mockup_1.jpg "Laptop Mockup 2")
+
 ### Strategy
 This website is to inform users about the island and what is on the island, which means
 there must be information and images of the locations. 
