@@ -21,14 +21,38 @@
     <script>
         function initMap(){
             // Location of St Lucia
-            var options = {
+            var map = new google.maps.Map(document.getElementById('map'), {
                 zoom:10,
                 center:{lat:13.9094, lng:-60.9789}
             }
             
             // New map
-           var map = new google.maps.Map(document.getElementById('map'), options);
+           
+        
+            //test marker - first hotel
+            var marker = new google.maps.Marker({
+                position:{lat:14.0969,lng:-61.0757}
+                map:map
+            });
+            
+            var labels = "ABCDEFG";
+            
+            var locations = [
+                { lat: 14.0969, lng: -60.9498}
+                { lat: 14.0406, lng: -60.9706}
+                { lat: 13.8646, lng: -61.0757}
+            ];
+            
+            var markers = locations.maps(function(location, i) {
+                return new google.maps.Marker({
+                    position: location,
+                    label: label[i % labels.length]
+                });
+            });
+            
         }
+        
+        
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK5U8reHv-XX_-J4rCnS4Ukm9mhc_2Ook&callback=initMap"></script>
 </body>
