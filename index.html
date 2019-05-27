@@ -18,10 +18,13 @@
     <div id="map"></div>
     <script>
         function initMap(){
+            // Map options
             var options = {
                 zoom:10,
                 center:{lat:13.9094, lng:-60.9789}
             }
+            
+            // New map
            var map = new google.maps.Map(document.getElementById('map'), options);
         }
     </script>
