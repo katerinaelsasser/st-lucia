@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>St Lucia</title>
@@ -28,21 +29,6 @@
                     lng:-60.9789
                 }
             });
-            //icons
-            var iconBase =
-            'https://developers.google.com/maps/documentation/javascript/examples/full/images/';
-            
-            var icons = {
-              parking: {
-                icon: iconBase + 'parking_lot_maps.png'
-              },
-              library: {
-                icon: iconBase + 'library_maps.png'
-              },
-              info: {
-                icon: iconBase + 'info-i_maps.png'
-              }
-            };
             
             //HOTELS
             // Royalton Resort
@@ -52,7 +38,6 @@
                     lng:-60.9498
                 },
                 map: map,
-                icon: iconBase + 'info-i_maps.png'
             });
                 // St James Club Morgan Bay
             var marker = new google.maps.Marker({
