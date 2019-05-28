@@ -28,7 +28,24 @@
                     lng:-60.9789
                 }
             });
-                // Royalton Resort
+            //icons
+            var iconBase =
+            'https://developers.google.com/maps/documentation/javascript/examples/full/images/';
+            
+            var icons = {
+              parking: {
+                icon: iconBase + 'parking_lot_maps.png'
+              },
+              library: {
+                icon: iconBase + 'library_maps.png'
+              },
+              info: {
+                icon: iconBase + 'info-i_maps.png'
+              }
+            };
+            
+            //HOTELS
+            // Royalton Resort
             var marker = new google.maps.Marker({
                 position: {
                     lat: 14.0969,
