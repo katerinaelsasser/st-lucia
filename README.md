@@ -62,3 +62,14 @@ Tests Done To Create Website
 4. Find I forgot to add a ';' to the end of a line.
 5. I apply this.
 6. Check the page, the map appears.
+* Adding a marker to the map
+1. Added a small example from google to create a marker on the map
+2. Loaded the page, map disappears.
+3. Check the code to see where I went wrong.
+4. Check the example code to see what I didn't copy across.
+5. Don't notice anything, copy the code again from Google.
+6. Reload the page.
+7. Map doesn't appear still.
+8. Look at my code again and notice I put it in the wrong section and added it to the code that created the map.
+9. Moved the code onto another section.
+10. Reload page, map and marker appear.
