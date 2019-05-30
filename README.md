@@ -55,3 +55,10 @@ Technologies Used
 Testing
 Check List
 Tests Done To Create Website
+* Map Error
+1. Added the code that creates the map.
+2. When refreshing the page, the map doesn't appear.
+3. Check code where the error is.
+4. Find I forgot to add a ';' to the end of a line.
+5. I apply this.
+6. Check the page, the map appears.
