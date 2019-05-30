@@ -46,3 +46,12 @@ As a user, I want a clear display and can be understood.
 As a user, I want to click on a pin and information about the location will appear.
 As a user, I want to see pictures of the location.
 As a user, I want to see locations of where restuarants, hotels and other locations on the map.
+
+Features
+Existing Features
+Features Left To Implement
+Technologies Used
+
+Testing
+Check List
+Tests Done To Create Website
