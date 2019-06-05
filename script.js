@@ -7,21 +7,7 @@ function initMap(){
     // New Map
     var map = new google.maps.Map(document.getElementById('map'), options);
         
-    /*
-    // New Marker
-    var marker = new google.maps.Marker({
-        position:{lat:14.0969,lng:-60.9498},
-        map:map
-    });
-    
-    var infoWindow = new google.maps.InfoWindow({
-        content:'<h6>Royalton</h6>'
-    });
-    
-    marker.addListener('click', function(){
-        infoWindow.open(map,marker);
-    })
-    */
+    // Markers
     // Royalton Resort - Hotel
     addMarker({
         coords:{lat:14.0969,lng:-60.9498},
@@ -40,6 +26,21 @@ function initMap(){
         position:props.coords,
         map:map
     });
+    
+    
+    
+    //testing content
+    if(props.content){
+        var infoWindow = new google.maps.InfoWindow({
+        content:'<h6>Royalton</h6>'
+    });
+    
+    marker.addListener('click', function(){
+        infoWindow.open(map,marker);
+    });
+    }
+    
+    
     
     }
 }
