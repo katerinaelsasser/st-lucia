@@ -19,74 +19,7 @@
     
     <div id="map"></div>
     
-    <script>
-        function initMap(){
-            // Location of St Lucia
-var map = new google.maps.Map(document.getElementById('map'), {
-                zoom:10,
-                center: {
-                    lat: 13.9094, 
-                    lng:-60.9789
-                }
-            });
-            
-            //HOTELS
-            // Royalton Resort
-            var contentString = '<div id="content">'+
-              '<div id="siteNotice">'+
-              '</div>'+
-              '<h1 id="firstHeading" class="firstHeading">Royalton Resort</h1>'+
-              '<div id="bodyContent">'+
-              '<p>Example text</p>'+
-              '</div>'+
-              '</div>';
-
-            var infowindow = new google.maps.InfoWindow({
-              content: contentString,
-              maxWidth: 200
-            });
-            
-            var marker = new google.maps.Marker({
-              position: {
-                        lat: 14.0969,
-                        lng:-60.9498
-                    },
-              map: map,
-              title: 'Royalton Resort'
-            });
-            marker.addListener('click', function() {
-              infowindow.open(map, marker);
-            });
-            
-            // St James Club Morgan Bay
-            var contentString = '<div id="content">'+
-              '<div id="siteNotice">'+
-              '</div>'+
-              '<h1 id="firstHeading" class="firstHeading">Royalton Resort</h1>'+
-              '<div id="bodyContent">'+
-              '<p>Example text</p>'+
-              '</div>'+
-              '</div>';
-
-            var infowindow = new google.maps.InfoWindow({
-              content: contentString,
-              maxWidth: 200
-            });
-            
-            var marker = new google.maps.Marker({
-              position: {
-                        lat: 14.0406,
-                        lng:-60.9706
-                    },
-              map: map,
-              title: 'Royalton Resort'
-            });
-            marker.addListener('click', function() {
-              infowindow.open(map, marker);
-            });
-            
-        }
-    </script>
+    <script src="script.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK5U8reHv-XX_-J4rCnS4Ukm9mhc_2Ook&callback=initMap"></script>
 </body>
 </html>
