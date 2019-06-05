@@ -58,99 +58,34 @@ var map = new google.maps.Map(document.getElementById('map'), {
               infowindow.open(map, marker);
             });
             
-                // St James Club Morgan Bay
-            var marker = new google.maps.Marker({
-                position: {
-                    lat: 14.0406,
-                    lng:-60.9706
-                },
-                map: map,
+            // St James Club Morgan Bay
+            var contentString = '<div id="content">'+
+              '<div id="siteNotice">'+
+              '</div>'+
+              '<h1 id="firstHeading" class="firstHeading">Royalton Resort</h1>'+
+              '<div id="bodyContent">'+
+              '<p>Example text</p>'+
+              '</div>'+
+              '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+              content: contentString,
+              maxWidth: 200
             });
-                // Jade Mountain Resort
+            
             var marker = new google.maps.Marker({
-                position: {
-                    lat: 13.8646,
-                    lng:-61.0757
-                },
-                map: map,
+              position: {
+                        lat: 14.0406,
+                        lng:-60.9706
+                    },
+              map: map,
+              title: 'Royalton Resort'
             });
-                //Sandales Resort
-              var marker = new google.maps.Marker({
-                position: {
-                    lat: 14.0913,
-                    lng:-60.9585
-                },
-                map: map,
-            });  
-                //Mango Beach Inn
-            var marker = new google.maps.Marker({
-                position: {
-                    lat: 13.9676,
-                    lng:-61.0244
-                },
-                map: map,
-            });  
-                //Hummingbird Resort
-            var marker = new google.maps.Marker({
-                position: {
-                    lat: 13.8583,
-                    lng:-61.0622
-                },
-                map: map,
-            });  
-                //Bay Gardens Beach Resort
-            var marker = new google.maps.Marker({
-                position: {
-                    lat: 14.0769,
-                    lng: -60.9540
-                },
-                map: map,
-            });  
-                //The Harbor Club
-            var marker = new google.maps.Marker({
-                position: {
-                    lat: 14.0736,
-                    lng: -60.9479
-                },
-                map: map,
-            });  
-                //Boucan by Hotel Chocolat
-            var marker = new google.maps.Marker({
-                position: {
-                    lat: 13.8332,
-                    lng: -61.0503
-                },
-                map: map,
-            });  
-                //Coco Palm Resort
-            var marker = new google.maps.Marker({
-                position: {
-                    lat: 14.0697,
-                    lng: 60.9554
-                },
-                map: map,
-            });  
-            //Restuarants
-            //Airports
-            //Hewanorra International Airport
-            var marker = new google.maps.Marker({
-                position: {
-                    lat: 13.7334,
-                    lng: -60.9503
-                },
-                map: map,
-            });  
-            //George F.L Charles Airport
-            var marker = new google.maps.Marker({
-                position: {
-                    lat: 14.0200,
-                    lng: -60.9931
-                },
-                map: map,
-            });  
+            marker.addListener('click', function() {
+              infowindow.open(map, marker);
+            });
+            
         }
-        
-        
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK5U8reHv-XX_-J4rCnS4Ukm9mhc_2Ook&callback=initMap"></script>
 </body>
