@@ -16,8 +16,8 @@ function initMap(){
     });
     // St James Club Morgan Bay - Hotel
     addMarker({
-        coords:{lat:14.0406,lng:-60.9706}
-        
+        coords:{lat:14.0406,lng:-60.9706},
+        content:'<h6>St James Club Morgan Bay<h6>'
     });
     
     // Add Marker Function
