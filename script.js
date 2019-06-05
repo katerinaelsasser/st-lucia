@@ -27,12 +27,10 @@ function initMap(){
         map:map
     });
     
-    
-    
     //testing content
     if(props.content){
         var infoWindow = new google.maps.InfoWindow({
-        content:'<h6>Royalton</h6>'
+        content: props.content
     });
     
     marker.addListener('click', function(){
