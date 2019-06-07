@@ -26,6 +26,12 @@ function initMap(){
         content:'<h6>Jade Mountain Resort<h6>'
     });
     
+    // Sandales Regency La Toc - Hotel
+    addMarker({
+        coords:{lat:14.0083,lng:-61.0091},
+        content:'<h6>Sandales Regency La Toc</h6>'
+    });
+    
     // Add Marker Function
     function addMarker(props){
         var marker = new google.maps.Marker({
