@@ -20,6 +20,12 @@ function initMap(){
         content:'<h6>St James Club Morgan Bay<h6>'
     });
     
+    // Jade Mountain Resort - Hotel
+    addMarker({
+        coords:{lat:13.8646,lng:-61.0757},
+        content:'<h6>Jade Mountain Resort<h6>'
+    });
+    
     // Add Marker Function
     function addMarker(props){
         var marker = new google.maps.Marker({
