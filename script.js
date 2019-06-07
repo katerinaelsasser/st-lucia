@@ -87,7 +87,7 @@ function initMap(){
         map:map
     });
     
-    //testing content
+    //Making The Action
     if(props.content){
         var infoWindow = new google.maps.InfoWindow({
         content: props.content
