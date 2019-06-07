@@ -50,6 +50,12 @@ function initMap(){
         content:'<h6>Sandales Grande St. Lucian</h6>'
     });
     
+    // Hummingbird Resort - Hotel
+    addMarker({
+        coords:{lat:13.8583,lng:-61.0622},
+        content:'<h6>Sandales Grande St. Lucian</h6>'
+    });
+    
     // Add Marker Function
     function addMarker(props){
         var marker = new google.maps.Marker({
