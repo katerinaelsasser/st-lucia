@@ -56,6 +56,30 @@ function initMap(){
         content:'<h6>Sandales Grande St. Lucian</h6>'
     });
     
+    // Bay Gardens Beach Resort - Hotel
+    addMarker({
+        coords:{lat:14.0769,lng: -60.9540},
+        content:'<h6>Sandales Grande St. Lucian</h6>'
+    });
+    
+    // The Harbor Club - Hotel
+    addMarker({
+        coords:{lat:14.0736,lng: -60.9479},
+        content:'<h6>Sandales Grande St. Lucian</h6>'
+    });
+    
+    // Boucan by Hotel Chocolat - Hotel
+    addMarker({
+        coords:{lat:13.8332,lng: -61.0503},
+        content:'<h6>Sandales Grande St. Lucian</h6>'
+    });
+    
+    // Coco Palm Resort - Hotel
+    addMarker({
+        coords:{lat:14.0697,lng: 60.9554},
+        content:'<h6>Sandales Grande St. Lucian</h6>'
+    });
+    
     // Add Marker Function
     function addMarker(props){
         var marker = new google.maps.Marker({
