@@ -32,6 +32,18 @@ function initMap(){
         content:'<h6>Sandales Regency La Toc</h6>'
     });
     
+    // Sandales Grande St. Lucian - Hotel
+    addMarker({
+        coords:{lat:14.0913,lng:-60.9585},
+        content:'<h6>Sandales Grande St. Lucian</h6>'
+    });
+    
+    // Sandales Halcyon Beach - Hotel
+    addMarker({
+        coords:{lat:14.0308,lng:-60.9772},
+        content:'<h6>Sandales Grande St. Lucian</h6>'
+    });
+    
     // Add Marker Function
     function addMarker(props){
         var marker = new google.maps.Marker({
