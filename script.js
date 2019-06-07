@@ -47,37 +47,37 @@ function initMap(){
     // Mango Beach Inn - Hotel
     addMarker({
         coords:{lat:13.9676,lng:-61.0244},
-        content:'<h6>Sandales Grande St. Lucian</h6>'
+        content:'<h6>Mango Beach Inn</h6>'
     });
     
     // Hummingbird Resort - Hotel
     addMarker({
         coords:{lat:13.8583,lng:-61.0622},
-        content:'<h6>Sandales Grande St. Lucian</h6>'
+        content:'<h6>Hummingbird Resort</h6>'
     });
     
     // Bay Gardens Beach Resort - Hotel
     addMarker({
         coords:{lat:14.0769,lng: -60.9540},
-        content:'<h6>Sandales Grande St. Lucian</h6>'
+        content:'<h6>Bay Gardens Beach Resort</h6>'
     });
     
     // The Harbor Club - Hotel
     addMarker({
         coords:{lat:14.0736,lng: -60.9479},
-        content:'<h6>Sandales Grande St. Lucian</h6>'
+        content:'<h6>The Harbor Club</h6>'
     });
     
     // Boucan by Hotel Chocolat - Hotel
     addMarker({
         coords:{lat:13.8332,lng: -61.0503},
-        content:'<h6>Sandales Grande St. Lucian</h6>'
+        content:'<h6>Boucan by Hotel Chocolat</h6>'
     });
     
     // Coco Palm Resort - Hotel
     addMarker({
         coords:{lat:14.0697,lng: 60.9554},
-        content:'<h6>Sandales Grande St. Lucian</h6>'
+        content:'<h6>Coco Palm Resort</h6>'
     });
     
     // Add Marker Function
