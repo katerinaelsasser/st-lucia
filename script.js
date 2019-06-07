@@ -44,6 +44,12 @@ function initMap(){
         content:'<h6>Sandales Grande St. Lucian</h6>'
     });
     
+    // Mango Beach Inn - Hotel
+    addMarker({
+        coords:{lat:13.9676,lng:-61.0244},
+        content:'<h6>Sandales Grande St. Lucian</h6>'
+    });
+    
     // Add Marker Function
     function addMarker(props){
         var marker = new google.maps.Marker({
