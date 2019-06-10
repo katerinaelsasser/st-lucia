@@ -11,7 +11,7 @@ function initMap(){
     // Royalton Resort - Hotel
     addMarker({
         coords:{lat:14.0969,lng:-60.9498},
-        content:'<h6>Royalton Resort<h6>'
+        content:'<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Tester</button>'
         
     });
     // St James Club Morgan Bay - Hotel
