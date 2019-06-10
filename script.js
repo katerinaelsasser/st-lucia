@@ -3,7 +3,7 @@ function initMap(){
      var options = {
         zoom:10,
         center: {lat: 13.9094,lng:-60.9789}
-        }
+        };
     // New Map
     var map = new google.maps.Map(document.getElementById('map'), options);
         
@@ -97,8 +97,5 @@ function initMap(){
         infoWindow.open(map,marker);
     });
     }
-    
-    
-    
     }
 }
