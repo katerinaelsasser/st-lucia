@@ -1,7 +1,4 @@
-
-/*------------------------map*/
-
-.map {
-    height: 400px;
-    width: 100%;
-    }
+.alert-primary {
+    margin: 10px;
+    padding: 50px;
+}
