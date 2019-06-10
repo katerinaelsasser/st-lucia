@@ -96,6 +96,9 @@ function initMap(){
     marker.addListener('click', function(){
         infoWindow.open(map,marker);
     });
+    google.maps.event.addListener(map, 'click', function() {
+				infoWindow.close();
+			});
     }
     }
 }
