@@ -8,20 +8,24 @@ function CustomMarker(latlng, map, args) {
 CustomMarker.prototype = new google.maps.OverlayView();
 
 CustomMarker.prototype.draw = function() {
+
 	var self = this;
+
 	var div = this.div;
 
 	if (!div) {
 
+ // Check if emergency, add class if true
     var emergency = self.args.emergency;
-    var pulse = [];
-    if (emergency === true) {
-        var pulse = ' current-emergency';
-    }
+    //console.log(emergency);
+var pulse = [];
+if (emergency === true) {
+    var pulse = ' current-emergency';
+}
 
-    // Creating the hotel icon
+    // Create the div point
            div = this.div = $('' +
-'<i class="material-icons">hotel</i>'+ pulse +'map-location" data-toggle="tooltip">' +
+'<i class="material-icons">hotel</i>'+ pulse +' map-location" data-toggle="tooltip">' +
             '<div></div>' +
             '</div>' +
             '')[0];
@@ -114,3 +118,5 @@ function initialize() {
 google.maps.event.addDomListener(window, 'load', initialize);
 
 })(jQuery);
+
+
