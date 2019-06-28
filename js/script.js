@@ -147,17 +147,6 @@ CustomMarker.prototype.getPosition = function() {
   *
   -------------------------------------*/
 
-var map;
-function initialize() {
-
-  // Giving the map some options
-  var args = {
-    zoom: 2,
-    center: new google.maps.LatLng(66.02219,12.63376)
-  };
-
-  // Creating the map
-     var map = new google.maps.Map(document.getElementById('country-map'), args);
 
       var markers = [];
       // Looping through all the entries from the JSON data
