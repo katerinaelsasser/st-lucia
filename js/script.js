@@ -139,7 +139,7 @@ CustomMarker.prototype.getPosition = function() {
   -------------------------------------*/
 
 var map;
-function initialize() {
+function initMap() {
 
   // Giving the map some options
   var args = {
@@ -184,7 +184,7 @@ function initialize() {
 
 
 // Initialize the map
-google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, 'load', initMap);
 
 })(jQuery);
 
