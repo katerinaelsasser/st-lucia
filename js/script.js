@@ -1,11 +1,5 @@
-/* jshint ignore:start */
+/* jshint ignore:start 
 (function($) {
-/**
-  *
-  * Custom Google Map markers
-  * http://humaan.com/custom-html-markers-google-maps/
-  *
-  * ------------------------------------------------*/
 
 function CustomMarker(latlng, map, args) {
 	this.latlng = latlng;
@@ -132,11 +126,11 @@ CustomMarker.prototype.getPosition = function() {
 };
 
 
-/**
+
   *
   * Initialize map
   *
-  -------------------------------------*/
+  
 
 var map;
 function initialize() {
@@ -189,3 +183,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
 })(jQuery);
 
 
+----*/
+var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 13.9094, lng:-60.9789},
+          zoom: 8
+        });
+      }
