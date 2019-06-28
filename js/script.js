@@ -1,11 +1,4 @@
-//map code
-var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 13.9094, lng: -60.9789},
-          zoom: 10
-        });
-        /* jshint ignore:start */
+/* jshint ignore:start */
 (function($) {
 /**
   *
@@ -85,8 +78,6 @@ if (emergency === true) {
       var ModalIMG = [];
       var ModalTitle = self.args.title;
       var ModalContent = self.args.content;
-      var ModalURL = self.args.url;
-      var ModalIMG = self.args.img;
       var emergency = self.args.emergency;
     //console.log(emergency);
 var pulse = [];
@@ -147,6 +138,17 @@ CustomMarker.prototype.getPosition = function() {
   *
   -------------------------------------*/
 
+var map;
+function initialize() {
+
+  // Giving the map some options
+  var args = {
+    zoom: 10,
+    center: new google.maps.LatLng(13.9094,-60.9789)
+  };
+
+  // Creating the map
+     var map = new google.maps.Map(document.getElementById('country-map'), args);
 
       var markers = [];
       // Looping through all the entries from the JSON data
@@ -182,10 +184,8 @@ CustomMarker.prototype.getPosition = function() {
 
 
 // Initialize the map
-google.maps.event.addDomListener(window, 'load', initMap);
+google.maps.event.addDomListener(window, 'load', initialize);
+
+})(jQuery);
 
 
-
-
-      }
-//end of map code
