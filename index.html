@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,11 +11,41 @@
     <!-- Title -->
     <h3>St Lucia</h3>
     <!-- Map -->
-    <div id="map"></div>
+    <div id="country-map"></div>
     <!-- Javascript -->
-    <script src="js/script.js"></script>
-    <script src="js/hotel.js"></script>
+    <script src="js/map.js"></script>
+    <script>
+         var locations = [
+        //Hotels
+            //Location of Royalton Hotel
+                {title":"Royalton Resort",lat":"14.0969","lng":"-60.9498","content":""},
+            //Location of St James Club Morgan Bay
+                {"title":"St James Club Morgan Bay","lat":"14.0406","lng":"-60.9706","content":""},
+            //Location of Jade Mountain Resort
+                {"title":"Jade Mountain Resort","lat":"13.8646","lng":"-61.0757","content":""},
+            //Location of Sandales Regancy La Toc
+                {"title":"Sandales Regancy La Toc","lat":"14.0083","lng":"-61.0091","content":""},
+            //Location of Sandales Grande St. Lucian
+                {"hotel":"true","title":"Sandales Grande St. Lucian","lat":"14.0913","lng":"-60.9585","content":""},
+            //Location of Sandales Halcyon Beach
+                {"hotel":"true","title":"Sandales Halcyon Beach","lat":"14.0308","lng":"-60.9772","content":""},
+            //Location of Mango Beach Inn
+                {"hotel":"true","title":"Sandales Halcyon Beach","lat":"13.9676","lng":"-61.0244","content":""},
+            //Hummingbird Resort
+                {"hotel":"true","title":"Sandales Halcyon Beach","lat":"13.8583","lng":"-61.0622","content":""},
+            //Bay Gardens Beach Resort
+                {"hotel":"true","title":"Sandales Halcyon Beach","lat":"14.0769","lng":"-60.9540","content":""},
+            //The Harbour Club
+                {"hotel":"true","title":"Sandales Halcyon Beach","lat":"14.0736","lng":"-60.9479","content":""},
+            //Boucan by Hotel Chocolat
+                {"hotel":"true","title":"Sandales Halcyon Beach","lat":"13.8332","lng":"-61.0503","content":""},
+            //Coco Palm Resort
+            {"hotel":"true","title":"Sandales Halcyon Beach","lat":"14.0697","lng":"-60.9554","content":""},
+    
+            ];
+    </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK5U8reHv-XX_-J4rCnS4Ukm9mhc_2Ook&callback=initMap"></script>
+    
     
 </body>
 </html>

@@ -1,10 +1,89 @@
-html, body, #map {
+html, body, #country-map {
 
   margin: 0;
   padding: 0;
 }
 
-#map {
+#country-map {
   height: 550px;
 }
 
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+
+/*
+  * MAP MAKERS
+  * Custom, more simple map markers
+  * This way, you don't need to offset the map location in the Javascript.
+  *
+-----------------------------------------*/
+
+.map-location {
+    font-size: 1rem;
+    cursor: pointer;
+}
+.map-location,
+.map-location div {
+    width: 15px;
+    height: 15px;
+}
+
+.map-location div {
+    position: absolute;
+    z-index: 100;
+    display: block;
+    background-color: rgba(225,0,25,.8);
+    background-color: rgba(241, 94, 36, 0.8);
+    border-radius: 50%;
+}
+
+.map-location div:after,
+.map-location div:before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+  /*
+    //border: 3px solid rgba(255,0,25,.2);
+  */
+    border: 3px solid rgba(241, 94, 36, 0.3);
+    border-radius: 50%;
+    box-sizing: content-box;
+}
+
+.map-location.current-emergency div:after
+/*.spot:hover div:after */
+{
+    animation: over 2s ease-out 1s infinite;
+}
+
+.map-location div:after {
+    transform: scale(.7);
+}
+
+
+@keyframes over {
+  0% {
+    opacity:1;
+    transform:scale(.8);
+    border:3px solid rgba(225,0,25,.5);
+    border: 3px solid rgba(241, 94, 36, 0.5);
+  }
+  25%{
+    opacity:1
+  }
+  50%{
+    border: 3px solid rgba(0,30,75,.5);
+  }
+  75% {
+    opacity:.1 } to {
+    opacity:0;
+    transform:scale(2.6);
+    }
+}
