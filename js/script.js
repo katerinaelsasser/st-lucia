@@ -7,7 +7,14 @@ var map;
         });
         //end of code for the map
         
-      //info window for markers  
+      
+      if (hotel === true) {
+          var marker = new google.maps.Marker;
+      } 
+      
+      
+      
+      /* info window for markers  
         google.maps.event.addListener(map, 'click', function(event) {
   placeMarker(map, event.latLng);
 });
@@ -22,6 +29,6 @@ function placeMarker(map, location) {
     '<br>Longitude: ' + location.lng()
   });
   infowindow.open(map,marker);
-}
+} */
 //end of code markers/info window
       }
