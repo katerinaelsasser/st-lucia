@@ -1,3 +1,4 @@
+document.write('<script type="text/javascript" src="hotel.js"></script>');
 //code for the map
 var map;
       function initMap() {
