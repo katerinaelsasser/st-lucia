@@ -126,24 +126,6 @@ CustomMarker.prototype.getPosition = function() {
 };
 
 
-
-  *
-  * Initialize map
-  *
-  
-
-var map;
-function initialize() {
-
-  // Giving the map some options
-  var args = {
-    zoom: 10,
-    center: new google.maps.LatLng(13.9094,-60.9789)
-  };
-
-  // Creating the map
-     var map = new google.maps.Map(document.getElementById('country-map'), args);
-
       var markers = [];
       // Looping through all the entries from the JSON data
       for(var i = 0; i < json.length; i++) {
@@ -176,12 +158,6 @@ function initialize() {
 }
 
 
-
-// Initialize the map
-google.maps.event.addDomListener(window, 'load', initialize);
-
-})(jQuery);
-s
 
 ----*/
 var map;
