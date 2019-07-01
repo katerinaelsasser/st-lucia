@@ -1,4 +1,4 @@
-/* jshint ignore:start 
+
 (function($) {
 
 function CustomMarker(latlng, map, args) {
@@ -159,7 +159,7 @@ CustomMarker.prototype.getPosition = function() {
 
 
 
-----*/
+
 var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
