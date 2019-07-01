@@ -1,3 +1,4 @@
+var locations = JSON.parse("[" + mapElement.getAttribute('data-markers') + "]");
 
 //code for the map
 var map;
