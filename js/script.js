@@ -167,3 +167,4 @@ var map;
           zoom: 10
         });
       }
+      )(jQuery);
