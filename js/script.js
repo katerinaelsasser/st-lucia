@@ -1,5 +1,3 @@
-var locations = JSON.parse("[" + mapElement.getAttribute('data-markers') + "]");
-
 //code for the map
 var map;
       function initMap() {
@@ -7,5 +5,22 @@ var map;
           center: {lat: 13.9094, lng:-60.9789},
           zoom: 10
         });
+      //info window for markers  
+        google.maps.event.addListener(map, 'click', function(event) {
+  placeMarker(map, event.latLng);
+});
+
+function placeMarker(map, location) {
+  var marker = new google.maps.Marker({
+    position: location,
+    map: map
+  });
+  var infowindow = new google.maps.InfoWindow({
+    content: 'Latitude: ' + location.lat() +
+    '<br>Longitude: ' + location.lng()
+  });
+  infowindow.open(map,marker);
+}
+
       }
 //end of code for the map
