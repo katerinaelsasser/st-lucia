@@ -1,6 +1,4 @@
 
-(function($) {
-
 function CustomMarker(latlng, map, args) {
 	this.latlng = latlng;
 	this.args = args;
@@ -167,4 +165,3 @@ var map;
           zoom: 10
         });
       }
-      )(jQuery);
