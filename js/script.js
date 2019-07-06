@@ -24,6 +24,8 @@ var map;
     		}
 
     	);
+    	
+  }
     div = this.div = $('' +
 '<div class="spot'+ pulse +' map-location" data-toggle="tooltip">' +
             '<div></div>' +
