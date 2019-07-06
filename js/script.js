@@ -1,3 +1,4 @@
+//code for the map
 var map;
   function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
@@ -5,8 +6,8 @@ var map;
       zoom: 10
     });
     
+  //code for the marker  
   var markers = [];
-      // Looping through all the entries from the JSON data
       for(var i = 0; i < json.length; i++) {
         // Current object
         var obj = json[i];
