@@ -5,27 +5,37 @@ var map;
       zoom: 10
     });
     
-    // Making the modal and marker appear
-    var markers = [];
+  var markers = [];
+      // Looping through all the entries from the JSON data
       for(var i = 0; i < json.length; i++) {
         // Current object
         var obj = json[i];
         var Modalcontent = obj.content;
+        var hotel = obj.hotel;
         var address = obj.title;
         var MyLatLng = new google.maps.LatLng(obj.lat,obj.lng);
-      }
-      
-      var marker = new CustomMarker(
+
+        var marker = new CustomMarker(
     		MyLatLng,
     		map,
         {
+      		hotel: hotel,
           title: address,
           content: Modalcontent,
     		}
 
     	);
-    	
-  }
+
+     } 
+  
+  
+  
+  
+  
+  
+  
+  
+  
     div = this.div = $('' +
 '<div class="spot'+ pulse +' map-location" data-toggle="tooltip">' +
             '<div></div>' +
