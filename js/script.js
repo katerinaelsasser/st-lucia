@@ -14,7 +14,6 @@ var map;
         var Modalcontent = obj.content;
         var hotel = obj.hotel;
         var address = obj.title;
-        var MyLatLng = new google.maps.LatLng(obj.lat,obj.lng);
 
         var marker = new CustomMarker(
     		MyLatLng,
