@@ -24,6 +24,11 @@ var map;
     		}
 
     	);
+    div = this.div = $('' +
+'<div class="spot'+ pulse +' map-location" data-toggle="tooltip">' +
+            '<div></div>' +
+            '</div>' +
+            '')[0];
     
     // Custom modal 
         var customModal = $('<div id="mapModal" class="modal map-modal" tabindex="-1" role="dialog" aria-labelledby="map-modal" aria-hidden="true"><div class="vertical-alignment-helper"><div class="modal-dialog vertical-align-center modal-sm"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title">'+ModalTitle+'</h4></div><div class="modal-body"><p>'+ModalContent+'</p></div>');
