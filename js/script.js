@@ -1,3 +1,4 @@
+(function($) {
 var map;
   function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
@@ -28,15 +29,7 @@ var map;
 
      } 
   
-  
-  
-  
-  
-  
-  
-  
-  
-    div = this.div = $('' +
+      div = this.div = $('' +
 '<div class="spot'+ pulse +' map-location" data-toggle="tooltip">' +
             '<div></div>' +
             '</div>' +
@@ -57,4 +50,4 @@ if (hotel === true) {
 }
   }
   
-  
+})(jQuery);
