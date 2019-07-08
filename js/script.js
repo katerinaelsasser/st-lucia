@@ -8,7 +8,7 @@ var map;
 }
     //code to create cluster of locations
     for (i = 1; i <= markers.length; i++) {
-        var data = markers[i-1]
+        var data = markers[i-1];
         var myLatlng = new google.maps.LatLng(data.lat, data.lng);
     }
    var marker = new MarkerWithLabel({
