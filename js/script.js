@@ -7,15 +7,15 @@ var map;
     });
   }
     //code to create cluster of locations
+    for (i = 1; i <= markers.length; i++) {
+        var data = markers[i-1]
+        var myLatlng = new google.maps.LatLng(data.lat, data.lng);
     
    var marker = new MarkerWithLabel({
             position: myLatlng,
             map: map,
             title: data.title,
             labelContent: i,
-            labelAnchor: new google.maps.Point(7, 30),
-            labelClass: "labels", // the CSS class for the label
-            labelInBackground: false
          });
 
         (function (marker, data) {
