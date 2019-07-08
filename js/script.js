@@ -5,7 +5,6 @@ var map;
       center: {lat: 13.9094, lng: -60.9789},
       zoom: 10
     });
-}
     //code to create cluster of locations
     for (i = 1; i <= markers.length; i++) {
         var data = markers[i-1];
@@ -24,3 +23,5 @@ var map;
                 infoWindow.open(map, marker);
             });
         })(marker, data);
+        
+}
