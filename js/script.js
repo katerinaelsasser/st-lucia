@@ -19,15 +19,15 @@ var map;
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
     var locations = [
         //royalton resort
-        {lat:14.0969, lng:-60.9498},
+        {lat: 14.0969, lng: -60.9498},
         //st james club morgan bay
-        {lat:14.0406, lng:-60.9706},
+        {lat: 14.0406, lng: -60.9706},
         //jade mountain resort
-        {lat:13.8646, lng:-61.0757},
+        {lat: 13.8646, lng: -61.0757},
         //mango beach inn
-        {lat:13.9676, lng:-61.0244},
+        {lat: 13.9676, lng: -61.0244},
         //hummingbird beach resort
-        {lat:13.8583, lng:-61.0622}
+        {lat: 13.8583, lng: -61.0622}
         ];  
     
   }
