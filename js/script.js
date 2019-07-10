@@ -1,24 +1,10 @@
 //code for the map
 var map;
   function initMap() {
-    latLng = new google.maps.LatLng(13.9094, -60.9789);
-    var mapOptions = {
-    center: latLng,
-    zoom: 10
-    };
-    var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
-
-  var marker = new google.maps.Marker({
-      position: latLng,
-      title:"Hello World!",
-      visible: true
-  });
-  marker.setMap(map);
-}
-    
-    
-  /*  
-    
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 13.9094, lng: -60.9789},
+      zoom: 10
+    });
     //code to create cluster of locations
     var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     
@@ -45,4 +31,3 @@ var map;
         ];  
     
   }
-  */
