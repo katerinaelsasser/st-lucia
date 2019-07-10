@@ -11,6 +11,11 @@ var map;
     map: map,
   });
     
+    
+    var location = new google.maps.LatLng(14.0969, -60.9498);
+    
+    
+    /*
     var locations = [
         //royalton resort
         {lat: 14.0969, lng: -60.9498},
@@ -23,5 +28,5 @@ var map;
         //hummingbird beach resort
         {lat: 13.8583, lng: -61.0622}
         ];  
-    
+    */
   }
