@@ -6,22 +6,17 @@ var map;
       zoom: 10
     });
     //code to create cluster of locations
-    for (i = 1; i <= markers.length; i++) {
-        var data = markers[i-1];
-        var myLatlng = new google.maps.LatLng(data.lat, data.lng);
-    }
-   var marker = new MarkerWithLabel({
-            position: myLatlng,
-            map: map,
-            title: data.title,
-            labelContent: i,
-         });
-
-        (function (marker, data) {
-            google.maps.event.addListener(marker, "click", function (e) {
-                infoWindow.setContent(data.description);
-                infoWindow.open(map, marker);
-            });
-        })(marker, data);
+    var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    
+    var markers = locations.map(function(location, i) {
+          return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+          });
+        });
+        
+        var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+      }
         
 }
