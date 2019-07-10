@@ -28,6 +28,6 @@ var map;
         {lat:13.9676, lng:-61.0244},
         //hummingbird beach resort
         {lat:13.8583, lng:-61.0622}
-        ]  
+        ];  
     
   }
