@@ -6,17 +6,11 @@ var map;
       zoom: 10
     });
     //code to create cluster of locations
-    var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    var marker = new google.maps.Marker({
+    position: locations,
+    map: map,
+  });
     
-    var markers = locations.map(function(location, i) {
-          return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
-          });
-        });
-        
-        var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
     var locations = [
         //royalton resort
         {lat: 14.0969, lng: -60.9498},
