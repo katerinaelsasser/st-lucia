@@ -51,16 +51,13 @@ CustomMarker.prototype.getPosition = function() {
 
 //initialising the map
 
-function initMap() {
+var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 13.9094, lng: -60.9789},
+          zoom: 8
+        });
 
-	var myLatlng = new google.maps.LatLng(13.9094,-60.9789);
-	
-	var mapOptions = {
-		zoom: 10,
-		center: myLatlng,
-		disableDefaultUI: true
-	};
-	
 	var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 	
 	var overlay = new CustomMarker(
