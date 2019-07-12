@@ -70,6 +70,13 @@ var map;
 google.maps.event.addDomListener(window, 'load', initMap);
 
 //marker
+var markers = [];
+      for(var i = 0; i < json.length; i++) {
+        var obj = json[i];
+        var Modalcontent = obj.content;
+        var address = obj.title;
+        var MyLatLng = new google.maps.LatLng(obj.lat,obj.lng);
+        
 google.maps.event.addDomListener(div, "click", function(event) {
       var ModalIMG = [];
       var ModalTitle = self.args.title;
@@ -80,26 +87,10 @@ var marker = new CustomMarker(
     		MyLatLng,
     		map,
         {
-      		emergency: emergency,
           title: address,
           content: Modalcontent,
-          url: url,
-          img: img
     		}
 
     	);
 
-    /*
-    var locations = [
-        //royalton resort
-        {lat: 14.0969, lng: -60.9498},
-        //st james club morgan bay
-        {lat: 14.0406, lng: -60.9706},
-        //jade mountain resort
-        {lat: 13.8646, lng: -61.0757},
-        //mango beach inn
-        {lat: 13.9676, lng: -61.0244},
-        //hummingbird beach resort
-        {lat: 13.8583, lng: -61.0622}
-        ];  
-    */
+   
