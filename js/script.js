@@ -58,7 +58,6 @@ var map;
           zoom: 10
         });
 
-	var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 	
 	var overlay = new CustomMarker(
 		myLatlng, 
