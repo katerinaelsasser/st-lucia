@@ -51,7 +51,7 @@ CustomMarker.prototype.getPosition = function() {
 
 //initialising the map
 
-function initialize() {
+function initMap() {
 
 	var myLatlng = new google.maps.LatLng(13.9094,-60.9789);
 	
