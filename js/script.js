@@ -67,8 +67,6 @@ var map;
 	);
 }
 
-google.maps.event.addDomListener(window, 'load', initMap);
-
 //marker
 var markers = [];
       for(var i = 0; i < json.length; i++) {
@@ -92,5 +90,6 @@ var marker = new CustomMarker(
     		}
 
     	);
+    	google.maps.event.addDomListener(window, 'load', initMap);
 
    
