@@ -1,11 +1,8 @@
 CustomMarker.prototype = new google.maps.OverlayView();
 
 CustomMarker.prototype.draw = function() {
-	
 	var self = this;
-	
 	var div = this.div;
-	
 	if (!div) {
 	
 		div = this.div = document.createElement('div');
@@ -50,8 +47,12 @@ CustomMarker.prototype.getPosition = function() {
 };
 
 //initialising the map
+function initialize() {
+  initMap();
+  initAutocomplete();
+}
+var map, marker;
 
-var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 13.9094, lng: -60.9789},
