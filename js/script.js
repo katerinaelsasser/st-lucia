@@ -87,4 +87,3 @@ google.maps.event.addDomListener(window, 'load', initMap);
         {lat: 13.8583, lng: -61.0622}
         ];  
     */
-  }
