@@ -91,5 +91,5 @@ var marker = new CustomMarker(
 
     	);
     	google.maps.event.addDomListener(window, 'load', initMap);
-
+}
    
