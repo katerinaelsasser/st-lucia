@@ -69,9 +69,25 @@ var map;
 
 google.maps.event.addDomListener(window, 'load', initMap);
 
+//marker
+google.maps.event.addDomListener(div, "click", function(event) {
+      var ModalIMG = [];
+      var ModalTitle = self.args.title;
+      var ModalContent = self.args.content;
+    }
+    
+var marker = new CustomMarker(
+    		MyLatLng,
+    		map,
+        {
+      		emergency: emergency,
+          title: address,
+          content: Modalcontent,
+          url: url,
+          img: img
+    		}
 
-
-
+    	);
 
     /*
     var locations = [
