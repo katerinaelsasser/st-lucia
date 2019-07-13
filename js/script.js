@@ -45,8 +45,9 @@ CustomMarker.prototype.remove = function() {
 CustomMarker.prototype.getPosition = function() {
 	return this.latlng;	
 };
+var marker = new google.maps.Marker({position: json, map: map});
 
- // Inline styles
+ // styles for the info window
     div.style.position = 'absolute';
 		div.style.cursor = 'pointer';
 		div.style.transform = 'translate(-50%,-100%)';
@@ -72,7 +73,7 @@ CustomMarker.prototype.getPosition = function() {
       var ModalTitle = self.args.title;
       var ModalContent = self.args.content;
       
-    //
+    //modal code
     var customModal = $('<div id="mapModal" class="modal map-modal" tabindex="-1" role="dialog" aria-labelledby="map-modal" aria-hidden="true"><div class="vertical-alignment-helper"><div class="modal-dialog vertical-align-center modal-sm"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title">'+ModalTitle+'</h4></div><div class="modal-body">><p>'+ModalContent+'</p></div></div>');
 
           $('body').append(customModal);
@@ -85,15 +86,8 @@ CustomMarker.prototype.getPosition = function() {
 
       console.log("You clicked on: " + ModalTitle + "");
             console.log("The link is: " + ModalURL + "");
-           console.log("The img is: " + ModalIMG + "");
-
 			google.maps.event.trigger(self, "click");
 		});
-
-
-		var panes = this.getPanes();
-		panes.overlayImage.appendChild(div);
-	
 
 	var point = this.getProjection().fromLatLngToDivPixel(this.latlng);
 
