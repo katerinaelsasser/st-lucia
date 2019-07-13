@@ -113,16 +113,6 @@ CustomMarker.prototype.getPosition = function() {
 	return this.latlng;
 };
 
-
-
-
-
-
-
-
-
-
-
 //initialising the map
 function initialize() {
   initMap();
@@ -143,44 +133,3 @@ var map, marker;
 		{}
 	);
 }
-/*
- var customModal = $('<div id="mapModal" class="modal map-modal" tabindex="-1" role="dialog" aria-labelledby="map-modal" aria-hidden="true"><div class="vertical-alignment-helper"><div class="modal-dialog vertical-align-center modal-sm"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title">'+ModalTitle+'</h4></div><div class="modal-body">'+'<p>'+ModalContent+'</p><a class="btn'+'</a></div></div></div></div></div>');
-
-          $('body').append(customModal);
-          $("#mapModal").modal(); // lanch the modal
-
-          $('#mapModal').on('hidden.bs.modal', function (e) {
-          	$(this).remove(); // destroy the modal
-          });
-//marker
-var markers = [];
-      for(var i = 0; i < json.length; i++) {
-        var obj = json[i];
-        var Modalcontent = obj.content;
-        var address = obj.title;
-        var MyLatLng = new google.maps.LatLng(obj.lat,obj.lng);
-        
-google.maps.event.addDomListener(div, "click", function(event) {
-      var ModalIMG = [];
-      var ModalTitle = self.args.title;
-      var ModalContent = self.args.content;
-    }
-    
-var marker = new CustomMarker(
-    		MyLatLng,
-    		map,
-        {
-      		emergency: emergency,
-          title: address,
-          content: Modalcontent,
-          url: url,
-          img: img
-    		}
-
-    	);
-
-     } 
-     google.maps.event.addDomListener(window, 'load', initMap);
-
-
-   */
