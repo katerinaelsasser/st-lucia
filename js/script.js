@@ -73,11 +73,5 @@ styles = [
     ]
   }
 ]
-	
-	var overlay = new CustomMarker(
-		myLatlng, 
-		map,
-		{}
-	);
-}
+
 });
