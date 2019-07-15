@@ -57,12 +57,8 @@
                     content: contentString
                 });
 
-
- 
-                marker.addListener('click', function () {
-                    closeOtherInfo();
-                    infowindow.open(marker.get('map'), marker);
-                    InforObj[0] = infowindow;
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
                 });
                 
             }
