@@ -5,6 +5,7 @@ var markersOnMap = [{
                         lat: 14.0969,
                         lng: -60.9498
                     }]
+                    content: "test"
                 },
                 {
                     placeName: "st james club morgan bay",
@@ -12,6 +13,7 @@ var markersOnMap = [{
                         lat: 14.0406,
                         lng: -60.9706
                     }]
+                    content: "test"
                 },
                 {
                     placeName: "jade mountain resort",
@@ -19,6 +21,7 @@ var markersOnMap = [{
                         lat: 13.8646,
                         lng: -61.0757
                     }]
+                    content: "test"
                 },
                 {
                     placeName: "mango beach inn",
@@ -26,6 +29,7 @@ var markersOnMap = [{
                         lat: 13.9676,
                         lng: -61.0244
                     }]
+                    content: "test"
                 },
                 {
                     placeName: "hummingbird beach resort",
@@ -33,6 +37,7 @@ var markersOnMap = [{
                         lat: 13.8583,
                         lng: -61.0622
                     }]
+                    content: "test"
                 }
                 ];
                 
@@ -44,8 +49,7 @@ window.onload = function () {
  
         function addMarkerInfo() {
             for (var i = 0; i < markersOnMap.length; i++) {
-                var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
-                    '</h1><p>Lorem ipsum dolor sit amet, vix mutat posse suscipit id, vel ea tantas omittam detraxit.</p></div>';
+                var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName + markersOnMap[i].content;
  
                 var marker = new google.maps.Marker({
                     position: markersOnMap[i].LatLng[0],
@@ -68,7 +72,14 @@ window.onload = function () {
 					)( marker, i )
             	
             );
-        }
+        
+            	function closeOtherInfo() {
+            if (InforObj.length > 0) {
+                InforObj[0].set("marker", null);
+                InforObj[0].close();
+                InforObj.length = 0;
+            }
+            }
  
         }
  function initMap() {
