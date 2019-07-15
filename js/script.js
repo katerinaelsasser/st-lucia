@@ -1,6 +1,5 @@
 var markersOnMap = [{
                     placeName: "royalton resort",
-                    contentString: "test" ,
                     LatLng: [{
                         lat: 14.0969,
                         lng: -60.9498
@@ -8,7 +7,6 @@ var markersOnMap = [{
                 },
                 {
                     placeName: "st james club morgan bay",
-                    contentString: "test" ,
                     LatLng: [{
                         lat: 14.0406,
                         lng: -60.9706
@@ -17,7 +15,6 @@ var markersOnMap = [{
                 },
                 {
                     placeName: "jade mountain resort",
-                    contentString: "test" ,
                     LatLng: [{
                         lat: 13.8646,
                         lng: -61.0757
@@ -34,7 +31,6 @@ var markersOnMap = [{
                 },
                 {
                     placeName: "hummingbird beach resort",
-                    contentString: "test" ,
                     LatLng: [{
                         lat: 13.8583,
                         lng: -61.0622
