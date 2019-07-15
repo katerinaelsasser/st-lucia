@@ -14,7 +14,7 @@
                 {
                     placeName: "jade mountain resort",
                     content: "test",
-                    LatLng: [{lat: 13.8646, lng: -61.}]
+                    LatLng: [{lat: 13.8646, lng: -61.0757}]
                 },
                 {
                     placeName: "mango beach inn",
