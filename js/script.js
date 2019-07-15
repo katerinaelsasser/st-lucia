@@ -47,12 +47,12 @@ window.onload = function () {
                 var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
                     '</h1><p>Lorem ipsum dolor sit amet, vix mutat posse suscipit id, vel ea tantas omittam detraxit.</p></div>';
  
-                const marker = new google.maps.Marker({
+                var marker = new google.maps.Marker({
                     position: markersOnMap[i].LatLng[0],
                     map: map
                 });
  
-                const infowindow = new google.maps.InfoWindow({
+                var infowindow = new google.maps.InfoWindow({
                     content: contentString,
                     maxWidth: 200
                 });
