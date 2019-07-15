@@ -14,14 +14,29 @@ var markersOnMap = [{
                     }]
                 },
                 {
-                    placeName: "Royalton Resort",
+                    placeName: "jade mountain resort",
                     LatLng: [{
-                        lat: 14.0406,
-                        lng: -60.9706
+                        lat: 13.8646,
+                        lng: -61.0757
+                    }]
+                },
+                {
+                    placeName: "mango beach inn",
+                    LatLng: [{
+                        lat: 13.9676,
+                        lng: -61.0244
+                    }]
+                },
+                {
+                    placeName: "hummingbird beach resort",
+                    LatLng: [{
+                        lat: 13.8583,
+                        lng: -61.0622
                     }]
                 }
                 ];
-
+                
+        
 //the code to make the markers/info window
 window.onload = function () {
                 initMap();
@@ -92,20 +107,5 @@ var locations = [
         //hummingbird beach resort
         ['hummingbird beach resort', 13.8583, -61.0622, 5]
         ];
-        
-    var marker, i;
-
-    for (i = 0; i < locations.length; i++) {  
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map
-      });
-
-      google.maps.event.addListener(marker, 'click', (function(marker, i) {
-        return function() {
-          infowindow.setContent(locations[i][0]);
-          infowindow.open(map, marker);
-        }
-      })(marker, i));
-    }
+ 
 } */
