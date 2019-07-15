@@ -11,10 +11,11 @@ var locations = [
         ['hummingbird beach resort', 13.8583, -61.0622, 5]
         ];
         
-var map = new google.maps.Map(document.getElementById('map'), {
+var map 
+function initMap() {
+new google.maps.Map(document.getElementById('map'), {
       zoom: 10,
       center: new google.maps.LatLng(13.9094, -60.9789),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
     var infowindow = new google.maps.InfoWindow();
@@ -34,3 +35,4 @@ var map = new google.maps.Map(document.getElementById('map'), {
         }
       })(marker, i));
     }
+}
