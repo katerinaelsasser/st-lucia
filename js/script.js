@@ -42,29 +42,30 @@ var markersOnMap = [{
  
                 }
                 ];
+        window.onload = function () {
+            initMap();
+        };
+ 
+        function addMarkerInfo() {
+            for (var i = 0; i < markersOnMap.length; i++) {
+                var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName + '</h1></div>'
         
-                window.onload = function () {
-                    initMap();
-                };
-        
-                function addMarkerInfo() {
-                    for (var i = 0; i < markersOnMap.length; i++) {
-                        var contentString = markersOnMap[i].placeName + markersOnMap[i].contentString;
-        
-                        var marker = new google.maps.Marker({
-                            position: markersOnMap[i].LatLng[0],
-                            map: map
-                        });
-        
-                        var infowindow = new google.maps.InfoWindow({
-                            content: contentString,
-                            maxWidth: 200
-                        });
-        
-                        marker.addListener('click', function() {
-    					infowindow.open(map, marker);
-						});
-                        
+                      var marker = new google.maps.Marker({
+                    position: markersOnMap[i].LatLng[0],
+                    map: map
+                });
+ 
+                var infowindow = new google.maps.InfoWindow({
+                    content: contentString,
+                    maxWidth: 200
+                });
+ 
+                marker.addListener('click', function () {
+                    closeOtherInfo();
+                    infowindow.open(marker.get('map'), marker);
+                    InforObj[0] = infowindow;
+            
+                });    
                     }
                 }
         
