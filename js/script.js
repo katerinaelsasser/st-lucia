@@ -20,7 +20,7 @@ var markersOnMap = [{
                         lng: -60.9706
                     }]
                 }
-                ]
+                ];
 
 //the code to make the markers/info window
 window.onload = function () {
