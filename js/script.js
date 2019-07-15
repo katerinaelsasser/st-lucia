@@ -1,5 +1,5 @@
-var markersOnMap = [{
-                    placeName: "royalton resort",
+        var markersOnMap = [{
+                placeName: "royalton resort",
                     LatLng: [{
                         lat: 14.0969,
                         lng: -60.9498
@@ -35,23 +35,24 @@ var markersOnMap = [{
                         lat: 13.8583,
                         lng: -61.0622
                     }]
+            }
+        ];
  
-                }
-                ];
         window.onload = function () {
             initMap();
         };
  
         function addMarkerInfo() {
             for (var i = 0; i < markersOnMap.length; i++) {
-                var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName + '</h1></div>'
-        
-                      var marker = new google.maps.Marker({
+                var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
+                    '</h1><p>test.</p></div>';
+ 
+                const marker = new google.maps.Marker({
                     position: markersOnMap[i].LatLng[0],
                     map: map
                 });
  
-                var infowindow = new google.maps.InfoWindow({
+                const infowindow = new google.maps.InfoWindow({
                     content: contentString,
                     maxWidth: 200
                 });
@@ -60,23 +61,23 @@ var markersOnMap = [{
                     closeOtherInfo();
                     infowindow.open(marker.get('map'), marker);
                     InforObj[0] = infowindow;
-            
-                });    
-                    }
-                }
-        
-                function closeOtherInfo() {
-                    if (infowindow.length > 0) {
-                        infowindow[0].set("marker", null);
-                        infowindow[0].close();
-                        infowindow.length = 0;
-                    }
-                }
-        
-                function initMap() {
-                    map = new google.maps.Map(document.getElementById('map'), {
-                        zoom: 10,
-                        center: {lat: 13.9094, lng: -60.9789}
-                    });
-                    addMarker();
-                }
+                });
+                
+            }
+        }
+ 
+        function closeOtherInfo() {
+            if (InforObj.length > 0) {
+                InforObj[0].set("marker", null);
+                InforObj[0].close();
+                InforObj.length = 0;
+            }
+        }
+ 
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 10,
+                center: {lat: 13.9094, lng: -60.9789}
+            });
+            addMarkerInfo();
+        }
