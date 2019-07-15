@@ -1,3 +1,14 @@
+
+        
+var map 
+function initMap() {
+new google.maps.Map(document.getElementById('map'), {
+      zoom: 10,
+      center: new google.maps.LatLng(13.9094, -60.9789),
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
 var locations = [
         //royalton resort
         ['Royalton Resort', 14.0969, -60.9498, 1],
@@ -11,15 +22,6 @@ var locations = [
         ['hummingbird beach resort', 13.8583, -61.0622, 5]
         ];
         
-var map 
-function initMap() {
-new google.maps.Map(document.getElementById('map'), {
-      zoom: 10,
-      center: new google.maps.LatLng(13.9094, -60.9789),
-    });
-
-    var infowindow = new google.maps.InfoWindow();
-
     var marker, i;
 
     for (i = 0; i < locations.length; i++) {  
