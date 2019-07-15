@@ -1,4 +1,3 @@
-
 var markersOnMap = [{
                     placeName: "royalton resort",
                     LatLng: [{
@@ -39,53 +38,56 @@ var markersOnMap = [{
  
                 }
                 ];
-                
         
-//the code to make the markers/info window
-window.onload = function () {
-            initMap();
-        };
- 
-        function addMarkerInfo() {
-            for (var i = 0; i < markersOnMap.length; i++) {
-                var contentString = markersOnMap[i].placeName;
- 
-                var marker = new google.maps.Marker({
-                    position: markersOnMap[i].LatLng[0],
-                    map: map,
-                    data: {
-                    	name: locations[i][0]
+                window.onload = function () {
+                    initMap();
+                };
+        
+                function addMarker() {
+                    for (var i = 0; i < markersOnMap.length; i++) {
+                        var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
+                            '</h1><p>Lorem ipsum dolor sit amet, vix mutat posse suscipit id, vel ea tantas omittam detraxit.</p></div>';
+        
+                        var marker = new google.maps.Marker({
+                            position: markersOnMap[i].LatLng[0],
+                            map: map
+                        });
+        
+                        var infowindow = new google.maps.InfoWindow({
+                            content: contentString,
+                            maxWidth: 200
+                        });
+        
+                        marker.addListener('click', function () {
+                            closeOtherInfo();
+                            infowindow.open(marker.get('map'), marker);
+                            InforObj[0] = infowindow;
+                        });
+                        marker.addListener('mouseover', function () {
+                             closeOtherInfo();
+                             infowindow.open(marker.get('map'), marker);
+                             InforObj[0] = infowindow;
+                         });
+                         marker.addListener('mouseout', function () {
+                             closeOtherInfo();
+                             infowindow.close();
+                             InforObj[0] = infowindow;
+                         });
                     }
-                });
- 
- 
- 
-                var infowindow = new google.maps.InfoWindow({
-                    content: contentString,
-                    maxWidth: 200
-                });
- 
-                google.maps.event.addListener( marker, 'click', ( 
-					function( marker, i ) {
-						return function() {
-							var infowindow = new google.maps.InfoWindow();
-							infowindow.setContent( markersOnMap[ i ][ 0 ] );
-							infowindow.open( map, marker );
-						};
-					}
-					)( marker, i )
-            	
-            );
+                }
         
-            
- 
-        }
-        }
- function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 10,
-                center: {lat: 13.9094, lng: -60.9789}
-            });
-            addMarkerInfo();
-        }
+                function closeOtherInfo() {
+                    if (InforObj.length > 0) {
+                        InforObj[0].set("marker", null);
+                        InforObj[0].close();
+                        InforObj.length = 0;
+                    }
+                }
         
+                function initMap() {
+                    map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 10,
+                        center: {lat: 13.9094, lng: -60.9789}
+                    });
+                    addMarker();
+                }
