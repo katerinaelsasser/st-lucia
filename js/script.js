@@ -67,14 +67,6 @@
             }
         }
  
-        function closeOtherInfo() {
-            if (InforObj.length > 0) {
-                InforObj[0].set("marker", null);
-                InforObj[0].close();
-                InforObj.length = 0;
-            }
-        }
- 
  //code for creating the map
         function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
