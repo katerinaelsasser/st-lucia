@@ -81,6 +81,7 @@ window.onload = function () {
             }
  
         }
+        }
  function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 10,
@@ -88,4 +89,4 @@ window.onload = function () {
             });
             addMarkerInfo();
         }
-        }
+        
