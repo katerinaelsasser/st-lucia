@@ -1,5 +1,5 @@
 
-var markersOnMap = [{
+var locations = [{
                     placeName: "royalton resort",
                     LatLng: [{
                         lat: 14.0969,
