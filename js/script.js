@@ -54,9 +54,10 @@
                 });
  
                 var infowindow = new google.maps.InfoWindow({
-                    content: contentString,
-                    maxWidth: 200
+                    content: contentString
                 });
+
+
  
                 marker.addListener('click', function () {
                     closeOtherInfo();
