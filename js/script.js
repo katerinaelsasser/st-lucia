@@ -8,6 +8,7 @@
                 },
                 {
                     placeName: "st james club morgan bay",
+                    content: "test",
                     LatLng: [{
                         lat: 14.0406,
                         lng: -60.9706
@@ -16,6 +17,7 @@
                 },
                 {
                     placeName: "jade mountain resort",
+                    content: "test",
                     LatLng: [{
                         lat: 13.8646,
                         lng: -61.0757
@@ -24,6 +26,7 @@
                 },
                 {
                     placeName: "mango beach inn",
+                    content: "test",
                     LatLng: [{
                         lat: 13.9676,
                         lng: -61.0244
