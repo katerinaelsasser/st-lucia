@@ -1,5 +1,6 @@
 var markersOnMap = [{
                     placeName: "royalton resort",
+                    contentString: "test" ,
                     LatLng: [{
                         lat: 14.0969,
                         lng: -60.9498
@@ -7,6 +8,7 @@ var markersOnMap = [{
                 },
                 {
                     placeName: "st james club morgan bay",
+                    contentString: "test" ,
                     LatLng: [{
                         lat: 14.0406,
                         lng: -60.9706
@@ -15,6 +17,7 @@ var markersOnMap = [{
                 },
                 {
                     placeName: "jade mountain resort",
+                    contentString: "test" ,
                     LatLng: [{
                         lat: 13.8646,
                         lng: -61.0757
@@ -31,6 +34,7 @@ var markersOnMap = [{
                 },
                 {
                     placeName: "hummingbird beach resort",
+                    contentString: "test" ,
                     LatLng: [{
                         lat: 13.8583,
                         lng: -61.0622
@@ -45,8 +49,7 @@ var markersOnMap = [{
         
                 function addMarker() {
                     for (var i = 0; i < markersOnMap.length; i++) {
-                        var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
-                            '</h1><p>Lorem ipsum dolor sit amet, vix mutat posse suscipit id, vel ea tantas omittam detraxit.</p></div>';
+                        var contentString = markersOnMap[i].placeName + markersOnMap[i].contentString;
         
                         var marker = new google.maps.Marker({
                             position: markersOnMap[i].LatLng[0],
