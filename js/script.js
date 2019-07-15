@@ -46,7 +46,7 @@
  
         function addMarkerInfo() {
             for (var i = 0; i < markersOnMap.length; i++) {
-                var contentString = '<div id="mapModal" class="modal map-modal" tabindex="-1" role="dialog" aria-labelledby="map-modal" aria-hidden="true"><div class="vertical-alignment-helper"><div class="modal-dialog vertical-align-center modal-sm"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title">' + markersOnMap[i].placeName + '</h4></div><div class="modal-body">' + markersOnMap[i].content + '</div>';
+                var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName + '</h1>' + markersOnMap[i].content + '</p></div>';
  
                 var marker = new google.maps.Marker({
                     position: markersOnMap[i].LatLng[0],
