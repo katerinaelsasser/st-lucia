@@ -48,12 +48,12 @@
                 var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
                     '</h1><p>test.</p></div>';
  
-                const marker = new google.maps.Marker({
+                var marker = new google.maps.Marker({
                     position: markersOnMap[i].LatLng[0],
                     map: map
                 });
  
-                const infowindow = new google.maps.InfoWindow({
+                var infowindow = new google.maps.InfoWindow({
                     content: contentString,
                     maxWidth: 200
                 });
