@@ -69,10 +69,10 @@ var markersOnMap = [{
                 }
         
                 function closeOtherInfo() {
-                    if (InforObj.length > 0) {
-                        InforObj[0].set("marker", null);
-                        InforObj[0].close();
-                        InforObj.length = 0;
+                    if (infowindow.length > 0) {
+                        infowindow[0].set("marker", null);
+                        infowindow[0].close();
+                        infowindow.length = 0;
                     }
                 }
         
