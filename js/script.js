@@ -61,7 +61,7 @@ window.onload = function () {
 					function( marker, i ) {
 						return function() {
 							var infowindow = new google.maps.InfoWindow();
-							infowindow.setContent( locations[ i ][ 0 ] );
+							infowindow.setContent( markersOnMap[ i ][ 0 ] );
 							infowindow.open( map, marker );
 						};
 					}
