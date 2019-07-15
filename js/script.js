@@ -1,14 +1,85 @@
 
-        
+var markersOnMap = [{
+                    placeName: "royalton resort",
+                    LatLng: [{
+                        lat: 14.0969,
+                        lng: -60.9498
+                    }]
+                },
+                {
+                    placeName: "st james club morgan bay",
+                    LatLng: [{
+                        lat: 14.0406,
+                        lng: -60.9706
+                    }]
+                },
+                {
+                    placeName: "Royalton Resort",
+                    LatLng: [{
+                        lat: 14.0406,
+                        lng: -60.9706
+                    }]
+                }
+                ]
+
+//the code to make the markers/info window
+window.onload = function () {
+                initMap();
+            };
+
+            function addMarkerInfo() {
+                for (var i = 0; i < markersOnMap.length; i++) {
+                    var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
+                        '</h1><p>Lorem ipsum dolor sit amet, vix mutat posse suscipit id, vel ea tantas omittam detraxit.</p></div>';
+
+                    const marker = new google.maps.Marker({
+                        position: markersOnMap[i].LatLng[0],
+                        map: map
+                    });
+
+                    const infowindow = new google.maps.InfoWindow({
+                        content: contentString,
+                        maxWidth: 200
+                    });
+//the click function on the info window
+                    marker.addListener('click', function () {
+                        closeOtherInfo();
+                        infowindow.open(marker.get('map'), marker);
+                        InforObj[0] = infowindow;
+                    });
+ 
+                }
+            }
+
+            function closeOtherInfo() {
+                if (InforObj.length > 0) {
+                    InforObj[0].set("marker", null);
+                    InforObj[0].close();
+                    InforObj.length = 0;
+                }
+            }
+//code for the map location
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 10,
+                    center: new google.maps.LatLng(13.9094, -60.9789)
+                });
+                addMarkerInfo();
+            }
+
+
+ 
+ /*       
 var map 
 function initMap() {
 new google.maps.Map(document.getElementById('map'), {
       zoom: 10,
       center: new google.maps.LatLng(13.9094, -60.9789),
-    });
+    
+});
 
     var infowindow = new google.maps.InfoWindow();
-
+//hotel locations
 var locations = [
         //royalton resort
         ['Royalton Resort', 14.0969, -60.9498, 1],
@@ -37,4 +108,4 @@ var locations = [
         }
       })(marker, i));
     }
-}
+} */
