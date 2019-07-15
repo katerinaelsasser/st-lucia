@@ -1,3 +1,16 @@
+var locations = [
+        //royalton resort
+        {'Royalton Resort', 14.0969, -60.9498, 1},
+        //st james club morgan bay
+        {'st james club morgan bay', 14.0406, -60.9706, 2},
+        //jade mountain resort
+        {'jade mountain', 13.8646, -61.0757, 3},
+        //mango beach inn
+        {'mango beach inn', 13.9676, -61.0244, 4},
+        //hummingbird beach resort
+        {'hummingbird beach resort', 13.8583, -61.0622, 5}
+        ];
+        
 var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 10,
       center: new google.maps.LatLng(13.9094, -60.9789),
