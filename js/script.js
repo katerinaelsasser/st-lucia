@@ -1,3 +1,4 @@
+        //code for the marker locations
         var markersOnMap = [{
                 placeName: "royalton resort",
                     LatLng: [{
@@ -74,6 +75,7 @@
             }
         }
  
+ //code for creating the map
         function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 10,
