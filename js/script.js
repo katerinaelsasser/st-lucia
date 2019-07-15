@@ -47,7 +47,7 @@ var markersOnMap = [{
                     initMap();
                 };
         
-                function addMarker() {
+                function addMarkerInfo() {
                     for (var i = 0; i < markersOnMap.length; i++) {
                         var contentString = markersOnMap[i].placeName + markersOnMap[i].contentString;
         
@@ -61,7 +61,7 @@ var markersOnMap = [{
                             maxWidth: 200
                         });
         
-                        markersOnMap.addListener('click', function() {
+                        marker.addListener('click', function() {
     					infowindow.open(map, marker);
 						});
                         
