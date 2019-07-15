@@ -52,8 +52,13 @@ window.onload = function () {
  
                 var marker = new google.maps.Marker({
                     position: markersOnMap[i].LatLng[0],
-                    map: map
+                    map: map,
+                    data: {
+                    	name: locations[i][0]
+                    }
                 });
+ 
+ 
  
                 var infowindow = new google.maps.InfoWindow({
                     content: contentString,
@@ -72,13 +77,7 @@ window.onload = function () {
             	
             );
         
-            	function closeOtherInfo() {
-            if (InforObj.length > 0) {
-                InforObj[0].set("marker", null);
-                InforObj[0].close();
-                InforObj.length = 0;
-            }
-            }
+            
  
         }
         }
