@@ -57,30 +57,19 @@ window.onload = function () {
                     maxWidth: 200
                 });
  
-                marker.addListener('click', function () {
-                    closeOtherInfo();
-                    infowindow.open(marker.get('map'), marker);
-                    InforObj[0] = infowindow;
-                });
-                 marker.addListener('mouseover', function () {
-                     closeOtherInfo();
-                     infowindow.open(marker.get('map'), marker);
-                     InforObj[0] = infowindow;
-                 });
-                marker.addListener('mouseout', function () {
-                    closeOtherInfo();
-                    infowindow.close();
-                     InforObj[0] = infowindow;
-                });
-            }
+                google.maps.event.addListener( marker, 'click', ( 
+					function( marker, i ) {
+						return function() {
+							var infowindow = new google.maps.InfoWindow();
+							infowindow.setContent( locations[ i ][ 0 ] );
+							infowindow.open( map, marker );
+						};
+					}
+					)( marker, i )
+            	
+            );
         }
  
-        function closeOtherInfo() {
-            if (InforObj.length > 0) {
-                InforObj[0].set("marker", null);
-                InforObj[0].close();
-                InforObj.length = 0;
-            }
         }
  function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
