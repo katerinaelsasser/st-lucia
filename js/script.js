@@ -55,10 +55,6 @@
 		Markers[locations[i][4]] = marker;
 	}
  
- google.maps.event.addListener(marker, 'click', function() {
-   infowindow.open(map,marker);
-});
- 
  //code for creating the map
         function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
