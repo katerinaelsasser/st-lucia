@@ -37,7 +37,16 @@
             initMap();
         };
  
- 
+ //marker code
+            infowindow = new google.maps.InfoWindow();
+            for (var i = 0; i < markers.length; i++) {
+                var marker = markers[i];
+                google.maps.event.addListener(marker, 'click', function () {
+                // where I have added .html to the marker object.
+                infowindow.setContent(this.html);
+                infowindow.open(map, this);
+                });
+        }
  
     
  
@@ -48,14 +57,5 @@
                 center: {lat: 13.9094, lng: -60.9789}
             });
             
-            //marker code
-            infowindow = new google.maps.InfoWindow();
-            for (var i = 0; i < markers.length; i++) {
-                var marker = markers[i];
-                google.maps.event.addListener(marker, 'click', function () {
-                // where I have added .html to the marker object.
-                infowindow.setContent(this.html);
-                infowindow.open(map, this);
-                });
-        }
+            
         }
