@@ -38,22 +38,8 @@
         };
  
  
-    infowindow = new google.maps.InfoWindow();
-        for(i=0; i<locations.length; i++) {
-    	var position = new google.maps.LatLng(locations[i][2], locations[i][3]);
-		var marker = new google.maps.Marker({
-			position: position,
-			map: map,
-		});
-		google.maps.event.addListener(marker, 'click', (function(marker, i) {
-			return function() {
-				infowindow.setContent(locations[i][1]);
-				infowindow.setOptions({maxWidth: 200});
-				infowindow.open(map, marker);
-			};
-		}) (marker, i));
-		Markers[locations[i][4]] = marker;
-	}
+ 
+    
  
  //code for creating the map
         function initMap() {
@@ -61,4 +47,15 @@
                 zoom: 10,
                 center: {lat: 13.9094, lng: -60.9789}
             });
+            
+            //marker code
+            infowindow = new google.maps.InfoWindow();
+            for (var i = 0; i < markers.length; i++) {
+                var marker = markers[i];
+                google.maps.event.addListener(marker, 'click', function () {
+                // where I have added .html to the marker object.
+                infowindow.setContent(this.html);
+                infowindow.open(map, this);
+                });
+        }
         }
