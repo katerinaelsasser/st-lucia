@@ -50,7 +50,7 @@
 				infowindow.setContent(locations[i][1]);
 				infowindow.setOptions({maxWidth: 200});
 				infowindow.open(map, marker);
-			}
+			};
 		}) (marker, i));
 		Markers[locations[i][4]] = marker;
 	}
