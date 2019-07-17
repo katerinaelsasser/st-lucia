@@ -61,5 +61,4 @@
                 zoom: 10,
                 center: {lat: 13.9094, lng: -60.9789}
             });
-            addMarkerInfo();
         }
