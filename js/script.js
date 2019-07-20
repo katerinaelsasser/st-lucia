@@ -36,20 +36,38 @@
         window.onload = function () {
             initMap();
         };
+        //creating the content of the markers
+        var sContent =
+	'<h2>' + oLocation.title + '</h2>' +
+	'<br />' +
+	'<p>' +
+		oLocation.address1 + ' ' +
+		oLocation.address2 +
+		'<br />' +
+		oLocation.city +
+		'<br />' +
+		oLocation.province +
+		oLocation.zip +
+	'</p>';
+     
+     //creating the object
+     infoWindow = new google.maps.InfoWindow({ content: sContent });
+        
+ //creating the information for the multiple markers   
+ marker = new google.maps.Marker({
+            position: position,
+            map:      map,
+            title:    markers[i][0],
+            info:     sContent
+        });
  
- //marker code
-            infowindow = new google.maps.InfoWindow();
-            for (var i = 0; i < markers.length; i++) {
-                var marker = markers[i];
-                google.maps.event.addListener(marker, 'click', function () {
-                // where I have added .html to the marker object.
-                infowindow.setContent(this.html);
-                infowindow.open(map, this);
-                });
-        }
+ //creating the function of the info window
+            google.maps.event.addListener( marker, 'click', function() {
+               infoWindow.setContent( this.info );
+               infoWindow.open( map, this );
+            });
  
-    
- 
+        
  //code for creating the map
         function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
