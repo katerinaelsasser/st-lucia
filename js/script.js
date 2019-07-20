@@ -2,31 +2,31 @@
         var location = [
                 [
                 'title':'royalton resort',
-                '<p>TEST</p>',
+                'about':'<p>TEST</p>',
                 14.0969,
                 -60.9498
                 ],
                 [
                 'title':'st james club morgan bay',
-                '<p>TEST</p>',
+                'about':'<p>TEST</p>',
                 14.0406, 
                 -60.9706
                 ],
                 [
                 'title':'jade mountain resort',
-                '<p>TEST</p>',
+                'about':'<p>TEST</p>',
                 13.8646, 
                 -61.0757
                 ],
                 [
                 'title':'mango beach inn',
-                '<p>TEST</p>',
+                'about':'<p>TEST</p>',
                 13.9676,
                 -61.0244
                 ],
                 [
                 'title':'hummingbird beach resort',
-                '<p>TEST</p>',
+                'about':'<p>TEST</p>',
                 13.8583,
                 -61.0622
                 ],
@@ -37,17 +37,11 @@
             initMap();
         };
         //creating the content of the markers
-        var sContent =
+        var Content =
 	'<h2>' + Location.title + '</h2>' +
 	'<br />' +
 	'<p>' +
-		oLocation.address1 + ' ' +
-		oLocation.address2 +
-		'<br />' +
-		oLocation.city +
-		'<br />' +
-		oLocation.province +
-		oLocation.zip +
+		Location.about
 	'</p>';
      
      //creating the object
@@ -58,7 +52,7 @@
             position: position,
             map:      map,
             title:    markers[i][0],
-            info:     sContent
+            info:     Content
         });
  
  //creating the function of the info window
