@@ -1,31 +1,31 @@
         //code for the marker locations
-        var locations = [
+        var location = [
                 [
-                'royalton resort',
+                'title':'royalton resort',
                 '<p>TEST</p>',
                 14.0969,
                 -60.9498
                 ],
                 [
-                'st james club morgan bay',
+                'title':'st james club morgan bay',
                 '<p>TEST</p>',
                 14.0406, 
                 -60.9706
                 ],
                 [
-                'jade mountain resort',
+                'title':'jade mountain resort',
                 '<p>TEST</p>',
                 13.8646, 
                 -61.0757
                 ],
                 [
-                'mango beach inn',
+                'title':'mango beach inn',
                 '<p>TEST</p>',
                 13.9676,
                 -61.0244
                 ],
                 [
-                'hummingbird beach resort',
+                'title':'hummingbird beach resort',
                 '<p>TEST</p>',
                 13.8583,
                 -61.0622
@@ -38,7 +38,7 @@
         };
         //creating the content of the markers
         var sContent =
-	'<h2>' + oLocation.title + '</h2>' +
+	'<h2>' + Location.title + '</h2>' +
 	'<br />' +
 	'<p>' +
 		oLocation.address1 + ' ' +
