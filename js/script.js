@@ -1,10 +1,10 @@
 var locations = [
      //Hotels
-    ['<h2>Royalton Resort</h2><p>Hotel</p>', 14.0969 , -60.9498, hotel],
-    ['<h2>St James Club Morgan Bay</h2><p>Hotel</p>', 14.0406, -60.9706, hotel],
-    ['<h2>Jade Mountain Resort</h2><p>Hotel</p>', 13.8646, -61.0757, hotel],
-    ['<h2>Mango Beach Inn</h2><p>Hotel</p>', 13.9676, -61.0244, hotel],
-    ['<h2>Hummingbird Beach Resort</h2><p>Hotel</p>', 13.8583, -61.0622, hotel],
+    ['<h2>Royalton Resort</h2><p>Hotel</p>', 14.0969 , -60.9498],
+    ['<h2>St James Club Morgan Bay</h2><p>Hotel</p>', 14.0406, -60.9706],
+    ['<h2>Jade Mountain Resort</h2><p>Hotel</p>', 13.8646, -61.0757],
+    ['<h2>Mango Beach Inn</h2><p>Hotel</p>', 13.9676, -61.0244],
+    ['<h2>Hummingbird Beach Resort</h2><p>Hotel</p>', 13.8583, -61.0622],
     //Stonefield Villa Resort
     //Marigold Beach Club & Dive Resort
     //Coco Palm Resort
@@ -27,17 +27,6 @@ var locations = [
     //Cafe Ole
   ];
 
-//icon colours
-var iconBase = "http://maps.google.com/mapfiles/ms/icons/";
-
-        var icons = {
-            hotel: {
-                    icon: iconBase + 'blue.png'
-            },
-            restuarant: {
-                icon: iconBase + 'pink.png'
-            }
-        };
 
 //code for creating the map
         function initMap() {
@@ -52,8 +41,7 @@ var iconBase = "http://maps.google.com/mapfiles/ms/icons/";
                         marker = new google.maps.Marker({
                           position: new google.maps.LatLng(locations[count][1], locations[count][2]),
                           map: map,
-                          title: locations[count][0],
-                          icon: icons[features[i].type].icon
+                          title: locations[count][0]
                         });
                     google.maps.event.addListener(marker, 'click', (function (marker, count) {
                           return function () {
