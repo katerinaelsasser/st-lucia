@@ -1,10 +1,10 @@
 var locations = [
      //Hotels
-    ['<h2>Royalton Resort</h2><p>Hotel</p>', 14.0969 , -60.9498],
-    ['<h2>St James Club Morgan Bay</h2><p>Hotel</p>', 14.0406, -60.9706],
-    ['<h2>Jade Mountain Resort</h2><p>Hotel</p>', 13.8646, -61.0757],
-    ['<h2>Mango Beach Inn</h2><p>Hotel</p>', 13.9676, -61.0244],
-    ['<h2>Hummingbird Beach Resort</h2><p>Hotel</p>', 13.8583, -61.0622],
+    ['<h2>Royalton Resort</h2><p>Hotel</p>', 14.0969 , -60.9498, type: hotel],
+    ['<h2>St James Club Morgan Bay</h2><p>Hotel</p>', 14.0406, -60.9706, type: hotel],
+    ['<h2>Jade Mountain Resort</h2><p>Hotel</p>', 13.8646, -61.0757, type: hotel],
+    ['<h2>Mango Beach Inn</h2><p>Hotel</p>', 13.9676, -61.0244, type: hotel],
+    ['<h2>Hummingbird Beach Resort</h2><p>Hotel</p>', 13.8583, -61.0622, type: hotel],
     //Stonefield Villa Resort
     //Marigold Beach Club & Dive Resort
     //Coco Palm Resort
@@ -26,6 +26,22 @@ var locations = [
     //Flavours of the Grill
     //Cafe Ole
   ];
+
+//icon colours
+var iconBase =
+            'https://developers.google.com/maps/documentation/javascript/examples/full/images/';
+
+        var icons = {
+          hotels: {
+            icon: iconBase + 'blue-dot.png'
+          },
+          resturants: {
+            icon: iconBase + 'url: pink-dot.png'
+          },
+          
+        };
+
+
 
 //code for creating the map
         function initMap() {
@@ -50,5 +66,6 @@ var locations = [
                         })(marker, count));
                       }
                     }
+                
 
                     
