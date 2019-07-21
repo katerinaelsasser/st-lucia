@@ -5,23 +5,19 @@
                 center: {lat: 13.9094, lng: -60.9789}
             });
 
-                for (var i = 0; i < data.length; i++) {
-      var current = data[i];
-  
-      var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(current.position.lat, current.position.lng),
-        map: map,
-        content: current.content
-      });
-  
-      markers.push(marker);
-  
-      google.maps.event.addListener(markers[i], "click", function (e) {
-        var infoBox = new InfoBox({
-            latlng: this.getPosition(),
-            map: map,
-            content: this.content
-        });
-      });
-    }
-}
+                var infowindow =  new google.maps.InfoWindow({});
+                    var marker, count;
+                    for (count = 0; count < locations.length; count++) {
+                        marker = new google.maps.Marker({
+                          position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+                          map: map,
+                          title: locations[count][0]
+                        });
+                    google.maps.event.addListener(marker, 'click', (function (marker, count) {
+                          return function () {
+                            infowindow.setContent(locations[count][0]);
+                            infowindow.open(map, marker);
+                          }
+                        })(marker, count));
+                      }
+                    }

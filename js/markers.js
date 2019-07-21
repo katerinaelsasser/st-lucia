@@ -5,5 +5,4 @@ var locations = [
     ['St James Club Morgan Bay', 14.0406, 60.9706],
     //Jade Mountain Resort
     ['Jade Mountain Resort', 13.8646, 61.0757],
-
 ];
