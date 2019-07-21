@@ -52,7 +52,7 @@ var iconBase = "http://maps.google.com/mapfiles/ms/icons/";
                         marker = new google.maps.Marker({
                           position: new google.maps.LatLng(locations[count][1], locations[count][2]),
                           map: map,
-                          title: locations[count][0]
+                          title: locations[count][0],
                           icon: icons[features[i].type].icon
                         });
                     google.maps.event.addListener(marker, 'click', (function (marker, count) {
