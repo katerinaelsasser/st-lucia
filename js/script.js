@@ -1,10 +1,10 @@
 var locations = [
      //Hotels
-    ['<h2>Royalton Resort</h2><p>Hotel</p>', 14.0969 , -60.9498, "hotel"],
-    ['<h2>St James Club Morgan Bay</h2><p>Hotel</p>', 14.0406, -60.9706, "hotel"],
-    ['<h2>Jade Mountain Resort</h2><p>Hotel</p>', 13.8646, -61.0757, "hotel"],
-    ['<h2>Mango Beach Inn</h2><p>Hotel</p>', 13.9676, -61.0244, "hotel"],
-    ['<h2>Hummingbird Beach Resort</h2><p>Hotel</p>', 13.8583, -61.0622, "hotel"],
+    ['<h2>Royalton Resort</h2><p>Hotel</p>', 14.0969 , -60.9498, hotel],
+    ['<h2>St James Club Morgan Bay</h2><p>Hotel</p>', 14.0406, -60.9706, hotel],
+    ['<h2>Jade Mountain Resort</h2><p>Hotel</p>', 13.8646, -61.0757, hotel],
+    ['<h2>Mango Beach Inn</h2><p>Hotel</p>', 13.9676, -61.0244, hotel],
+    ['<h2>Hummingbird Beach Resort</h2><p>Hotel</p>', 13.8583, -61.0622, hotel],
     //Stonefield Villa Resort
     //Marigold Beach Club & Dive Resort
     //Coco Palm Resort
