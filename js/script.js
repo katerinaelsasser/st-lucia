@@ -28,7 +28,7 @@ var locations = [
   ];
 
 //icon colours
-var iconBase = "http://maps.google.com/mapfiles/ms/icons/"
+var iconBase = "http://maps.google.com/mapfiles/ms/icons/";
 
         var icons = {
             hotel: {
@@ -37,7 +37,7 @@ var iconBase = "http://maps.google.com/mapfiles/ms/icons/"
             restuarant: {
                 icon: iconBase + 'pink.png'
             }
-        }
+        };
 
 //code for creating the map
         function initMap() {
