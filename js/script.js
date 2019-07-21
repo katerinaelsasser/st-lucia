@@ -1,14 +1,30 @@
 var locations = [
-     //Royalton resort
+     //Hotels
     ['<h2>Royalton Resort</h2><p>Hotel</p>', 14.0969 , -60.9498],
-    //St James Club Morgan Bay
     ['<h2>St James Club Morgan Bay</h2><p>Hotel</p>', 14.0406, -60.9706],
-    //Jade Mountain Resort
     ['<h2>Jade Mountain Resort</h2><p>Hotel</p>', 13.8646, -61.0757],
-    //Mango Beach Inn
     ['<h2>Mango Beach Inn</h2><p>Hotel</p>', 13.9676, -61.0244],
-    //Hummingbird Beach Resort
     ['<h2>Hummingbird Beach Resort</h2><p>Hotel</p>', 13.8583, -61.0622],
+    //Stonefield Villa Resort
+    //Marigold Beach Club & Dive Resort
+    //Coco Palm Resort
+    //Samfi Gardens
+    //Tet Rouge Resort
+    //Starfish St Lucia
+    //Harbour Club
+    //Mystique Royal
+    //Ladeva Resort
+    
+    //Resturant
+    //The Cluff At Cap
+    //Big Chef Steakhouse
+    //Rainforest Hideaway
+    //Dasheene
+    //Boucan
+    //The Coal Pit
+    //Fox Grove Inn
+    //Flavours of the Grill
+    //Cafe Ole
   ];
 
 //code for creating the map
