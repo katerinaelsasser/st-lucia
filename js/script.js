@@ -1,56 +1,28 @@
-        //code for the marker locations
- 
-        var markers = [{
-                placeName: "Royalton Resort",
-                LatLng: [{
-                    lat: 14.0969,
-                    lng: 60.9498
-                }],
-                about: "test test test"
-            }
-        ];
- 
-        window.onload = function () {
-            initMap();
-        };
- 
-        function addMarkerInfo() {
-            for (var i = 0; i < markers.length; i++) {
-                var contentString = '<div id="content"><h1>' + markers[i].placeName + '</h1><p>' + markers[i].about + '</p></div>';
- 
-                const marker = new google.maps.Marker({
-                    position: markers[i].LatLng[0],
-                    map: map
-                });
- 
-                const infowindow = new google.maps.InfoWindow({
-                    content: contentString,
-                    maxWidth: 200
-                });
- 
-                marker.addListener('click', function () {
-                    closeOtherInfo();
-                    infowindow.open(marker.get('map'), marker);
-                    InforObj[0] = infowindow;
-                });
-                
-            }
-        }
- 
-        function closeOtherInfo() {
-            if (InforObj.length > 0) {
-                InforObj[0].set("marker", null);
-                InforObj[0].close();
-                InforObj.length = 0;
-            }
-        }
-
  //code for creating the map
         function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 10,
                 center: {lat: 13.9094, lng: -60.9789}
             });
+
+                var infobox = new InfoBox({
+                 content: document.getElementById("infobox"),
+                 disableAutoPan: false,
+                 maxWidth: 150,
+                 pixelOffset: new google.maps.Size(-140, 0),
+                 zIndex: null,
+                 boxStyle: {
+                    background: "url('http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/examples/tipbox.gif') no-repeat",
+                    opacity: 0.90,
+                    width: "300px"
+                },
+                closeBoxMargin: "12px 4px 2px 2px",
+                closeBoxURL: "http://www.google.com/intl/en_us/mapfiles/close.gif",
+                infoBoxClearance: new google.maps.Size(1, 1)
+            });
             
-            
+            google.maps.event.addListener(marker, 'click', function() {
+                infobox.open(map, this);
+                map.panTo(lat_lng);
+            });
         }
