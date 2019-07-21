@@ -1,10 +1,10 @@
 var locations = [
      //Hotels
-    ['<h2>Royalton Resort</h2><p>Hotel</p>', 14.0969 , -60.9498, hotel],
-    ['<h2>St James Club Morgan Bay</h2><p>Hotel</p>', 14.0406, -60.9706, hotel],
-    ['<h2>Jade Mountain Resort</h2><p>Hotel</p>', 13.8646, -61.0757, hotel],
-    ['<h2>Mango Beach Inn</h2><p>Hotel</p>', 13.9676, -61.0244, hotel],
-    ['<h2>Hummingbird Beach Resort</h2><p>Hotel</p>', 13.8583, -61.0622, hotel],
+    ['<h2>Royalton Resort</h2><p>Hotel</p>', 14.0969 , -60.9498, "blue"],
+    ['<h2>St James Club Morgan Bay</h2><p>Hotel</p>', 14.0406, -60.9706, "blue"],
+    ['<h2>Jade Mountain Resort</h2><p>Hotel</p>', 13.8646, -61.0757, "blue"],
+    ['<h2>Mango Beach Inn</h2><p>Hotel</p>', 13.9676, -61.0244, "blue"],
+    ['<h2>Hummingbird Beach Resort</h2><p>Hotel</p>', 13.8583, -61.0622, "blue"],
     //Stonefield Villa Resort
     //Marigold Beach Club & Dive Resort
     //Coco Palm Resort
@@ -28,18 +28,9 @@ var locations = [
   ];
 
 //icon colours
-var iconBase =
-            'https://developers.google.com/maps/documentation/javascript/examples/full/images/';
-
-        var icons = {
-          hotels: {
-            icon: iconBase + 'blue-dot.png'
-          },
-          resturants: {
-            icon: iconBase + 'url: pink-dot.png'
-          },
-          
-        };
+function locations(latLng, color) {
+  let url = "http://maps.google.com/mapfiles/ms/icons/";
+  url += color + "-dot.png";
 
 
 
