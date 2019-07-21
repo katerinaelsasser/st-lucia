@@ -17,7 +17,7 @@
                           return function () {
                             infowindow.setContent(locations[count][0]);
                             infowindow.open(map, marker);
-                          }
+                          };
                         })(marker, count));
                       }
                     }
