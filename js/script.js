@@ -1,10 +1,14 @@
 var locations = [
      //Royalton resort
-    ['<h2>Royalton resort</h2><p>testing</p>', 14.0969 , -60.9498],
+    ['<h2>Royalton Resort</h2><p>Hotel</p>', 14.0969 , -60.9498],
     //St James Club Morgan Bay
-    ['<h2>St James Club Morgan Bay</h2><p>testing</p>', 14.0406, -60.9706],
+    ['<h2>St James Club Morgan Bay</h2><p>Hotel</p>', 14.0406, -60.9706],
     //Jade Mountain Resort
-    ['<h2>Jade Mountain Resort</h2><p>testing</p>', 13.8646, -61.0757],
+    ['<h2>Jade Mountain Resort</h2><p>Hotel</p>', 13.8646, -61.0757],
+    //Mango Beach Inn
+    ['<h2>Mango Beach Inn</h2><p>Hotel</p>', 13.9676, -61.0244],
+    //Hummingbird Beach Resort
+    ['<h2>Hummingbird Beach Resort</h2><p>Hotel</p>', 13.8583, -61.0622],
   ];
 
 //code for creating the map
