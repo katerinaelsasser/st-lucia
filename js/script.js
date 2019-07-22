@@ -4,7 +4,11 @@
                 zoom: 10,
                 center: {lat: 13.9094, lng: -60.9789}
             });
-
+//code for the modal on the info window
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+        //info window code
                 var infowindow =  new google.maps.InfoWindow({});
                     var marker, count;
                     for (count = 0; count < locations.length; count++) {
