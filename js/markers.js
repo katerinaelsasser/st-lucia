@@ -8,7 +8,7 @@ var locations = [
     ['<h2>Marigot Beach Club & Dive Resort</h2><p>Hotel</p><p>Travel to this stunning and secluded location.<li>Suitable for families and couples.</li></p>', 13.9667, -61.0257],
     ['<h2>Coco Palm Resort</h2><p>Hotel</p><p>This award winning bouquet hotel is the perfect destination if you like classic Carribean French Creole decor.<li>Suitable for families and couples.</li></p>', 14.0717, -60.9566],
     ['<h2>Marigot Bay Resort and Marina</h2><p>Hotel</p><p>At this St Lucian resort, you will experience the culture, cuisine and the traditions.<li>Suitable for couples and families.</li></p>', 13.9644, -61.0230],
-    ['<h2>Samfi Gardens</h2><p>Hotel</p>', 13.8661, -61.0517],
+    ['<h2>Samfi Gardens</h2><p>Hotel</p><p>This is a newly established family owned property. This has 8 self-contained villas; 7 of them are called Vacation homes and 1 is called Honeymoon Suite.<li>Suitable for families and couples.</li></p>', 13.8661, -61.0517],
     ['<h2>Têt Rouge Resort</h2><p>Hotel</p>', 13.7931, -61.0625],
     ['<h2>Starfish St. Lucia</h2><p>Hotel</p>', 14.0717, -60.9566],
     ['<h2>The Harbor Club</h2><p>Hotel</p>', 14.0731, -60.9476],
