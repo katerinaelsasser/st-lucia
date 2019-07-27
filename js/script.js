@@ -2,7 +2,35 @@
         function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 10,
-                center: {lat: 13.9094, lng: -60.9789}
+                center: {lat: 13.9094, lng: -60.9789},
+                style: [
+                  {
+                    "elementType": "labels",
+                    "stylers": [
+                      {
+                        "visibility": "off"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "administrative.land_parcel",
+                    "stylers": [
+                      {
+                        "visibility": "off"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "administrative.neighborhood",
+                    "stylers": [
+                      {
+                        "visibility": "off"
+                      }
+                    ]
+                  }
+                ]
+
+
             });
 
         //info window code
