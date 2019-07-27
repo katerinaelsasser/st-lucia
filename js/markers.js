@@ -1,6 +1,6 @@
 var locations = [
     //Hotels
-    //Balenbouche Estate
+    ['<h2>Balenbouche Estate</h2><h4><i>Hotel</i></h4><p>This family owned Historic Plantation Guesthosue has several vacation cottages. Cottages can sleep between 2 to 6 people, some include kitchens. This destination will make you feel at home.<li>Suitable for families and couples</li><li>Free parking</li><li>Wifi</li><li>Babysitting available</li><li>Non-smoking hotel</li><li>Laundry service</li></p>', 13.7575, -61.0279],
     //Bay Gardens Beach Resort
     //Boucan by Hotel Chocolat
     //Calabash Cove Resort & Spa
