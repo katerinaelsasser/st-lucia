@@ -1,12 +1,9 @@
 //code for creating the map
         function initMap() {
           
-          var iconBase =
-            'https://developers.google.com/maps/documentation/javascript/examples/full/images/';
-
         var icons = {
           hotel: {
-            icon: iconBase + 'lodging_maps.png'
+            icon: 'https://mapicons.mapsmarker.com/wp-content/uploads/mapicons/shape-default/color-33de69/shapecolor-white/shadow-1/border-color/symbolstyle-color/symbolshadowstyle-no/gradient-no/lodging-2.png'
           },
           mountain: {
             icon: iconBase + 'mountain_maps.png'
@@ -59,7 +56,7 @@
                     var marker, count;
                     for (count = 0; count < locations.length; count++) {
                         marker = new google.maps.Marker({
-                          position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+                          position: features[i].position,
                           icon: icons[features[i].type].icon,
                           map: map,
                           title: locations[count][0]
