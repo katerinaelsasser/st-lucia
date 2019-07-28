@@ -1,5 +1,21 @@
 //code for creating the map
         function initMap() {
+          
+          var iconBase =
+            'https://developers.google.com/maps/documentation/javascript/examples/full/images/';
+
+        var icons = {
+          hotel: {
+            icon: iconBase + 'lodging_maps.png'
+          },
+          mountain: {
+            icon: iconBase + 'mountain_maps.png'
+          },
+          
+        };
+          
+          
+          
             var styledMapType = new google.maps.StyledMapType(
              [
                {
@@ -44,6 +60,7 @@
                     for (count = 0; count < locations.length; count++) {
                         marker = new google.maps.Marker({
                           position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+                          icon: icons[features[i].type].icon,
                           map: map,
                           title: locations[count][0]
                         });
