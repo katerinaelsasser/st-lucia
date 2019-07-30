@@ -4,8 +4,8 @@ var locations = [
     ['<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>', 13.7334, -60.9503],
 
 //Attractions
+    ['<h2>Diamond Botinical Gardens</h2><h4><i>Attraction</i></h4><p>Explore this magical location where a majestic waterfall stands, one of the most popular tourist attractions on the island. This location is both a historic and naturally beautiful site.</p>', 13.8524, -61.0483],
 
-    //Diamond Botanical Gardens 13.8524, -61.0483
     //La Soufriere 13.3333, -61.1833
     //Mamiku Gardens 13.8688, -60.9015
     //Marigot Bay 13.9663, -61.0275
@@ -76,19 +76,14 @@ var locations = [
     //Martha's Tables 13.8401, -61.0617
     //Masala Bay 3.9653, -61.0242
     //naked fisherman restaurant 14.1005, -60.9500
-    //Orlando's
-    //Petit Peak Bar & Restaurant
-    //Pink Plantation House
-    //Razmataz
-    //Reef Cafe
-    //Rituals Coffee
-    //Sabay Sabaw
-    //Spice of India 14.0699, -60.9544
-    //Spinnakers Beach Bar & Restaurant
+    //Orlando's 13.8577, -61.0612
+    //Petit Peak Restaurant 13.8533, -61.0593
+    //Pink Plantation House 13.9981, -60.9932
+    //Razmataz 14.0740, -60.9544
+    //Rituals Coffee 14.0329, -60.9681
+    //Spice of India 14.0699, -60.9544 ''
     //The Cliff At Cap 14.0996, -60.9512
     //The Coal Pot 14.0172, -60.9964
     //Rainforest Hideaway 13.9672, -61.0242
-    //Waterfront De Belle View Restaurant & Bar
-
 
   ];
