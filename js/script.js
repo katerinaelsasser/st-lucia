@@ -9,6 +9,25 @@
             }
             });
 
+
+//code for the different markers
+var icons = {
+          hotel: {
+            icon: iconBase + 'lodging.png'
+          },
+          attraction: {
+            icon: iconBase + '.png'
+          },
+          restaurant: {
+            icon: iconBase + 'restaurant.png'
+          },
+          airport: {
+              icon: iconBase + 'plane.png'
+          }
+        };
+
+
+
         //info window code
                 var infowindow =  new google.maps.InfoWindow({});
                     var marker, count;
@@ -16,7 +35,8 @@
                         marker = new google.maps.Marker({
                           position: new google.maps.LatLng(locations[count][1], locations[count][2]),
                           map: map,
-                          title: locations[count][0]
+                          title: locations[count][0],
+                          icon: icons[features[i].type].icon,
                         });
                     google.maps.event.addListener(marker, 'click', (function (marker, count) {
                           return function () {
