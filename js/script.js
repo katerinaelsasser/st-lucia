@@ -11,21 +11,20 @@
 
 
 //code for the different markers
-var iconBase =
-            'https://developers.google.com/maps/documentation/javascript/examples/full/images/';
-            
+
 var icons = {
           hotel: {
-            icon: iconBase + 'lodging.png'
+            icon: 'assets/images/markers/lodging.png'
           },
           attraction: {
-            icon: iconBase + '.png'
+            icon: 'assets/images/markers/attraction.png'
+              
           },
           restaurant: {
-            icon: iconBase + 'restaurant.png'
+            icon: 'assets/images/markers/restaurant.png'
           },
           airport: {
-              icon: iconBase + 'plane.png'
+              icon: 'assets/images/markers/plane.png'
           }
         };
 
