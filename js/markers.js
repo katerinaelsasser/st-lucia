@@ -56,27 +56,26 @@ var locations = [
     ['<h2>Windjammer Landing Villa Beach Resort</h2><h4><i>Hotel</i></h4><p>Have a unforgettanle Carribean experience with this resort, with breathtaking views.<li>Free parking</li><li>Pool</li><li>Fitness centre (including a gym)</li><li>Babysitting available</li><li>Poolside bar</li><li>Kids club</li><li>Free shuttle bus or taxi services</li><li></li></p>', 14.0589, -60.9742],
 
 //Restaurants
-    //Bamboo
+    //Bamboo 13.8218, -61.0500
     //Big Chef Steakhouse 14.0700, -60.9538
-    //Blue Olive
+    //Blue Olive Restaurant & Wine Bar 14.0715, -60.9550
     //Buzz Seafood & Grill 14.0751, -60.9537
-    //Cafe Ole
-    //Chateau Mygo
-    //Dasheene
-    //Fedo's
+    //Cafe Ole 14.0753, -60.9478
+    //Chateau Mygo 13.9652, -61.0249
+    //Fedo's 13.8581, -61.0524
     //Flavours of the Grill 14.0544, -60.9641
-    //Fox Grove Inn
-    //Golden Taste
+    //Fox Grove Inn 13.8628, -60.9062
+    //Golden Taste 14.0809, -60.9535
     //Gros Islet Fish Fry
-    //Island Breeze
+    //Island Breeze 13.7311, -60.9409
     //Jacques Waterfront Dining 14.0727, -60.9540
-    //Jambe De Bois
-    //Julietta's Restaurant & Bar
-    //La Terrasse
-    //Marie's Local Cuisine
-    //Martha's Tables
-    //Masala Bay
-    //naked fisherman restaurant
+    //Jambe De Bois Restaurant & Bar 14.0918, -60.9647
+    //Julietta's Restaurant & Bar 13.9638, -61.0193
+    //La Terrasse 14.0709, -60.9544
+    //Marie's Local Cuisine 13.8521, -61.0473
+    //Martha's Tables 13.8401, -61.0617
+    //Masala Bay 3.9653, -61.0242
+    //naked fisherman restaurant 14.1005, -60.9500
     //Orlando's
     //Petit Peak Bar & Restaurant
     //Pink Plantation House
