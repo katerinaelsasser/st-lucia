@@ -11,6 +11,9 @@
 
 
 //code for the different markers
+var iconBase =
+            'https://developers.google.com/maps/documentation/javascript/examples/full/images/';
+            
 var icons = {
           hotel: {
             icon: iconBase + 'lodging.png'
