@@ -11,20 +11,21 @@
 
 
 //code for the different markers
+var iconBase = 'assets/images/markers/';
 
 var icons = {
           hotel: {
-            icon: 'assets/images/markers/lodging.png'
+            icon: iconBase + 'lodging.png'
           },
           attraction: {
-            icon: 'assets/images/markers/attraction.png'
+            icon: iconBase + 'attraction.png'
               
           },
           restaurant: {
-            icon: 'assets/images/markers/restaurant.png'
+            icon: iconBase + 'restaurant.png'
           },
           airport: {
-              icon: 'assets/images/markers/plane.png'
+              icon: iconBase + 'plane.png'
           }
         };
 
@@ -37,7 +38,7 @@ var icons = {
                         marker = new google.maps.Marker({
                           position: new google.maps.LatLng(locations[count][1], locations[count][2]),
                           map: map,
-                          title: locations[count][0],
+                          icon: icons[feature.type].icon,
                           icon: icons[features[i].type].icon,
                         });
                     google.maps.event.addListener(marker, 'click', (function (marker, count) {
