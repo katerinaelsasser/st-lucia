@@ -29,26 +29,7 @@ var icons = {
           }
         };
         
-        function addMarker(feature) {
-    var marker = new google.maps.Marker({
-      position: feature.position,
-      icon: icons[feature.type].icon,
-      map: map
-    });
-  }
-  
-  function addInfoWindow(feature) {
-   infowindow = new google.maps.InfoWindow({
-      content: features.content
-    });
-  }
-
- for (var i = 0, feature; feature = features[i]; i++) {
-    addMarker(feature);
-    addInfoWindow(feature);
-  }
-
-/*
+       
         //info window code
                 var infowindow =  new google.maps.InfoWindow({});
                     var marker, count;
@@ -56,7 +37,7 @@ var icons = {
                         marker = new google.maps.Marker({
                           position: new google.maps.LatLng(locations[count][1], locations[count][2]),
                           map: map,
-                          icon: icons[feature.type].icon,
+                          icon: icons[locations.type].icon,
                         });
                     google.maps.event.addListener(marker, 'click', (function (marker, count) {
                           return function () {
@@ -67,5 +48,3 @@ var icons = {
                       }
                     }
                 
-
-                    */
