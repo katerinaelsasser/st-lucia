@@ -35,7 +35,8 @@ var icons = {
                     var marker, count;
                     for (count = 0; count < locations.length; count++) {
                         marker = new google.maps.Marker({
-                          position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+                          position: locations.position,
+                          content: locations.content,
                           map: map,
                           icon: icons[locations.type].icon,
                         });
