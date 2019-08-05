@@ -28,6 +28,20 @@ var icons = {
               icon: 'https://mapicons.mapsmarker.com/wp-content/uploads/mapicons/shape-default/color-474ed1/shapecolor-white/shadow-1/border-color/symbolstyle-color/symbolshadowstyle-no/gradient-no/airport.png'
           }
         };
+        
+        function addMarker(feature) {
+    var marker = new google.maps.Marker({
+      position: feature.position,
+      icon: icons[feature.type].icon,
+      map: map
+    });
+  }
+  
+  function addInfoWindow(feature) {
+   infowindow = new google.maps.InfoWindow({
+      content: features.content
+    });
+  }
 
  for (var i = 0, feature; feature = features[i]; i++) {
     addMarker(feature);
@@ -54,5 +68,4 @@ var icons = {
                     }
                 
 
-                    
-*/
+                    */
