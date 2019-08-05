@@ -29,8 +29,12 @@ var icons = {
           }
         };
 
+ for (var i = 0, feature; feature = features[i]; i++) {
+    addMarker(feature);
+    addInfoWindow(feature);
+  }
 
-
+/*
         //info window code
                 var infowindow =  new google.maps.InfoWindow({});
                     var marker, count;
@@ -51,3 +55,4 @@ var icons = {
                 
 
                     
+*/

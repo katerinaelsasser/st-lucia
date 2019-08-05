@@ -1,6 +1,17 @@
+var features = [
+    {
+      position: new google.maps.LatLng(14.0200, -60.9931),
+      type: 'airport',
+      content: '<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>', 
+    }, {
+        
+    
+    
+/*----   
 var locations = [
 //Airports
-    ['<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>', 'airport', 14.0200, -60.9931 ],
+    ['<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>', 
+    'airport', 14.0200, -60.9931],
     ['<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>', 'airport', 13.7334, -60.9503],
 
 //Attractions
@@ -87,3 +98,6 @@ var locations = [
     //Rainforest Hideaway 13.9672, -61.0242
 
   ];
+  
+  
+  ----*/
