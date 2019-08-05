@@ -1,16 +1,11 @@
   
 var locations = [
 //Airports
-    [content: '<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>', 
-    type: 'airport', 
-    position: new google.maps.LatLng(14.0200, -60.9931)
-    ],
-    
-    
-//    ['<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>', type: 'airport', 13.7334, -60.9503],
+    ['<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>', 14.0200, -60.9931],
+    ['<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>', 13.7334, -60.9503],
 
 //Attractions
-  //  ['<h2>Diamond Botinical Gardens</h2><h4><i>Attraction</i></h4><p>Explore this magical location where a majestic waterfall stands, one of the most popular tourist attractions on the island. This location is both a historic and naturally beautiful site.</p>', 13.8524, -61.0483],
+  //['<h2>Diamond Botinical Gardens</h2><h4><i>Attraction</i></h4><p>Explore this magical location where a majestic waterfall stands, one of the most popular tourist attractions on the island. This location is both a historic and naturally beautiful site.</p>', 13.8524, -61.0483],
 
     //La Soufriere 13.3333, -61.1833
     //Mamiku Gardens 13.8688, -60.9015
