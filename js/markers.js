@@ -5,13 +5,13 @@ var locations = [
     ['<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>', 13.7334, -60.9503],
 
 //Attractions
-  //['<h2>Diamond Botinical Gardens</h2><h4><i>Attraction</i></h4><p>Explore this magical location where a majestic waterfall stands, one of the most popular tourist attractions on the island. This location is both a historic and naturally beautiful site.</p>', 13.8524, -61.0483],
+  ['<h2>Diamond Botinical Gardens</h2><h4><i>Attraction</i></h4><p>Explore this magical location where a majestic waterfall stands, one of the most popular tourist attractions on the island. This location is both a historic and naturally beautiful site.</p>', 13.8524, -61.0483],
 
     //La Soufriere 13.3333, -61.1833
     //Mamiku Gardens 13.8688, -60.9015
     //Marigot Bay 13.9663, -61.0275
     //Mount Gumie 13.8452, -60.9989
-    //['<h2>Petit Piton</h2><h4><i>Attraction</i></h4><p>This attraction was built in the 18th century by the British. Explore the ruins of Fort Rodney. It was converted to a US signal station in World War 2.</p>', 13.8333, -61.0667],
+  ['<h2>Petit Piton</h2><h4><i>Attraction</i></h4><p>This attraction was built in the 18th century by the British. Explore the ruins of Fort Rodney. It was converted to a US signal station in World War 2.</p>', 13.8333, -61.0667],
 
     //Pigeon Island 14.0931, -60.9646
     //Rainforest Adverntures Aerial Tram & Zip-Line
@@ -23,13 +23,13 @@ var locations = [
     //Vigie Beach 14.0249, -60.9846
     
 //Beaches
-//    ['<h2>Reduit Beach</h2><h4><i>Beach</i></h4><p>This beach has more than a mile of fine golden sand with lovely views across the bay to Pigeon Island</p>', 14.0746, -60.9554],
-  //  ['<h2>Anse Cochon</h2><h4><i>Beach</i></h4><p>This is located down the west coast of the island, between the CAstries and Soufriere. This has 200 metres of dark sand.</p>', 13.9271, -61.0581],
-    //['<h2>Anse Chastanet</h2><h4><i>Beach</i></h4><p>This has 150 metres of dark, silver sand.</p>', 13.8649, -61.0778],
+    ['<h2>Reduit Beach</h2><h4><i>Beach</i></h4><p>This beach has more than a mile of fine golden sand with lovely views across the bay to Pigeon Island</p>', 14.0746, -60.9554],
+    ['<h2>Anse Cochon</h2><h4><i>Beach</i></h4><p>This is located down the west coast of the island, between the CAstries and Soufriere. This has 200 metres of dark sand.</p>', 13.9271, -61.0581],
+    ['<h2>Anse Chastanet</h2><h4><i>Beach</i></h4><p>This has 150 metres of dark, silver sand.</p>', 13.8649, -61.0778],
 
 //Hotels
-//    ['<h2>Balenbouche Estate</h2><h4><i>Hotel</i></h4><p>This family owned Historic Plantation Guesthosue has several vacation cottages. Cottages can sleep between 2 to 6 people, some include kitchens. This destination will make you feel at home.<li>Suitable for families and couples</li><li>Free parking</li><li>Wifi</li><li>Babysitting available</li><li>Non-smoking hotel</li><li>Laundry service</li></p>', 13.7575, -61.0279],
-  //  ['<h2>Bay Gardens Beach Resort & Spa</h2><h4><i>Hotel</i></h4><p>Stay at this inviting location to experience true adventure and relaxation.<li>Free parking</li><li>Free Wifi</li><li>Pool</li><li>Beach</li><li>Babysitting available</li><li></li>Kids club</li><li>Water park</li><li>Poolside bar</li><li>Spa</li><li>Shuttle bus service</li><li>Non-smoking hotel</li><li>Laundry service</li></p>', 14.0769, -60.9540],
+  //['<h2>Balenbouche Estate</h2><h4><i>Hotel</i></h4><p>This family owned Historic Plantation Guesthosue has several vacation cottages. Cottages can sleep between 2 to 6 people, some include kitchens. This destination will make you feel at home.<li>Suitable for families and couples</li><li>Free parking</li><li>Wifi</li><li>Babysitting available</li><li>Non-smoking hotel</li><li>Laundry service</li></p>', 13.7575, -61.0279],
+  //['<h2>Bay Gardens Beach Resort & Spa</h2><h4><i>Hotel</i></h4><p>Stay at this inviting location to experience true adventure and relaxation.<li>Free parking</li><li>Free Wifi</li><li>Pool</li><li>Beach</li><li>Babysitting available</li><li></li>Kids club</li><li>Water park</li><li>Poolside bar</li><li>Spa</li><li>Shuttle bus service</li><li>Non-smoking hotel</li><li>Laundry service</li></p>', 14.0769, -60.9540],
     //['<h2>Boucan By Hotel Chocolat</h2><h4><i>Hotel</i></h4><p>Located in the hills near Soufriere, this hotel will stun you with the views of the Piton mountains.<li>Suitable for families and couples</li><li>Free parking</li><li>Pool (including infinity pool)</li><li>Free Wifi</li><li>Free shuttle bus and taxi services</li><li>Bar/lounge</li><li>Poolside bar</li><li>Non-smoking hotel</li><li>Laundry service</li></p>', 13.8332, -61.0503],
   //  ['<h2>Calabash Cove Resort & Spa</h2><h4><i>Hotel</i></h4><p>Nested in the sheltered bay of Bonaire Estate, this hotel is one of just a select few full service, bouquet luxary resorts on the island.<li>Suitable for families and couples</li><li>Free parking</li><li>Fitness Centre (Including gym)</li><li>Pool (including infinity pool and adults only pool)</li><li>Free Wifi</li><li>Poolside bar</li><li>Spa</li><li>Laundry service</li></p>', 14.0504, -60.9727],
 //    ['<h2>Coco Palm Resort</h2><h4><i>Hotel</i></h4><p>This award winning bouquet hotel is the perfect destination if you like classic Carribean French Creole decor.<li>Suitable for families and couples.</li><li>Free parking</li><li>Pool</li><li>Free Wifi</li><li>Poolside bar</li><li>Spa</li><li>Non-smoking hotel</li></p>', 14.0717, -60.9566],
