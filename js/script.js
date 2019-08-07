@@ -35,9 +35,10 @@ var icons = {
                     var marker, count;
                     for (count = 0; count < locations.length; count++) {
                         marker = new google.maps.Marker({
-                          position: latLng,
+                          position: new google.maps.LatLng(locations[count][1], locations[count][2]),
                           map: map,
-                          content: data.content,
+                          title: locations[count][0],
+                          
                         });
                     google.maps.event.addListener(marker, 'click', (function (marker, count) {
                           return function () {
