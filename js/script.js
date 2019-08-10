@@ -37,13 +37,12 @@ var icon = {
                           position: new google.maps.LatLng(locations[count][1], locations[count][2]),
                           map: map,
                           title: locations[count][0],
-                          icon: locations[count][3],
+                          icon: icons[features[i].type].icon,
                           
                         });
                     google.maps.event.addListener(marker, 'click', (function (marker, count) {
                           return function () {
                             infowindow.setContent(locations[count][0]);
-                            infowindow.icon(locations[count][3]);
                             infowindow.open(map, marker);
                           };
                         })(marker, count));
