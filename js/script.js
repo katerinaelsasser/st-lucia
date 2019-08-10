@@ -14,17 +14,17 @@
 
 var icons = {
           hotel: {
-            icon: 'assets/images/markers/lodging.png'
+            url: 'assets/images/markers/lodging.png'
           },
           attraction: {
-            icon: 'assets/images/markers/attraction.png'
+            url: 'assets/images/markers/attraction.png'
               
           },
           restaurant: {
-            icon: 'assets/images/markers/restaurant.png'
+            url: 'assets/images/markers/restaurant.png'
           },
           airport: {
-              icon: 'assets/images/markers/airport.png'
+            url: 'assets/images/markers/airport.png'
           }
         };
         
