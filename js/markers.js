@@ -1,17 +1,17 @@
   
 var locations = [
 //Airports
-    ['<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4', 14.0200, -60.9931, airport],
-    ['<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>', 13.7334, -60.9503, airport],
+    ['<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4', 14.0200, -60.9931, 'airport'],
+    ['<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>', 13.7334, -60.9503, 'airport'],
 
 //Attractions
-  ['<h2>Diamond Botinical Gardens</h2><h4><i>Attraction</i></h4><p>Explore this magical location where a majestic waterfall stands, one of the most popular tourist attractions on the island. This location is both a historic and naturally beautiful site.</p>', 13.8524, -61.0483],
+  ['<h2>Diamond Botinical Gardens</h2><h4><i>Attraction</i></h4><p>Explore this magical location where a majestic waterfall stands, one of the most popular tourist attractions on the island. This location is both a historic and naturally beautiful site.</p>', 13.8524, -61.0483, 'attraction'],
 
     //La Soufriere 13.3333, -61.1833
     //Mamiku Gardens 13.8688, -60.9015
     //Marigot Bay 13.9663, -61.0275
     //Mount Gumie 13.8452, -60.9989
-  ['<h2>Petit Piton</h2><h4><i>Attraction</i></h4><p>This attraction was built in the 18th century by the British. Explore the ruins of Fort Rodney. It was converted to a US signal station in World War 2.</p>', 13.8333, -61.0667],
+  ['<h2>Petit Piton</h2><h4><i>Attraction</i></h4><p>This attraction was built in the 18th century by the British. Explore the ruins of Fort Rodney. It was converted to a US signal station in World War 2.</p>', 13.8333, -61.0667, 'attraction'],
 
     //Pigeon Island 14.0931, -60.9646
     //Rainforest Adverntures Aerial Tram & Zip-Line
