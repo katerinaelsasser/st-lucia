@@ -15,24 +15,16 @@
 var icons = {
           hotel: {
             url: 'assets/images/markers/lodging.png',
-            size: new google.maps.Size(64, 64),
-			scaledSize: new google.maps.Size(128, 64)
           },
           attraction: {
             url: 'assets/images/markers/attraction.png',
-            size: new google.maps.Size(64, 64),
-			scaledSize: new google.maps.Size(128, 64)
               
           },
           restaurant: {
             url: 'assets/images/markers/restaurant.png',
-            size: new google.maps.Size(64, 64),
-			scaledSize: new google.maps.Size(128, 64)
           },
           airport: {
             url: 'assets/images/markers/airport.png',
-            size: new google.maps.Size(64, 64),
-			scaledSize: new google.maps.Size(128, 64)
           }
         };
         
