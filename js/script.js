@@ -24,7 +24,7 @@ var icon = {
             url: 'assets/images/markers/restaurant.png',
           },
           airport: {
-            url: 'assets/images/markers/airport.png',
+            url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/airport.png',
           }
         };
         
