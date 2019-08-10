@@ -14,17 +14,17 @@
 
 var icon = {
           hotel: {
-            url: 'https://github.com/katerinaelsasser/st-lucia-destination/tree/master/assets/images/markers/lodging.png',
+            url: 'assets/images/markers/lodging.png',
           },
           attraction: {
-            url: 'https://github.com/katerinaelsasser/st-lucia-destination/tree/master/assets/images/markers/attraction.png',
+            url: 'assets/images/markers/attraction.png',
               
           },
           restaurant: {
-            url: 'https://github.com/katerinaelsasser/st-lucia-destination/tree/master/assets/images/markers/restaurant.png',
+            url: 'assets/images/markers/restaurant.png',
           },
           airport: {
-            url: 'https://github.com/katerinaelsasser/st-lucia-destination/tree/master/assets/images/markers/airport.png',
+            url: 'assets/images/markers/airport.png',
           }
         };
         
