@@ -12,7 +12,7 @@
 
 //code for the custom markers
 
-var icons = {
+var icon = {
           hotel: {
             url: 'https://github.com/katerinaelsasser/st-lucia-destination/tree/master/assets/images/markers/lodging.png',
           },
