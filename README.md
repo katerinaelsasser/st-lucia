@@ -73,3 +73,14 @@ Tests Done To Create Website
 8. Look at my code again and notice I put it in the wrong section and added it to the code that created the map.
 9. Moved the code onto another section.
 10. Reload page, map and marker appear.
+* Changing the marker icons to all be different
+1. Chose the icons that I wanted to use on the map
+2. added the code of the different icons that will be used
+3. create the snippet of icon code that will change the marker.
+4. applied the code
+5. refreshed the page
+6. icons disappeared
+7. checked the code to see if any of the links where incorrect (for example: the info window code said icons where as the code that links the images says 'icon', this was changed to 'icon').
+8. applied this
+9. refeshed the page
+10. icons still are not appearing
