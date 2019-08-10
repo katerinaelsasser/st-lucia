@@ -43,7 +43,7 @@ var icon = {
                     google.maps.event.addListener(marker, 'click', (function (marker, count) {
                           return function () {
                             infowindow.setContent(locations[count][0]);
-                            infowindow.icon(locations[count][3])
+                            infowindow.icon(locations[count][3]);
                             infowindow.open(map, marker);
                           };
                         })(marker, count));
