@@ -10,22 +10,21 @@
             });
 
 
-//code for the different markers
-var iconBase = 'assets/images/markers/';
+//code for the custom markers
 
 var icons = {
           hotel: {
-            icon: 'https://mapicons.mapsmarker.com/wp-content/uploads/mapicons/shape-default/color-4fe354/shapecolor-white/shadow-1/border-color/symbolstyle-color/symbolshadowstyle-no/gradient-no/lodging-2.png'
+            icon: 'assets/images/markers/lodging.png'
           },
           attraction: {
-            icon: iconBase + 'attraction.png'
+            icon: 'assets/images/markers/attraction.png'
               
           },
           restaurant: {
-            icon: iconBase + 'restaurant.png'
+            icon: 'assets/images/markers/restaurant.png'
           },
           airport: {
-              icon: 'https://mapicons.mapsmarker.com/wp-content/uploads/mapicons/shape-default/color-474ed1/shapecolor-white/shadow-1/border-color/symbolstyle-color/symbolshadowstyle-no/gradient-no/airport.png'
+              icon: 'assets/images/markers/airport.png'
           }
         };
         
@@ -38,6 +37,7 @@ var icons = {
                           position: new google.maps.LatLng(locations[count][1], locations[count][2]),
                           map: map,
                           title: locations[count][0],
+                          icon: location[count][3],
                           
                         });
                     google.maps.event.addListener(marker, 'click', (function (marker, count) {
