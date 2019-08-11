@@ -48,7 +48,7 @@ var icons = {
                         marker = new google.maps.Marker({
                           position: new google.maps.LatLng(locations[1], locations[2]),
                           title: locations[0],
-                          icon: icons[locations.type].icon,
+                          icon: locations[3].icons,
                           map: map,
                         });
                     google.maps.event.addListener(marker, 'click', (function (marker, count) {
