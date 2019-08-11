@@ -41,13 +41,13 @@ var icons = {
         };
         
        
-       locations.forEach( function( locations ) {
+       locations.forEach( function( element ) {
 	var marker = new google.maps.Marker({
-			position: locations.position,
+			position: element.position,
 			map: map,
-			title: locations.title,
-			content: locations.content,
-			icon: locations.icon,
+			title: element.title,
+			content: element.content,
+			icon: element.icon,
 		});
 	});	
 }
