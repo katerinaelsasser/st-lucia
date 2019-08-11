@@ -41,21 +41,36 @@ var icons = {
         };
         
        
+       locations.forEach( function( locations ) {
+	var marker = new google.maps.Marker({
+			position: locations.position,
+			map: map,
+			title: locations.title,
+			content: locations.content,
+			icon: locations.icon,
+		});
+	});	
+}
+       
+       
+       
+       
+       
         //info window code
-                var infowindow =  new google.maps.InfoWindow({});
-                    var marker, count;
-                    for (count = 0; count < locations.length; count++) {
-                        marker = new google.maps.Marker({
-                          position: new google.maps.LatLng(locations[1], locations[2]),
-                          title: locations[0],
-                          map: map,
-                        });
+               // var infowindow =  new google.maps.InfoWindow({});
+                 //   var marker, count;
+                   // for (count = 0; count < locations.length; count++) {
+                     //   marker = new google.maps.Marker({
+                       //   position: new google.maps.LatLng(locations[2], locations[3]),
+                         // title: locations[0],
+                          //map: map,
+                        //});
                     google.maps.event.addListener(marker, 'click', (function (marker, count) {
                           return function () {
-                            infowindow.setContent(locations[count][0]);
+                            infowindow.setContent(locations[count][1]);
                             infowindow.open(map, marker);
                           };
                         })(marker, count));
                       }
-                    }
+                  //  }
                 
