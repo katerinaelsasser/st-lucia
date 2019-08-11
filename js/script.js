@@ -24,7 +24,7 @@ var icons = {
             icon: 'assets/images/markers/restaurant.png',
           },
           airport: {
-            icon: 'assets/images/markers/airport.png',
+            icon: 'https://mapicons.mapsmarker.com/wp-content/uploads/mapicons/shape-default/color-b05ecc/shapecolor-color/shadow-1/border-dark/symbolstyle-white/symbolshadowstyle-dark/gradient-no/airport.png',
           }
         };
         
