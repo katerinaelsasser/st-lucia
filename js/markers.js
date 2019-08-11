@@ -1,15 +1,7 @@
   
 var locations = [
 //Airports
-    {
-      title: 'George F L Charles Airport',
-      position: {lat: 14.0200, lng: -60.9931},
-      content: '<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>',
-      icon: {
-        url:'assets/images/markers/airport.png'
-      },
-    }
-    //['George F L Charles Airport','<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>', 14.0200, -60.9931, 'airport'],
+    ['George F L Charles Airport','<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>', 14.0200, -60.9931, 'airport'],
     //['<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>', 13.7334, -60.9503, 'airport'],
 
 //Attractions

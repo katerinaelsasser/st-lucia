@@ -40,31 +40,15 @@ var icons = {
           }
         };
         
-       
-       locations.forEach( function( element ) {
-	var marker = new google.maps.Marker({
-			position: element.position,
-			map: map,
-			title: element.title,
-			content: element.content,
-			icon: element.icon,
-		});
-	});	
-}
-       
-       
-       
-       
-       
-        //info window code
-               // var infowindow =  new google.maps.InfoWindow({});
-                 //   var marker, count;
-                   // for (count = 0; count < locations.length; count++) {
-                     //   marker = new google.maps.Marker({
-                       //   position: new google.maps.LatLng(locations[2], locations[3]),
-                         // title: locations[0],
-                          //map: map,
-                        //});
+    //info window code
+      var infowindow =  new google.maps.InfoWindow({});
+         var marker, count;
+       for (count = 0; count < locations.length; count++) {
+      marker = new google.maps.Marker({
+         position: new google.maps.LatLng(locations[2], locations[3]),
+       title: locations[0],
+      map: map,
+      });
                     google.maps.event.addListener(marker, 'click', (function (marker, count) {
                           return function () {
                             infowindow.setContent(locations[count][1]);
@@ -72,5 +56,5 @@ var icons = {
                           };
                         })(marker, count));
                       }
-                  //  }
+                    }
                 
