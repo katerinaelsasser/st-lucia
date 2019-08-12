@@ -1,9 +1,11 @@
-html, body, #map {
+html, body {
 
   margin: 0;
   padding: 0;
 }
 
 #map {
+  padding: 20px;
   height: 500px;
+  
 }
