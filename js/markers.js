@@ -1,4 +1,6 @@
   
+  
+  
 var locations = [
 //Airports
     ['<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>', 14.0200, -60.9931, 'airport'],
