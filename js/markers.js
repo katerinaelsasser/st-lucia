@@ -26,9 +26,9 @@ var locations = [
   
 
 //Beaches
-    //['<h2>Reduit Beach</h2><h4><i>Beach</i></h4><p>This beach has more than a mile of fine golden sand with lovely views across the bay to Pigeon Island</p>', 14.0746, -60.9554],
-    //['<h2>Anse Cochon</h2><h4><i>Beach</i></h4><p>This is located down the west coast of the island, between the CAstries and Soufriere. This has 200 metres of dark sand.</p>', 13.9271, -61.0581],
-    //['<h2>Anse Chastanet</h2><h4><i>Beach</i></h4><p>This has 150 metres of dark, silver sand.</p>', 13.8649, -61.0778],
+  ['<h2>Reduit Beach</h2><h4><i>Beach</i></h4><p>This beach has more than a mile of fine golden sand with lovely views across the bay to Pigeon Island</p>', 14.0746, -60.9554],
+  ['<h2>Anse Cochon</h2><h4><i>Beach</i></h4><p>This is located down the west coast of the island, between the CAstries and Soufriere. This has 200 metres of dark sand.</p>', 13.9271, -61.0581],
+  ['<h2>Anse Chastanet</h2><h4><i>Beach</i></h4><p>This has 150 metres of dark, silver sand.</p>', 13.8649, -61.0778],
 
 //Hotels
   ['<h2>Balenbouche Estate</h2><h4><i>Hotel</i></h4><p>This family owned Historic Plantation Guesthosue has several vacation cottages. Cottages can sleep between 2 to 6 people, some include kitchens. This destination will make you feel at home.<li>Suitable for families and couples</li><li>Free parking</li><li>Wifi</li><li>Babysitting available</li><li>Non-smoking hotel</li><li>Laundry service</li></p>', 13.7575, -61.0279, 'hotel'],
