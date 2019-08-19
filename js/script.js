@@ -41,35 +41,19 @@ var icons = {
         };
         
     //info window code
-      //var infowindow =  new google.maps.InfoWindow({});
-        // var marker, count;
-       //for (count = 0; count < locations.length; count++) {
-      //marker = new google.maps.Marker({
-        // position: new google.maps.LatLng(locations[count][1], locations[count][2]),
-       //content: locations[count][0],
-      //map: map,
-      //});
-        //            google.maps.event.addListener(marker, 'click', (function (marker, count) {
-          //                return function () {
-            //                infowindow.setContent(locations[count][1]);
-              //              infowindow.open(map, marker);
-                //          };
-                  //      })(marker, count));
-                    //  }
-                    function addmarker(lat, lon, info) {
-    marker = new google.maps.Marker({
-      position: new google.maps.LatLng(lat, lon),
-      info: new google.maps.InfoWindow({
-        content: info
-      }),
-      map: map
-    });
-
-    google.maps.event.addListener(marker, 'click', function() {
-      marker.info.open(map, marker);
-    });
-
-    map.panTo(marker.getPosition());
-    
+      var infowindow =  new google.maps.InfoWindow({});
+       var marker, count;
+       for (count = 0; count < locations.length; count++) {
+      marker = new google.maps.Marker({
+         position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+       content: locations[count][0],
+      map: map,
+      });
+                  google.maps.event.addListener(marker, 'click', (function (marker, count) {
+                      return function () {
+                      infowindow.setContent(locations[count][1]);
+                            infowindow.open(map, marker);
+                        };
+                        })(marker, count));
                     }
-        }
+}
