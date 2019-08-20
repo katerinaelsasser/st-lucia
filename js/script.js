@@ -16,7 +16,7 @@
        for (count = 0; count < locations.length; count++) {
       marker = new google.maps.Marker({
          position: new google.maps.LatLng(locations[count][1], locations[count][2]),
-       content: locations[count][0],
+       title: locations[count][0],
       map: map,
       });
                   google.maps.event.addListener(marker, 'click', (function (marker, count) {
