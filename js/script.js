@@ -19,6 +19,18 @@
        title: locations[count][0],
       map: map,
       });
+      
+      $("#link1").click(function(){
+    changeMarkerPos(14.0200, -60.9931);
+});
+$("#link2").click(function(){
+    changeMarkerPos(13.7334, -60.9503);
+});
+      
+      
+      
+      
+      
                   google.maps.event.addListener(marker, 'click', (function (marker, count) {
                       return function () {
                       infowindow.setContent(locations[count][1]);
