@@ -3,8 +3,8 @@
   
 var locations = [
 //Airports
-    ['<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>', 14.0200, -60.9931, 'airport'],
-    ['<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>', 13.7334, -60.9503, 'airport'],
+    ['George F L Charles Airport','<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>', 14.0200, -60.9931, 'airport'],
+    ['Hewanorra International Airport','<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>', 13.7334, -60.9503, 'airport'],
 
 //Attractions
 //  ['<h2>Diamond Botinical Gardens</h2><h4><i>Attraction</i></h4><p>Explore this magical location where a majestic waterfall stands, one of the most popular tourist attractions on the island. This location is both a historic and naturally beautiful site.</p>', 13.8524, -61.0483, 'attraction'],
