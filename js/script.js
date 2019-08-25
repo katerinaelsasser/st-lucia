@@ -15,16 +15,15 @@
       var marker, count;
        for (count = 0; count < locations.length; count++) {
       marker = new google.maps.Marker({
-         position: new google.maps.LatLng(locations[count][2], locations[count][3]),
-      title: locations[count][0],
-      content: locations[count][1],
+         position: new google.maps.LatLng(json.lat, json.lng),
+      title: json.title,
     map: map,
     });
   
       
                   google.maps.event.addListener(marker, 'click', (function (marker, count) {
                       return function () {
-                      infowindow.setContent(locations[count][1]);
+                      infowindow.setContent(json.content);
                             infowindow.open(map, marker);
                         };
                         })(marker, count));
@@ -58,3 +57,4 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
