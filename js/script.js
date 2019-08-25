@@ -3,17 +3,13 @@
             map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 10,
                 center: {lat: 13.9094, lng: -60.9789},
-                mapTypeControlOptions: {
-            mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
-                    'styled_map']
-            }
             });
 
 
     //info window code
     var infowindow =  new google.maps.InfoWindow({});
       var marker, count;
-       for (count = 0; count < locations.length; count++) {
+       for (count = 0; count < json.length; count++) {
       marker = new google.maps.Marker({
          position: new google.maps.LatLng(json.lat, json.lng),
       title: json.title,
