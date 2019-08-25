@@ -6,7 +6,7 @@ html, body {
 
 
 #map {
-  height: 90%;
+  min-height: 100%;
 }
 
 
