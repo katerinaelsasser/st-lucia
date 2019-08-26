@@ -13,14 +13,14 @@
       marker = new google.maps.Marker({
          position: new google.maps.LatLng(locations.lat, locations.lng),
       title: locations.title,
-      content: locations.content,
+      content: locations.description,
     map: map,
     });
   
       
                   google.maps.event.addListener(marker, 'click', (function (marker, count) {
                       return function () {
-                      infowindow.setContent(locations.content);
+                      infowindow.setContent(locations.description);
                             infowindow.open(map, marker);
                         };
                         })(marker, count));

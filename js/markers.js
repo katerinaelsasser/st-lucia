@@ -4,7 +4,7 @@ let locations = [
 //Airports
     {
       title: 'George F L Charles Airport',
-      content: '<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>',
+      description: '<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>',
       lat: 14.0200, 
       lng: -60.9931,
       icon: 'airport'
