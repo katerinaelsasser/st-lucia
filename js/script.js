@@ -10,11 +10,11 @@
     var infowindow =  new google.maps.InfoWindow({});
       var marker, count;
        for (count = 0; count < locations.length; count++) {
-      marker = new google.maps.Marker({
+        marker = new google.maps.Marker({
          position: new google.maps.LatLng(locations.lat, locations.lng),
-      title: locations.title,
-      content: locations.description,
-    map: map,
+        title: locations.name,
+        content: locations.description,
+        map: map,
     });
   
       
