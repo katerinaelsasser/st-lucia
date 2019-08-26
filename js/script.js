@@ -9,17 +9,18 @@
     //info window code
     var infowindow =  new google.maps.InfoWindow({});
       var marker, count;
-       for (count = 0; count < json.length; count++) {
+       for (count = 0; count < locations.length; count++) {
       marker = new google.maps.Marker({
-         position: new google.maps.LatLng(json.lat, json.lng),
-      title: json.title,
+         position: new google.maps.LatLng(locations.lat, locations.lng),
+      title: locations.title,
+      content: locations.content,
     map: map,
     });
   
       
                   google.maps.event.addListener(marker, 'click', (function (marker, count) {
                       return function () {
-                      infowindow.setContent(json.content);
+                      infowindow.setContent(locations.content);
                             infowindow.open(map, marker);
                         };
                         })(marker, count));

@@ -1,6 +1,6 @@
 /*----data for the markers---*/
 
-json [
+let locations = [
 //Airports
     {
       title: 'George F L Charles Airport',
