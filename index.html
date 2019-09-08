@@ -10,14 +10,13 @@
 <body>
     <!-- Nav Bar title and buttons -->
     <nav class="col-12 navbar navbar-expand navbar-dark bg-primary">
-  <a class="navbar-brand"><strong>St Lucia</strong></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand"><strong>St Lucia</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
-            
+          
             <!-- Shows the markers for the hotels --->
           <li class="nav-item">
             <a class="nav-link" href="#">Hotels</a>
@@ -47,7 +46,9 @@
     </nav>
     
     <!-- Map -->
-    <div class="col-12" id="map"></div>
+    <div class="row">
+      <div class="col-12" id="map"></div>
+    </div>
     <!-- End of Map -->
     
     <!--- Gallery/Lightbox --->    
@@ -92,7 +93,7 @@
       <!--- End of Gallery --->
     <!-- Javascript -->
     <script src="script.js"></script>
-    <script src="markers.js"></script>
+    <script src="markers.json"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXYK1a76KhD2e7A6seAzbB5fGil4ycLNI&callback=initMap" async defer></script>
     
 </body>
