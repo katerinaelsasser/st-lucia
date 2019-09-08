@@ -149,6 +149,6 @@ html, body {
   cursor: pointer;
 }
 
-p {
+p, h2 {
   color: #000000;
 }
