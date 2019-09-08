@@ -148,3 +148,7 @@ html, body {
   text-decoration: none;
   cursor: pointer;
 }
+
+p {
+  color: #000000;
+}
