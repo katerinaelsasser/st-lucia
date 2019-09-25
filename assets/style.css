@@ -164,3 +164,7 @@ p, h2 {
 .slideshow-container {
   max-width: auto;
 }
+
+.container-fluid {
+  max-width: auto;
+}
