@@ -9,58 +9,20 @@
 
 map.data.loadGeoJson('markers.json');
 
+
 window.eqfeed_callback = function(results) {
         for (var i = 0; i < results.features.length; i++) {
-          var coords = results.features[i].geometry.coordinates;
-          var latLng = new google.maps.LatLng(coords[1],coords[0]);
+          var latLng = new google.maps.LatLng(locations.lat, locations.lng);
           var marker = new google.maps.Marker({
+            title: locations.name,
+            content: locations.description,
             position: latLng,
             map: map
           });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//info window code
 var infowindow =  new google.maps.InfoWindow({});
-var marker, count;
-for (count = 0; count < locations.length; count++) {
-marker = new google.maps.Marker({
- position: new google.maps.LatLng(locations.lat, locations.lng),
-title: locations.name,
-content: locations.description,
-map: map,
-});
-  
-      
+
+
                   google.maps.event.addListener(marker, 'click', (function (marker, count) {
               return function () {
               infowindow.setContent(locations.description);
