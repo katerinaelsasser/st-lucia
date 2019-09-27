@@ -315,13 +315,6 @@ const locations = [
 
 //Restaurants
     {
-      name: 'Bamboo',
-      description: '<h2>Bamboo</h2><h4><i>Resturant</i></h4><p></p>', 
-      lat:  13.8218,
-      lng: -61.0500,
-      icon: 'restaurant',
-      },
-    {
       'name': 'Big Chef Steakhouse',
       'description': '<h2>Big Chef Steakhouse</h2><h4><i>Resturant</i></h4><p>Known for flavour and flair, Big Chef Steakhouse takes the traditional steakhouse to another level of deliciousness, combining the satisfaction of home-cooked comfort food with an innovative, adventurous passion for excellence.</p>', 
       'lat':  14.0700,
@@ -329,32 +322,11 @@ const locations = [
       'icon': 'restaurant',
       },
     {
-      name: 'Blue Olive Restaurant & Wine Bar',
-      description: '<h2>Blue Olive Restaurant & Wine Bar</h2><h4><i>Resturant</i></h4><p></p>', 
-      lat:  14.0715,
-      lng: -60.9550,
-      icon: 'restaurant',
-      },
-    {
-      name: 'Buzz Seafood & Grill',
-      description: '<h2>Buzz Seafood & Grill</h2><h4><i>Resturant</i></h4><p></p>', 
-      lat:  14.0751,
-      lng: -60.9537,
-      icon: 'restaurant',
-      },
-    {
       'name': 'Cafe Ole',
       'description': '<h2>Cafe Ole</h2><h4><i>Resturant</i></h4><p>Café Olé offers excellent smoothies (the banana and coconut is recommended) and a big choice of quickly served, made-to-order baguettes, wraps, paninis and salads. For great Italian ice-creams, pop into Elena's, two doors down (Elena's also has outlets in Rodney Bay Village).</p>', 
       'lat':  14.0753,
       'lng': -60.9478,
       'icon': 'restaurant',
-      },
-    {
-      name: 'Chateau Mygo',
-      description: '<h2>Chateau Mygo</h2><h4><i>Resturant</i></h4><p></p>', 
-      lat:  13.9652,
-      lng: -61.0249,
-      icon: 'restaurant',
       },
     {
       'name': 'Flavours of the Grill',
