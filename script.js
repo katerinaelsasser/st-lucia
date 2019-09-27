@@ -5,6 +5,49 @@
                 center: {lat: 13.9094, lng: -60.9789},
             });
 
+//fetch/json file code
+
+map.data.loadGeoJson('markers.json');
+
+window.eqfeed_callback = function(results) {
+        for (var i = 0; i < results.features.length; i++) {
+          var coords = results.features[i].geometry.coordinates;
+          var latLng = new google.maps.LatLng(coords[1],coords[0]);
+          var marker = new google.maps.Marker({
+            position: latLng,
+            map: map
+          });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //info window code
 var infowindow =  new google.maps.InfoWindow({});
