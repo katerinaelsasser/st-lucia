@@ -28,6 +28,27 @@ map: map,
 }
 
 
+
+//custom markers
+
+var customLabel = {
+  restaurant: {
+    label: 'R'
+  },
+  hotel: {
+    label: 'H'
+  }
+};
+
+//adding the markers
+
+marker.addListener('click', function() {
+  infoWindow.setContent(infowincontent);
+  infoWindow.open(map, marker);
+});
+
+
+
 //Gallery/Lightbox
 
 var slideIndex = 0;
