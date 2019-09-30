@@ -42,12 +42,74 @@ var customLabel = {
 
 //adding the markers
 
-marker.addListener('click', function() {
-  infoWindow.setContent(infowincontent);
-  infoWindow.open(map, marker);
-});
+//marker.addListener('click', function() {
+  //infoWindow.setContent(infowincontent);
+  //infoWindow.open(map, marker);
+//});
 
 
+<?php 
+// Include the database configuration file 
+require_once 'dbConfig.php'; 
+ 
+// Fetch the marker info from the database 
+$result = $db->query("SELECT * FROM locations"); 
+ 
+// Fetch the info-window data from the database 
+$result2 = $db->query("SELECT * FROM locations"); 
+?>
+
+
+
+var markers = [
+        <?php if($result->num_rows > 0){ 
+            while($row = $result->fetch_assoc()){ 
+                echo '["'.$row['name'].'", '.$row['latitude'].', '.$row['longitude'].', "'.$row['icon'].'"],'; 
+            } 
+        } 
+        ?>
+    ];
+    
+    
+    // Info window content
+    var infoWindowContent = [
+        <?php if($result2->num_rows > 0){ 
+            while($row = $result2->fetch_assoc()){ ?>
+                ['<div class="info_content">' +
+                '<h3><?php echo $row['name']; ?></h3>' +
+                '<p><?php echo $row['info']; ?></p>' + '</div>'],
+        <?php } 
+        } 
+        ?>
+    ];
+ 
+    // Add multiple markers to map
+    var infoWindow = new google.maps.InfoWindow(), marker, i;
+    
+    // Place each marker on the map  
+    for( i = 0; i < markers.length; i++ ) {
+        var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
+        bounds.extend(position);
+        marker = new google.maps.Marker({
+            position: position,
+            map: map,
+			icon: markers[i][3],
+            title: markers[i][0]
+        });
+        
+        // Add info window to marker    
+        google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
+                infoWindow.setContent(infoWindowContent[i][0]);
+                infoWindow.open(map, marker);
+            }
+        })(marker, i));
+    
+    
+    
+    
+    
+    
 
 //Gallery/Lightbox
 
