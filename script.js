@@ -9,18 +9,18 @@
 //info window code
 var infowindow =  new google.maps.InfoWindow({});
 var marker, count;
-for (count = 0; count < locations.length; count++) {
+for (count = 0; count < json.length; count++) {
 marker = new google.maps.Marker({
- position: new google.maps.LatLng(locations.lat, locations.lng),
-title: locations.name,
-content: locations.description,
+ position: new google.maps.LatLng(json.lat, json.lng),
+title: json.name,
+content: json.description,
 map: map,
 });
   
       
                   google.maps.event.addListener(marker, 'click', (function (marker, count) {
               return function () {
-              infowindow.setContent(locations.description);
+              infowindow.setContent(json.description);
                     infowindow.open(map, marker);
                 };
                 })(marker, count));
@@ -39,13 +39,6 @@ var customLabel = {
     label: 'H'
   }
 };
-
-//adding the markers
-
-//marker.addListener('click', function() {
-  //infoWindow.setContent(infowincontent);
-  //infoWindow.open(map, marker);
-//});
 
 
 

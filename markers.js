@@ -1,6 +1,6 @@
 /*----data for the markers---*/
 
-const locations = [
+const json = [
 //Airports
     {
       'name': 'George F L Charles Airport',
