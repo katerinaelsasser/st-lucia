@@ -6,6 +6,38 @@
             });
 
 
+                  google.maps.event.addListener(marker, 'click', (function (marker, count) {
+              return function () {
+              infowindow.setContent(location.description);
+                    infowindow.open(map, marker);
+                };
+                })(marker, count));
+            }
+
+
+
+
+$.getJSON('markers.json', function(data){
+  $.each(data, function(i, user){
+    $('div#map').append ()
+  })
+})
+
+
+var marker = [];
+      // Looping through all the entries from the JSON data
+      for(var i = 0; i < location.length; i++) {
+        
+        var content = json.description;
+        var address = location.title;
+        var customLabel = location.icon;
+        var MyLatLng = new google.maps.LatLng(location.lat,location.lng);
+
+
+
+
+
+
 //custom markers
 
 var customLabel = {
@@ -25,7 +57,6 @@ var customLabel = {
     
 
 //Gallery/Lightbox code
-
     var slideIndex = 0;
     showSlides();
     
@@ -42,26 +73,19 @@ var customLabel = {
     }
 
 
-//Modal Code
 
-  var modal = document.getElementById("myModal");
-  
-  var btn = document.getElementById("myBtn");
-  
-  var span = document.getElementsByClassName("close")[0];
-  
-  btn.onclick = function() {
-    modal.style.display = "block";
-  }
-  
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
-  
-  window.onclick = function(event) {
-    if (event.target == modal) {
+//Nav Bar Modal
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    span.onclick = function() {
       modal.style.display = "none";
     }
-  }
-
-}
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
