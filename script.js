@@ -6,34 +6,16 @@
             });
 
 
-                  google.maps.event.addListener(marker, 'click', (function (marker, count) {
-              return function () {
-              infowindow.setContent(location.description);
-                    infowindow.open(map, marker);
-                };
-                })(marker, count));
-            }
-
-
-
-
-$.getJSON('markers.json', function(data){
-  $.each(data, function(i, user){
-    $('div#map').append ()
-  })
-})
-
-
 var marker = [];
       // Looping through all the entries from the JSON data
       for(var i = 0; i < location.length; i++) {
         
-        var content = json.description;
+        var content = location.description;
         var address = location.title;
         var customLabel = location.icon;
-        var MyLatLng = new google.maps.LatLng(location.lat,location.lng);
+        var MyLatLng = google.maps.LatLng(location.lat,location.lng);
 
-
+      };
 
 
 
@@ -89,3 +71,5 @@ var customLabel = {
         modal.style.display = "none";
       }
     }
+
+}
