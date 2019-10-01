@@ -40,7 +40,7 @@ const location = [
       },
     {
       'name':'Mount Gumie',
-      'description': '<h2>Mount Gumie</h2><h4><i>Attraction</i></h4><p>Mount Gimie is the tallest mountain on the island of Saint Lucia. The mountain's peak reaches 950 m. It is of volcanic origin and is covered by lush tropical rainforest.</p>',
+      'description': '<h2>Mount Gumie</h2><h4><i>Attraction</i></h4><p>Mount Gimie is the tallest mountain on the island of Saint Lucia. The mountain's peak reaches 950m. It is of volcanic origin and is covered by lush tropical rainforest.</p>',
       'lat':  13.8452,
       'lng': -60.9989,
       'icon': 'attraction',
