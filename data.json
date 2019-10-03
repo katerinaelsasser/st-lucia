@@ -308,13 +308,6 @@ const location = [
       'icon': 'restaurant',
       },
     {
-      'name': 'Cafe Ole',
-      'description': '<h2>Cafe Ole</h2><h4><i>Resturant</i></h4><p>Café Olé offers excellent smoothies (the banana and coconut is recommended) and a big choice of quickly served, made-to-order baguettes, wraps, paninis and salads. For great Italian ice-creams, pop into Elena's, two doors down (Elena's also has outlets in Rodney Bay Village).</p>', 
-      'lat':  14.0753,
-      'lng': -60.9478,
-      'icon': 'restaurant',
-      },
-    {
       'name': 'Flavours of the Grill',
       'description': '<h2>Flavours of the Grill</h2><h4><i>Resturant</i></h4><p>This friendly, modest and colourful little restaurant - the wooden house is painted blue, pink and lime green - is one of the best places on St Lucia to sample authentic, inexpensive Caribbean cooking.</p>', 
       'lat':  14.0544,
