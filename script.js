@@ -29,12 +29,11 @@ function setMarkerPoints(map, marker) {
                         var marker = new google.maps.Marker({
                           position: latLng,
                           map: map,
-                          title: json.title
+                          title: data.title
                         });
             
             
-                        var windowContent = '<h3>' + data.title + '</h3>' +
-                          '<p>' + data.description + '</p>';
+                        var windowContent = data.title + data.description;
             
                         // Attaching a click event to the current marker
                         infobox = new InfoBox({
