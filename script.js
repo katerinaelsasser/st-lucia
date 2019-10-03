@@ -75,3 +75,4 @@ function setMarkerPoints(map, marker) {
             
             google.maps.event.addDomListener(window, 'load', initMap);
                             
+        }
