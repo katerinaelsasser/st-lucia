@@ -19,7 +19,7 @@ var marker = [];
                    type: "GET",
                     url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/data.json',
                     dataType: "json",
-                    success: function (data) {
+                    success: function (marker, data) {
                         console.log(data);
 
                         if (data.length !== 0) {
