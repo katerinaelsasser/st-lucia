@@ -67,13 +67,6 @@ const location = [
       'icon': 'attraction',
       },
     {
-      'name': 'Sulphur Springs',
-      'description': '<h2>Sulphur Springs</h2><h4><i>Attraction</i></h4><p>The Sulphur Springs Park is a world renowned site where visitors from all over the world come to experience the black water pool baths and learn about the drive in volcano's history in a guided tour through the park.</p>',
-      'lat':  13.8380,
-      'lng': -61.0464,
-      'icon': 'attraction',
-      },
-    {
       'name': 'The Tet Paul Nature Trail',
       'description': '<h2>The Tet Paul Nature Trail</h2><h4><i>Attraction</i></h4><p></p>',
       'lat':  13.8201,
