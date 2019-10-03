@@ -335,5 +335,4 @@ const location = [
       'lng': -61.0242,
       'icon': 'restaurant',
       },
-      {
   ];
