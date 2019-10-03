@@ -1,16 +1,22 @@
+/* Start of Map Code */
 html, body {
 
   margin: 0;
   padding: 0;
 }
 
-
 #map {
   height: 500px;
 }
 
+.container-fluid {
+  padding: 0px;
+}
+
+/* End of Map Code */
+
 /* Start of Gallery Code */
-/* End of Modal Code */
+/* End of Gallery Code */
 
 
 
