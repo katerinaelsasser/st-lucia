@@ -39,13 +39,6 @@ const location = [
       'icon': 'attraction',
       },
     {
-      'name':'Mount Gumie',
-      'description': '<h2>Mount Gumie</h2><h4><i>Attraction</i></h4><p>Mount Gimie is the tallest mountain on the island of Saint Lucia. The mountain's peak reaches 950m. It is of volcanic origin and is covered by lush tropical rainforest.</p>',
-      'lat':  13.8452,
-      'lng': -60.9989,
-      'icon': 'attraction',
-      },
-    {
       'name': 'Petit Piton',
       'description': '<h2>Petit Piton</h2><h4><i>Attraction</i></h4><p>This attraction was built in the 18th century by the British. Explore the ruins of Fort Rodney. It was converted to a US signal station in World War 2.</p>',
       'lat':  13.8333,
