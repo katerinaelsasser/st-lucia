@@ -7,6 +7,9 @@
 
 var infoWindow = new google.maps.InfoWindow();
 
+function setMarkerPoints(map, marker) {
+    var bounds = new google.maps.LatLngBounds();
+
                  $.ajax({
                   type: "GET",
                   url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/data.json',
