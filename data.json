@@ -315,13 +315,6 @@ const location = [
       'icon': 'restaurant',
       },
     {
-      'name': 'Fox Grove Inn',
-      'description': '<h2>Fox Grove Inn</h2><h4><i>Resturant</i></h4><p>A useful lunchtime pit stop if you're touring the east coast - Mamiku Gardens (see recommended attractions) is a three-minute drive away.</p>', 
-      'lat':  13.8628,
-      'lng': -60.9062,
-      'icon': 'restaurant',
-      },
-    {
       'name': 'Jacques Waterfront Dining',
       'description': '<h2>Jacques Waterfront Dining</h2><h4><i>Resturant</i></h4><p>Jacques Waterfront Dining is one of St. Lucia’s most popular restaurants, with a long-standing reputation for consistency in both the quality of the food and the service with which it is delivered.</p>', 
       'lat':  14.0727,
