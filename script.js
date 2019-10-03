@@ -29,7 +29,7 @@ function setMarkerPoints(map, marker) {
                         var marker = new google.maps.Marker({
                           position: latLng,
                           map: map,
-                          title: data.title
+                          title: json.title
                         });
             
             
