@@ -27,11 +27,16 @@ function initMap() {
     
     var latlng = new google.maps.LatLng (data.lat, data.lng);
     
-    var marker = new google.maps.Marker({
-    position: latlng,
-    map: map,
-    title: data.name,
-  });
+    for (i = 1; i <= data.length; i++) {
+        var data = markers[i-1]
+        var Latlng = new google.maps.LatLng(data.lat, data.lng);
+       
+        var marker = new MarkerWithLabel({
+            position: Latlng,
+            map: map,
+            title: data.title,
+         });
+}
   marker.addListener('click', function() {
     infowindow.open(map, marker);
   });
