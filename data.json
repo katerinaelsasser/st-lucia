@@ -1,6 +1,6 @@
 /*----data for the markers---*/
 
-const data = [
+let data = [
 //Airports
     {
       'name': 'George F L Charles Airport',
