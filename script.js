@@ -12,7 +12,7 @@ function setMarkerPoints(map, marker) {
 
                  $.ajax({
                   type: "GET",
-                  url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/data.json',
+                  url: 'https://www.github.com/katerinaelsasser/st-lucia-destination/blob/master/data.json',
                   dataType: "json",
                   success: function(data) {
             
