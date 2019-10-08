@@ -12,13 +12,16 @@ function initMap() {
     
     var icons = {
           airport: {
-            icon: '.png'
+            icon: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/airport.png'
           },
           attraction: {
-            icon: '.png'
+            icon: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/attraction.png'
           },
-          info: {
-            icon: 's.png'
+          hotel: {
+            icon: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/hotel.png'
+          },
+          restaurant: {
+            icon: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/restaurant.png'
           }
         };
     
