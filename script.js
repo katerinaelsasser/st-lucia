@@ -12,16 +12,16 @@ function initMap() {
     
     var icons = {
           airport: {
-            icon: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/airport.png'
+            url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/airport.png'
           },
           attraction: {
-            icon: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/attraction.png'
+            url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/attraction.png'
           },
           hotel: {
-            icon: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/hotel.png'
+            url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/hotel.png'
           },
           restaurant: {
-            icon: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/restaurant.png'
+            url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/restaurant.png'
           }
         };
     
@@ -31,7 +31,6 @@ function initMap() {
     position: latlng,
     map: map,
     title: data.name,
-    icon: icons[data.type].icon,
   });
   marker.addListener('click', function() {
     infowindow.open(map, marker);
