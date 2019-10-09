@@ -6,9 +6,7 @@ function initMap() {
   });
 
 
-  var infowindow = new google.maps.InfoWindow({
-      content: data.description
-    }); 
+ 
     
     var icons = {
           airport: {
@@ -36,6 +34,9 @@ function initMap() {
             map: map,
             title: data.title,
          });
+          var infowindow = new google.maps.InfoWindow({
+      content: data.description
+    }); 
 }
   marker.addListener('click', function() {
     infowindow.open(map, marker);
