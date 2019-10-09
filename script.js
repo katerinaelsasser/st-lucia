@@ -23,20 +23,24 @@ function initMap() {
           }
         };
     
-    var latlng = new google.maps.LatLng (data.lat, data.lng);
-    
-    for (i = 1; i <= data.length; i++) {
-        var data = markers[i-1];
-        var Latlng = new google.maps.LatLng(data.lat, data.lng);
-       
-        var marker = new MarkerWithLabel({
-            position: Latlng,
-            map: map,
-            title: data.title,
-         });
-          var infowindow = new google.maps.InfoWindow({
-      content: data.description
-    }); 
+    var markers = [];
+      // Looping through all the entries from the JSON data
+      for(var i = 0; i < json.length; i++) {
+        // Current object
+        var Modalcontent = data.description;
+        var address = data.title;
+        var MyLatLng = new google.maps.LatLng(data.lat,data.lng);
+
+        var marker = new CustomMarker(
+    		MyLatLng,
+    		map,
+        {
+          title: address,
+          content: Modalcontent,
+    		}
+
+    	);
+
 }
   marker.addListener('click', function() {
     infowindow.open(map, marker);
