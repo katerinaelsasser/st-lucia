@@ -1,10 +1,10 @@
 /*----data for the markers---*/
 
-var data = [
+var database = [
 //Airports
     {
       'name': 'George F L Charles Airport',
-      'description': '<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>',
+      'content': '<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>',
       'lat': 14.0200, 
       'lng': -60.9931,
       'icon': 'airport'
