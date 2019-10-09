@@ -25,7 +25,7 @@ function initMap() {
     
     var markers = [];
       // Looping through all the entries from the JSON data
-      for(var i = 0; i < json.length; i++) {
+      for(var i = 0; i < data.length; i++) {
         // Current object
         var Modalcontent = data.description;
         var address = data.title;
