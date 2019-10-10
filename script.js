@@ -28,11 +28,10 @@ function initMap() {
       // Looping through all the entries from the JSON data
       for(var i = 0; i < json.length; i++) {
         // Current object
-        var obj = database[i];
-        var Modalcontent = obj.content;
-        var address = obj.name;
-        var icon = obj.icon;
-        var MyLatLng = new google.maps.LatLng(obj.lat,obj.lng);
+        var Modalcontent = database.content;
+        var address = database.name;
+        var icon = database.icon;
+        var MyLatLng = new google.maps.LatLng(database.lat,database.lng);
 
         var marker = new CustomMarker(
     		MyLatLng,
