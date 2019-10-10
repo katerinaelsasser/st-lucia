@@ -42,8 +42,9 @@ function initMap() {
           icon: icon
     		}
 );
-  marker.addListener('click', function() {
+      }
+marker.addListener('click', function() {
     infowindow.open(map, marker);
   });
-      }
+  
 }
