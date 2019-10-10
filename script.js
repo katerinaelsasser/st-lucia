@@ -5,6 +5,10 @@ function initMap() {
     center: {lat: 13.9094, lng: -60.9789},
   });
   
+ google.maps.Data('www.github.com/katerinaelsasser/st-lucia-destination/blob/master/data.json');
+  
+  
+  
     var icons = {
           airport: {
             url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/airport.png'
