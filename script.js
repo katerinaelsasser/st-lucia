@@ -42,7 +42,7 @@ function initMap() {
             return function() {
                 infoWindow.setContent(infoWindowContent[i][0]);
                 infoWindow.open(map, marker);
-            }
+            };
         })(marker, i));
 }
 
