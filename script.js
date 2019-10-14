@@ -24,29 +24,26 @@ function initMap() {
           }
         };
     
-    var markers = [];
-      // Looping through all the entries from the JSON data
-      for(var i = 0; i < database.length; i++) {
-        // Current object
-        var Modalcontent = database.content;
-        var address = database.name;
-        var icon = database.icon;
-        var MyLatLng = new google.maps.LatLng(database.lat,database.lng);
-
-        var marker = new CustomMarker(
-    		MyLatLng,
-    		map,
-        {
-          title: address,
-          content: Modalcontent,
-          icon: icon
-    		}
-);
-      }
-marker.addListener('click', function() {
-    infowindow.open(map, marker);
-  });
-  
+     // Add multiple markers to map
+    var infoWindow = new google.maps.InfoWindow(), marker, i;
+    
+    // Place each marker on the map  
+    for( i = 0; i < markers.length; i++ ) {
+        var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
+        bounds.extend(position);
+        marker = new google.maps.Marker({
+            position: position,
+            map: map,
+            title: markers[i][0]
+        });
+        
+        // Add info window to marker    
+        google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
+                infoWindow.setContent(infoWindowContent[i][0]);
+                infoWindow.open(map, marker);
+            }
+        })(marker, i));
 }
 
 //Modal St Lucia
