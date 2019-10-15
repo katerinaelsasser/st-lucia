@@ -1,3 +1,19 @@
+//ajax for json file
+var database = (function () {
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': data.json,
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+})(); 
+
+
 //code for creating the map
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
