@@ -1,17 +1,10 @@
-//ajax for json file
-var database = (function () {
-    var json = null;
-    $.ajax({
-        'async': false,
-        'global': false,
-        'url': data.json,
-        'dataType': "json",
-        'success': function (data) {
-            json = data;
-        }
-    });
-    return json;
-})(); 
+fetch('data.json')
+.then(function(response) {
+  // Do stuff with the response
+})
+.catch(function(error) {
+  console.log('Looks like there was a problem: \n', error);
+});
 
 
 //code for creating the map
