@@ -1,6 +1,7 @@
 /*----data for the markers---*/
 
-var database = [
+{ 
+  "database" = [
 //Airports
     {
       'name': 'George F L Charles Airport',
@@ -335,4 +336,6 @@ var database = [
       'lng': -61.0242,
       'icon': 'restaurant',
       },
-  ];
+  ]
+  
+}
