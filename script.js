@@ -14,9 +14,21 @@ function initMap() {
     center: {lat: 13.9094, lng: -60.9789},
   });
   
- google.maps.Data('www.github.com/katerinaelsasser/st-lucia-destination/blob/master/data.json');
-  
-  
+
+  addMarker(  {
+      'name': 'George F L Charles Airport',
+      'content': '<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>',
+      'lat': 14.0200, 
+      'lng': -60.9931,
+      'icon': 'airport'
+      },
+    {
+      'name': 'Hewanorra International Airport',
+      'description': '<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>',
+      'lat': 13.7334, 
+      'lng': -60.9503,
+      'icon': 'airport'
+      });
   
     var icons = {
           airport: {
@@ -34,17 +46,17 @@ function initMap() {
         };
     
      // Add multiple markers to map
-    var infoWindow = new google.maps.InfoWindow(), marker, i;
+    var infoWindow = new google.maps.InfoWindow({
+      content: database.description
+    });
     
     // Place each marker on the map  
-    for( i = 0; i < markers.length; i++ ) {
-        var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
-        bounds.extend(position);
-        marker = new google.maps.Marker({
-            position: position,
-            map: map,
-            title: markers[i][0]
-        });
+    function addMarker(props){
+      var marker = new google.maps.Markers({
+        position: props.coords,
+        map:map
+      });
+    }
         
         // Add info window to marker    
         google.maps.event.addListener(marker, 'click', (function(marker, i) {
@@ -54,7 +66,7 @@ function initMap() {
             };
         })(marker, i));
 }
-}
+
 
 //Modal St Lucia
 

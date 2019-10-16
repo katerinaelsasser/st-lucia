@@ -1,7 +1,6 @@
 /*----data for the markers---*/
 
-{ 
-  "database" = [
+database = [
 //Airports
     {
       'name': 'George F L Charles Airport',
@@ -337,5 +336,3 @@
       'icon': 'restaurant',
       },
   ]
-  
-}
