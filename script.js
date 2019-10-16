@@ -15,7 +15,7 @@ function initMap() {
   });
   
 
-  addMarker(  {
+  var markers = [  {
       'name': 'George F L Charles Airport',
       'content': '<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>',
       coords:{lat: 14.0200, lng: -60.9931},
@@ -26,30 +26,15 @@ function initMap() {
       'description': '<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>',
       coords:{lat: 13.7334, lng: -60.9503},
       'icon': 'airport'
-      });
-  
-    var icons = {
-          airport: {
-            url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/airport.png'
-          },
-          attraction: {
-            url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/attraction.png'
-          },
-          hotel: {
-            url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/hotel.png'
-          },
-          restaurant: {
-            url: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/restaurant.png'
-          }
-        };
-    
-     // Add multiple markers to map
-    var infoWindow = new google.maps.InfoWindow({
-      content: database.description
-    });
-    
-    // Place each marker on the map  
-    function addMarker(props){
+      }];
+      
+      for(var i = 0;i < markers.length;i++){
+         //adding marker
+         addMarker(markers[i]);
+      }
+      
+      //add marker function
+      function addMarker(props){
       var marker = new google.maps.Markers({
         position: props.coords,
         map:map
