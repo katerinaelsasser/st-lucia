@@ -18,15 +18,13 @@ function initMap() {
   addMarker(  {
       'name': 'George F L Charles Airport',
       'content': '<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>',
-      'lat': 14.0200, 
-      'lng': -60.9931,
+      coords:{lat: 14.0200, lng: -60.9931},
       'icon': 'airport'
       },
     {
       'name': 'Hewanorra International Airport',
       'description': '<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>',
-      'lat': 13.7334, 
-      'lng': -60.9503,
+      coords:{lat: 13.7334, lng: -60.9503},
       'icon': 'airport'
       });
   
