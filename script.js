@@ -1,55 +1,53 @@
-fetch('data.json')
-.then(function(response) {
-  // Do stuff with the response
-})
-.catch(function(error) {
-  console.log('Looks like there was a problem: \n', error);
-});
+var map;
+var icon = "http://path/to/icon.png";
+var json = "http://path/to/universities.json";
+var infowindow = new google.maps.InfoWindow();
 
+function initialize() {
 
-//code for creating the map
-function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
+  var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 10,
     center: {lat: 13.9094, lng: -60.9789},
   });
-  
 
-  var markers = [  {
-      'name': 'George F L Charles Airport',
-      'content': '<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>',
-      coords:{lat: 14.0200, lng: -60.9931},
-      'icon': 'airport'
-      },
-    {
-      'name': 'Hewanorra International Airport',
-      'description': '<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>',
-      coords:{lat: 13.7334, lng: -60.9503},
-      'icon': 'airport'
-      }];
-      
-      for(var i = 0;i < markers.length;i++){
-         //adding marker
-         addMarker(markers[i]);
-      }
-      
-      //add marker function
-      function addMarker(props){
-      var marker = new google.maps.Markers({
-        position: props.coords,
-        map:map
-      });
-    }
-        
-        // Add info window to marker    
-        google.maps.event.addListener(marker, 'click', (function(marker, i) {
-            return function() {
-                infoWindow.setContent(infoWindowContent[i][0]);
-                infoWindow.open(map, marker);
-            };
-        })(marker, i));
+
+  $.each(data.database, function(key, data) {
+
+    var latLng = new google.maps.LatLng(data.lat, data.lng);
+
+    var marker = new google.maps.Marker({
+      position: latLng,
+      map: map,
+      // icon: icon,
+      title: data.name
+    });
+
+    bindInfoWindow(marker, map, infowindow, details);
+
+    //    });
+
+  });
+
 }
 
+function bindInfoWindow(marker, map, infowindow, strDescription) {
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.setContent(strDescription);
+    infowindow.open(map, marker);
+
+
+
+
+
+
+
+//code for creating the map
+//function initMap() {
+  //map = new google.maps.Map(document.getElementById('map'), {
+    //zoom: 10,
+    //center: {lat: 13.9094, lng: -60.9789},
+  //});
+  
 
 //Modal St Lucia
 

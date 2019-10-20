@@ -1,5 +1,5 @@
 /*----data for the markers---*/
-
+{
 database = [
 //Airports
     {
@@ -336,3 +336,4 @@ database = [
       'icon': 'restaurant',
       },
   ]
+  }
