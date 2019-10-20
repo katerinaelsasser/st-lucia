@@ -24,16 +24,10 @@ function initMap() {
 
   } // end loop
   
-  // Adding a new click event listener for the object
-  function addClicker(marker, content) {
-    google.maps.event.addListener(marker, 'click', function() {
-      
-      if (infowindow) {infowindow.close();}
-      infowindow = new google.maps.InfoWindow({content: content});
-      infowindow.open(map, marker);
-      
-    });
-  }
+  //adding info window
+  var infowindow = new google.maps.InfoWindow({
+    content: obj.description
+  });
 }
 
 
