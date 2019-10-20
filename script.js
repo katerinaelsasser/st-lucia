@@ -34,6 +34,7 @@ function initMap() {
       
     });
   }
+}
 
 
 //Modal St Lucia
@@ -62,4 +63,4 @@ function initMap() {
     if (event.target == modal) {
       modal.style.display = "none";
     }
-  }
+  };
