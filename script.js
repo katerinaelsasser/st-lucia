@@ -19,10 +19,10 @@ function initMap() {
     });
     
     // Adding a new info window for the object
-    var clicker = addClicker(marker, obj.ZZZ);
+    var clicker = addClicker(marker, obj.name);
     
 
-  } // end loop
+  
   
   // Adding a new click event listener for the object
   function addClicker(marker, content) {
@@ -31,9 +31,10 @@ function initMap() {
       if (infowindow) {infowindow.close();}
       infowindow = new google.maps.InfoWindow({content: content});
       infowindow.open(map, marker);
-      
+    
     });
   }
+}
 }
 
 
