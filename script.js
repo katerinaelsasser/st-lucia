@@ -22,31 +22,22 @@ function initMap() {
     content: obj.description,
   });
     
-    google.maps.event.addDomListener(div, "click", function(event) {			
-			google.maps.event.trigger(self, "click");
-		});
-    
-    
-    
-    
-    
-    
     // Adding a new info window for the object
-    //var clicker = addClicker(marker, obj.name);
+    var clicker = addClicker(marker, obj.name);
     
 
   
   
   // Adding a new click event listener for the object
-  //function addClicker(marker, content) {
-    //google.maps.event.addListener(marker, 'click', function() {
+  function addClicker(marker, content) {
+    google.maps.event.addListener(marker, 'click', function() {
       
-      //if (infowindow) {infowindow.close();}
-      //infowindow = new google.maps.InfoWindow({content: content});
-      //infowindow.open(map, marker);
+      if (infowindow) {infowindow.close();}
+      infowindow = new google.maps.InfoWindow({content: content});
+      infowindow.open(map, marker);
     
-    //});
-  //}
+    });
+  }
 }
 }
 
