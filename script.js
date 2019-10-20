@@ -19,7 +19,7 @@ function initMap() {
     });
     
     // Adding a new info window for the object
-    var clicker = addClicker(marker, obj.name);
+    var clicker = addClicker(marker, obj.ZZZ);
     
 
   } // end loop
@@ -34,6 +34,7 @@ function initMap() {
       
     });
   }
+}
 
 
 //Modal St Lucia
@@ -62,4 +63,4 @@ function initMap() {
     if (event.target == modal) {
       modal.style.display = "none";
     }
-  }
+  };
