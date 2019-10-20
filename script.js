@@ -24,11 +24,16 @@ function initMap() {
 
   } // end loop
   
-  //adding info window
-  var infowindow = new google.maps.InfoWindow({
-    content: obj.description
-  });
-}
+  // Adding a new click event listener for the object
+  function addClicker(marker, content) {
+    google.maps.event.addListener(marker, 'click', function() {
+      
+      if (infowindow) {infowindow.close();}
+      infowindow = new google.maps.InfoWindow({content: content});
+      infowindow.open(map, marker);
+      
+    });
+  }
 
 
 //Modal St Lucia
@@ -57,4 +62,4 @@ function initMap() {
     if (event.target == modal) {
       modal.style.display = "none";
     }
-  };
+  }
