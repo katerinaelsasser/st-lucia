@@ -1,53 +1,40 @@
-var map;
-var icon = "http://path/to/icon.png";
-var json = "http://path/to/universities.json";
-var infowindow = new google.maps.InfoWindow();
-
-function initialize() {
-
-  var map = new google.maps.Map(document.getElementById('map'), {
+//code for creating the map
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
     zoom: 10,
     center: {lat: 13.9094, lng: -60.9789},
   });
-
-
-  $.each(data.database, function(key, data) {
-
-    var latLng = new google.maps.LatLng(data.lat, data.lng);
-
-    var marker = new google.maps.Marker({
-      position: latLng,
-      map: map,
-      // icon: icon,
-      title: data.name
-    });
-
-    bindInfoWindow(marker, map, infowindow, details);
-
-    //    });
-
-  });
-
-}
-
-function bindInfoWindow(marker, map, infowindow, strDescription) {
-  google.maps.event.addListener(marker, 'click', function() {
-    infowindow.setContent(strDescription);
-    infowindow.open(map, marker);
-
-
-
-
-
-
-
-//code for creating the map
-//function initMap() {
-  //map = new google.maps.Map(document.getElementById('map'), {
-    //zoom: 10,
-    //center: {lat: 13.9094, lng: -60.9789},
-  //});
   
+   // Looping through all the entries from the JSON data
+  for(var i = 0; i < data.length; i++) {
+    
+    // Current object
+    var obj = data[i];
+
+    // Adding a new marker for the object
+    var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(obj.lat,obj.lng),
+      map: map,
+      title: obj.name // this works, giving the marker a title with the correct title
+    });
+    
+    // Adding a new info window for the object
+    var clicker = addClicker(marker, obj.name);
+    
+
+  } // end loop
+  
+  // Adding a new click event listener for the object
+  function addClicker(marker, content) {
+    google.maps.event.addListener(marker, 'click', function() {
+      
+      if (infowindow) {infowindow.close();}
+      infowindow = new google.maps.InfoWindow({content: content});
+      infowindow.open(map, marker);
+      
+    });
+  }
+
 
 //Modal St Lucia
 
