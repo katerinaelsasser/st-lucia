@@ -6,12 +6,12 @@ function initMap() {
   });
   
   //icon code
-  var icon = {
-    airport: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/airport.png',
-    attraction: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/attraction.png',
-    hotel: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/hotel.png',
-    restaurant: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/restaurant.png'
-  };
+  //var icon = {
+    //airport: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/airport.png',
+    //attraction: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/attraction.png',
+    //hotel: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/hotel.png',
+    //restaurant: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/restaurant.png'
+  //};
 
 
   
@@ -25,7 +25,7 @@ function initMap() {
     var marker = new google.maps.Marker({
       position: new google.maps.LatLng(obj.lat,obj.lng),
       map: map,
-      icon: obj.icon,
+      //icon: obj.icon,
       title: obj.description
     });
     
