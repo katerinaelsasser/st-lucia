@@ -15,7 +15,7 @@ function initMap() {
     var marker = new google.maps.Marker({
       position: new google.maps.LatLng(obj.lat,obj.lng),
       map: map,
-      title: obj.name
+      title: obj.description
     });
     
     var infowindow = new google.maps.InfoWindow({

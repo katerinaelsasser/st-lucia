@@ -270,7 +270,7 @@ const data = [
       'icon': 'hotel',
       },
     {
-      'name': '>Têt Rouge Resort',
+      'name': 'Têt Rouge Resort',
       'description': '<h2>Têt Rouge Resort</h2><h4><i>Hotel</i></h4><p>This villa is the perfect getaway for all. With 6 sea-view studios featuring a specious terrace looking on to the blue Carribean. This is located near the Gros Piton.<li>Suitable for couples.</li><li>Free parking</li><li>Pool (including infinity pool)</li><li>Beach</li><li>Free Wifi</li><li>Bar/lounge</li><li>Swimup bar</li><li>Shuttle bus service</li><li>Ocean view</li></p>',
       'lat':  13.7931, 
       'lng': -61.0625,
