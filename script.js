@@ -5,6 +5,15 @@ function initMap() {
     center: {lat: 13.9094, lng: -60.9789},
   });
   
+  //icon code
+  var icon = {
+    airport: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/airport.png',
+    attraction: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/attraction.png',
+    hotel: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/hotel.png',
+    restaurant: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/restaurant.png'
+  };
+
+
   
    // Looping through all the entries from the JSON data
   for(var i = 0; i < data.length; i++) {
@@ -16,7 +25,7 @@ function initMap() {
     var marker = new google.maps.Marker({
       position: new google.maps.LatLng(obj.lat,obj.lng),
       map: map,
-      //icon: obj.icon,
+      icon: obj.icon,
       title: obj.description
     });
     
