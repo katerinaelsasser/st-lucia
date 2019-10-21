@@ -84,3 +84,11 @@ Tests Done To Create Website
 8. applied this
 9. refeshed the page
 10. icons still are not appearing
+*Using Json file
+1. Create a json file
+2. Add the data on to the file by displaying it in rows (for example: name, description)
+3. Add code on the js file that will link to the json.
+4. Test the code
+5. Add " around the data and the title of the rows"
+6. Testing the code
+7. Data appears on the map
