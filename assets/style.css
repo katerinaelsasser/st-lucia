@@ -63,7 +63,7 @@ html, body {
   /* The Close Button */
   .close {
     color: #aaa;
-    float: right;
+    position:absolute;
     font-size: 28px;
     font-weight: bold;
   }
