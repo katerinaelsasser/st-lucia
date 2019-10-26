@@ -64,6 +64,7 @@ html, body {
   .close {
     color: #aaa;
     position:absolute;
+    float: right;
     font-size: 28px;
     font-weight: bold;
   }
