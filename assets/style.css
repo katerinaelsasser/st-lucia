@@ -38,8 +38,12 @@ html, body {
 
 /* End of Map Code */
 
-/*  Featurette  */
+/*  Why st lucia  */
 
 .featurette {
-  padding: 50px;
+  padding-top: 10px;
+}
+
+.feauturette-img {
+  width: 500px;
 }
