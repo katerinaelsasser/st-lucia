@@ -6,7 +6,7 @@ is on the island before they book the holiday/travel to the island. This include
 the locations and information of hotels, restuarants, bars and more.
 
 ## UX
-### Surface
+#### Surface
 I started to put together mock-ups of what I would like the layout to be. Before 
 creating them, I knew that it had to be very clear for user and easy to follow. 
 I put together two different mock-ups three different formats; mobile, tablet and 
@@ -19,28 +19,28 @@ laptop view. All the mock-ups will help inspire the final outcome of this projec
 -----
 ![Mockup 2 - Laptop](https://github.com/katerinaelsasser/st-lucia-destination/blob/master/asscets/images/laptop-mockup_1.jpg "Laptop Mockup 2")
 
-### Strategy
+#### Strategy
 This website is to inform users about the island and what is on the island, which means
 there must be information and images of the locations. The information that will
 will be collected from a number of sights, this information will be summaries 
 about that specific location. 
 
-### Structure
+#### Structure
 This website will be structured around the map of the island, around the map 
 will be images and information that will appear when a pin point on the map has 
 been clicked on.
 
-### Skeleton
+#### Skeleton
 The map of the island will be the main focus and it will also help other features
 appear on the page. For example: when clicking on a pin point on the map, information
 about that location will appear.
 
-### Scope
+#### Scope
 Before I started putting together the website, I had to get all the information
 that I needed to put on it. I researched about the island and locations that 
 the user would want to see.
 
-### User Stories
+#### User Stories
 As a user, I want to see the island on the map.
 As a user, I want a clear display and can be understood.
 As a user, I want to click on a pin and information about the location will appear.
@@ -49,26 +49,27 @@ As a user, I want to see locations of where restuarants, hotels and other locati
 
 ## Features
 Throughout the website, there is a navigation bar in the header taking you to all three pages.
-### Existing Features
+#### Existing Features
 * Buttons - 
 * Markers - 
 
 
-### Features Left To Implement
+#### Features Left To Implement
 In the future, the website could add reviews to the page or the info window for the locations. They could also have a button that adjusts what the map shows. For example, only showing the hotel markers. 
 
 ## Technologies Used
-HTML5
-CSS
-Javascript
-JQuery
-JSon
-Bootstrap
-Bootswatch
+* HTML5
+* CSS
+* Javascript
+* JQuery
+* JSon
+* Bootstrap
+* Bootswatch
 
 ## Testing
-### Check List
-### Tests Done To Create Website
+The user stories that I have made at the beginning will help with testing as well as being a check list.
+#### Check List
+#### Tests Done To Create Website
 * Map Error
 1. Added the code that creates the map.
 2. When refreshing the page, the map doesn't appear.
@@ -109,8 +110,9 @@ Bootswatch
 
 ## Deployment
 ## Credits
-### Content
-### Media
-### Acknowledgements
+#### Content
+#### Media
+#### Acknowledgements
+Code used throughout the website has been found throughout on Bootstrap, the courses "HTML Fundamentals", "CSS Fundamentals", "User Centric Frontend Development", "Javascript Fundamentals" and "Interactive Frontend Development". The gallery was inspired by the Bootstrap example called Carousel. The map layout was inspired by a example called [Google Maps marker from JSON](https://codepen.io/schikulski/pen/urozH)
 
-Please note that this is for educational use only.
+#### Please note that this is for educational use only.
