@@ -47,14 +47,21 @@ As a user, I want to click on a pin and information about the location will appe
 As a user, I want to see pictures of the location.
 As a user, I want to see locations of where restuarants, hotels and other locations on the map.
 
-Features
-Existing Features
-Features Left To Implement
-Technologies Used
+##Features
+###Existing Features
+###Features Left To Implement
+##Technologies Used
+HTML5
+CSS
+Javascript
+JQuery
+JSon
+Bootstrap
+Bootswatch
 
-Testing
-Check List
-Tests Done To Create Website
+##Testing
+###Check List
+###Tests Done To Create Website
 * Map Error
 1. Added the code that creates the map.
 2. When refreshing the page, the map doesn't appear.
@@ -84,7 +91,7 @@ Tests Done To Create Website
 8. applied this
 9. refeshed the page
 10. icons still are not appearing
-*Using Json file
+* Using Json file
 1. Create a json file
 2. Add the data on to the file by displaying it in rows (for example: name, description)
 3. Add code on the js file that will link to the json.
@@ -92,3 +99,10 @@ Tests Done To Create Website
 5. Add " around the data and the title of the rows"
 6. Testing the code
 7. Data appears on the map
+##Deployment
+##Credits
+###Content
+###Media
+###Acknowledgements
+
+Please note that this is for educational use only.
