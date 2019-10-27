@@ -48,8 +48,15 @@ As a user, I want to see pictures of the location.
 As a user, I want to see locations of where restuarants, hotels and other locations on the map.
 
 ## Features
+Throughout the website, there is a navigation bar in the header taking you to all three pages.
 ### Existing Features
+* Buttons - 
+* Markers - 
+
+
 ### Features Left To Implement
+In the future, the website could add reviews to the page or the info window for the locations. They could also have a button that adjusts what the map shows. For example, only showing the hotel markers. 
+
 ## Technologies Used
 HTML5
 CSS
