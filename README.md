@@ -47,10 +47,10 @@ As a user, I want to click on a pin and information about the location will appe
 As a user, I want to see pictures of the location.
 As a user, I want to see locations of where restuarants, hotels and other locations on the map.
 
-##Features
-###Existing Features
-###Features Left To Implement
-##Technologies Used
+## Features
+### Existing Features
+### Features Left To Implement
+## Technologies Used
 HTML5
 CSS
 Javascript
@@ -59,9 +59,9 @@ JSon
 Bootstrap
 Bootswatch
 
-##Testing
-###Check List
-###Tests Done To Create Website
+## Testing
+### Check List
+### Tests Done To Create Website
 * Map Error
 1. Added the code that creates the map.
 2. When refreshing the page, the map doesn't appear.
@@ -99,10 +99,11 @@ Bootswatch
 5. Add " around the data and the title of the rows"
 6. Testing the code
 7. Data appears on the map
-##Deployment
-##Credits
-###Content
-###Media
-###Acknowledgements
+
+## Deployment
+## Credits
+### Content
+### Media
+### Acknowledgements
 
 Please note that this is for educational use only.
