@@ -15,31 +15,17 @@ html, body {
 }
 
 #map {
-  height: 450px;
+  height: 700px;
 }
 
 .container-fluid {
   padding: 0px;
 }
 
-#locations-map {
-  display: block;
-  height: 700px;
-}
-.infoBox {
-  max-width: 300px;
-  background: #fff;
-  padding: 10px;
-  border: 1px solid red;
-}
-.infoBox img {
-  border: 1px solid yellow;
-}
-
 /* End of Map Code */
 
 /*  Why st lucia  */
 
-.featurette {
-  padding-top: 20px;
+.feauturette-img {
+  display: block;
 }
