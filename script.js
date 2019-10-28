@@ -25,7 +25,7 @@ function initMap() {
     var marker = new google.maps.Marker({
       position: new google.maps.LatLng(obj.lat,obj.lng),
       map: map,
-      //icon: obj.icon,
+      icon: obj.icon,
       title: obj.description
     });
     
