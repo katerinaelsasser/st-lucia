@@ -113,6 +113,10 @@ The user stories that I have made at the beginning will help with testing as wel
 #### Content
 #### Media
 #### Acknowledgements
-Code used throughout the website has been found throughout on Bootstrap, the courses "HTML Fundamentals", "CSS Fundamentals", "User Centric Frontend Development", "Javascript Fundamentals" and "Interactive Frontend Development". The gallery was inspired by the Bootstrap example called Carousel. The map layout was inspired by a example called [Google Maps marker from JSON](https://codepen.io/schikulski/pen/urozH)
+Code used throughout the website has been found throughout on Bootstrap, the courses "HTML Fundamentals", "CSS Fundamentals", "User Centric Frontend Development", "Javascript Fundamentals" and "Interactive Frontend Development". 
+map - https://developers.google.com/maps/documentation/javascript/tutorial &  https://codepen.io/schikulski/pen/urozH
+map data - 
+
+The gallery was inspired by the Bootstrap example called Carousel.
 
 #### Please note that this is for educational use only.
