@@ -1,8 +1,11 @@
 //code for creating the map
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 10,
+    //zoom on the map
+    zoom: 12,
+    //location of the map
     center: {lat: 13.9094, lng: -60.9789},
+    //style of the map
     styles: [
   {
     "elementType": "geometry",
@@ -240,15 +243,6 @@ function initMap() {
 ]
   });
   
-  //icon code
-  //var icon = {
-    //airport: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/airport.png',
-    //attraction: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/attraction.png',
-    //hotel: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/hotel.png',
-    //restaurant: 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/restaurant.png'
-  //};
-
-
   
    // Looping through all the entries from the JSON data
   for(var i = 0; i < data.length; i++) {
