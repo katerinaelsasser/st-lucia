@@ -332,6 +332,6 @@ const data = [
       'description': '<h2>Masala Bay</h2><h4><i>Resturant</i></h4><p>Located in Marigot Bay Marina Village at Capella Resort. Serving authentic Indian and Indo Chinese (Hakka) cuisine.</p>', 
       'lat':  13.9653,
       'lng': -61.0242,
-      'icon': 'https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/images/markers/restaurant.png',
+      'icon': 'assets/images/markers/restaurant.png',
       },
   ]
