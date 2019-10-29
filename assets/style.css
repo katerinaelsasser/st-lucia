@@ -7,6 +7,20 @@
 /* End of the Header code*/
 
 
+/* background image header */
+.bgimg {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg {
+  background-image: url(https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/header/header-image.jpg);
+  height: 50%;
+}
+/* end of background image header */
+
 /* Start of Map Code */
 html, body {
 
