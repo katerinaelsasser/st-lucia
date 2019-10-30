@@ -8,9 +8,27 @@
 
 
 /* background image header */
-.bgimg {
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+
+}
+.bgimg-1 {
+  background-image: url("header-image.jpg");
+  height: 50%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
 }
 /* end of background image header */
 
