@@ -1,14 +1,14 @@
 
-/* Start of the Header code*/
-
-/* End of the Header code*/
-
-
-/* background image header */
-
-
-/* end of background image header */
-
+/* Start of the Header image*/
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+/* End of the Header image*/
 
 
 /* gallery */
