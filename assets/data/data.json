@@ -1,5 +1,6 @@
-const data = [
+[
     {
+      "id": 1,
       "name": "George F L Charles Airport",
       "description": "The smallest of the two airports.",
       "type": "Airport",
@@ -8,6 +9,7 @@ const data = [
       "icon": "assets/images/markers/airport.png"
       },
     {
+      "id": 2,
       "name": "Hewanorra International Airport",
       "description": "The larger airport of the two on the island.",
       "type": "Airport",
@@ -16,95 +18,104 @@ const data = [
       "icon": "assets/images/markers/airport.png"
       },
     {
+      "id": 3,
       "name": "Diamond Botinical Gardens",
-      "description": "<h2>Diamond Botinical Gardens</h2><h4><i>Attraction</i></h4><p>Explore this magical location where a majestic waterfall stands, one of the most popular tourist attractions on the island. This location is both a historic and naturally beautiful site.</p>",
+      "description": "Explore this magical location where a majestic waterfall stands, one of the most popular tourist attractions on the island. This location is both a historic and naturally beautiful site.",
+      "type": "Atraction",
       "lat": 13.8524,
       "lng": -61.0483,
-      "icon":"assets/images/markers/attraction.png",
+      "icon":"assets/images/markers/attraction.png"
       },
     {
+      "id": 4,
       "name": "Mamiku Gardens",
-      "description": "<h2>Mamiku Gardens</h2><h4><i>Attraction</i></h4><p>This 22-acre garden estate includes the ruins of an 18th-century house and three distinct gardens.</p>",
+      "description": "This 22-acre garden estate includes the ruins of an 18th-century house and three distinct gardens.",
+      "type": "Attraction",
       "lat": 13.8688, 
       "lng": -60.9015,
-      "icon": "assets/images/markers/attraction.png",
+      "icon": "assets/images/markers/attraction.png"
       },
     {
+      "id": 5,
       "name": "Marigot Bay",
-      "description": "<h2>Marigot Bay</h2><h4><i>Attraction</i></h4><p>Marigot Bay is located on the western coast of the Caribbean island of Saint Lucia, 3.75 miles southwest from Castries and a short distance from the Saint Lucian National Marine Reserve. It is surrounded on three sides by steep, forested hills.</p>",
+      "description": "Marigot Bay is located on the western coast of the Caribbean island of Saint Lucia, 3.75 miles southwest from Castries and a short distance from the Saint Lucian National Marine Reserve. It is surrounded on three sides by steep, forested hills.",
+      "type": "Attraction",
       "lat":  13.9663,
       "lng": -61.0275,
-      "icon": "assets/images/markers/attraction.png",
+      "icon": "assets/images/markers/attraction.png"
       },
     {
+      "id": 6,
       "name": "Petit Piton",
-      "description": "<h2>Petit Piton</h2><h4><i>Attraction</i></h4><p>The attraction is ideal if you love hiking and nature trails. This is a to do on everyone's bucket list!</p>",
+      "description": "The attraction is ideal if you love hiking and nature trails. This is a to do on everyone's bucket list!",
+      "type": "Attraction",
       "lat":  13.8333,
       "lng": -61.0667,
-      "icon": "assets/images/markers/attraction.png",
+      "icon": "assets/images/markers/attraction.png"
       },
     {
+      "id": 7,
       "name": "Pigeon Island",
       "description": "<h2>Pigeon Island</h2><h4><i>Attraction</i></h4><p>Pigeon Island is a 44-acre islet located in Gros Islet in the northern region of Saint Lucia. Once isolated from the country in the Caribbean Sea, the island was artificially joined to the western coast of mainland in 1972 by a man-made causeway built from dirt excavated to form the Rodney Bay Marina.</p>",
       "lat":  14.0931,
       "lng": -60.9646,
-      "icon": "assets/images/markers/attraction.png",
+      "icon": "assets/images/markers/attraction.png"
       },
     {
       "name": "Rodney Bay",
       "description": "<h2>Rodney Bay</h2><h4><i>Attraction</i></h4><p>Rodney Bay is a bay located in the Gros Islet quarter on the island of Saint Lucia. Gros Islet is one of the ten quarters in the island.</p>",
       "lat":  14.0814,
       "lng": -60.9627, 
-      "icon": "assets/images/markers/attraction.png",
+      "icon": "assets/images/markers/attraction.png"
       },
     {
       "name": "Soufriere Drive In Volcano",
       "description": "<h2>Soufriere Drive In Volcano</h2><h4><i>Attraction</i></h4><p>Bubbling sulfur springs in the caldera of the dormant Qualibou volcano, with nearby mud baths.</p>",
       "lat":  13.8389,
       "lng": -61.0460,
-      "icon": "assets/images/markers/attraction.png",
+      "icon": "assets/images/markers/attraction.png"
       },
     {
       "name": "The Tet Paul Nature Trail",
       "description": "<h2>The Tet Paul Nature Trail</h2><h4><i>Attraction</i></h4><p></p>",
       "lat":  13.8201,
       "lng": -61.0553,
-      "icon": "assets/images/markers/attraction.png",
+      "icon": "assets/images/markers/attraction.png"
       },
     {
       "name": "Treetop Adventure Park",
       "description": "<h2>Treetop Adventure Park</h2><h4><i>Attraction</i></h4><p>Travel along 12 ziplines through the beautiful rainforest with trained guides giving you information about the nature and wildlife in the rainforest.</p>",
       "lat":  13.9006,
       "lng": -60.9242,
-      "icon": "assets/images/markers/attraction.png",
+      "icon": "assets/images/markers/attraction.png"
       },
     {
       "name": "Vigie Beach",
       "description": "<h2>Vigie Beach</h2><h4><i>Attraction</i></h4><p>Vigie Beach is located 2 km north of Castries, Saint Lucia, running paralle</p>",
       "lat":  14.0249,
       "lng": -60.9846,
-      "icon": "assets/images/markers/attraction.png",
+      "icon": "assets/images/markers/attraction.png"
       },
     {
       "name": "Reduit Beach",
       "description": "<h2>Reduit Beach</h2><h4><i>Attraction</i></h4><p>This beach has more than a mile of fine golden sand with lovely views across the bay to Pigeon Island</p>",
       "lat":  14.0746,
       "lng": -60.9554,
-      "icon": "assets/images/markers/attraction.png",
+      "icon": "assets/images/markers/attraction.png"
       },
     {
       "name": "Anse Cochon",
       "description": "<h2>Anse Cochon</h2><h4><i>Beach</i></h4><p>This is located down the west coast of the island, between the CAstries and Soufriere. This has 200 metres of dark sand.</p>",
       "lat": 13.9271, 
       "lng": -61.0581,
-      "icon": "assets/images/markers/attraction.png",
+      "icon": "assets/images/markers/attraction.png"
       },
     {
       "name": "Anse Chastanet",
       "description": "<h2>Anse Chastanet</h2><h4><i>Beach</i></h4><p>This has 150 metres of dark, silver sand.</p>",
       "lat": 13.8649, 
       "lng": -61.0778,
-      "icon": "assets/images/markers/attraction.png",
+      "icon": "assets/images/markers/attraction.png"
       },
     {
       "name": "Balenbouche Estate",
@@ -118,14 +129,14 @@ const data = [
       "description": "<h2>Bay Gardens Beach Resort & Spa</h2><h4><i>Hotel</i></h4><p>Stay at this inviting location to experience true adventure and relaxation.<li>Free parking</li><li>Free Wifi</li><li>Pool</li><li>Beach</li><li>Babysitting available</li><li></li>Kids club</li><li>Water park</li><li>Poolside bar</li><li>Spa</li><li>Shuttle bus service</li><li>Non-smoking hotel</li><li>Laundry service</li></p>", 
       "lat":  14.0769,
       "lng": -60.9540,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
       "name": "Boucan By Hotel Chocolat",
       "description": "<h2>Boucan By Hotel Chocolat</h2><h4><i>Hotel</i></h4><p>Located in the hills near Soufriere, this hotel will stun you with the views of the Piton mountains.<li>Suitable for families and couples</li><li>Free parking</li><li>Pool (including infinity pool)</li><li>Free Wifi</li><li>Free shuttle bus and taxi services</li><li>Bar/lounge</li><li>Poolside bar</li><li>Non-smoking hotel</li><li>Laundry service</li></p>",  
       "lat":  13.8332,
       "lng": -61.0503, 
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
       "name": "Calabash Cove Resort & Spa",
