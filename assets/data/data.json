@@ -352,34 +352,34 @@
       "description": "<h2>Big Chef Steakhouse</h2><h4><i>Resturant</i></h4><p>Known for flavour and flair, Big Chef Steakhouse takes the traditional steakhouse to another level of deliciousness, combining the satisfaction of home-cooked comfort food with an innovative, adventurous passion for excellence.</p>", 
       "lat":  14.0700,
       "lng": -60.9538,
-      "icon": "assets/images/markers/restaurant.png",
+      "icon": "assets/images/markers/restaurant.png"
       },
     {
       "name": "Flavours of the Grill",
       "description": "<h2>Flavours of the Grill</h2><h4><i>Resturant</i></h4><p>This friendly, modest and colourful little restaurant - the wooden house is painted blue, pink and lime green - is one of the best places on St Lucia to sample authentic, inexpensive Caribbean cooking.</p>", 
       "lat":  14.0544,
       "lng": -60.9641,
-      "icon": "assets/images/markers/restaurant.png",
+      "icon": "assets/images/markers/restaurant.png"
       },
     {
       "name": "Jacques Waterfront Dining",
       "description": "<h2>Jacques Waterfront Dining</h2><h4><i>Resturant</i></h4><p>Jacques Waterfront Dining is one of St. Lucia’s most popular restaurants, with a long-standing reputation for consistency in both the quality of the food and the service with which it is delivered.</p>", 
       "lat":  14.0727,
       "lng": -60.9540,
-      "icon": "assets/images/markers/restaurant.png",
+      "icon": "assets/images/markers/restaurant.png"
       },
     {
       "name": "Maries Local Cuisine",
       "description": "<h2>Maries Local Cuisine</h2><h4><i>Resturant</i></h4><p>A welcoming restaurant next to the botanical gardens with a quality Creole lunch buffet. Good, hearty meals and a fair price.</p>", 
       "lat":  13.8521,
       "lng": -61.0473,
-      "icon": "assets/images/markers/restaurant.png",
+      "icon": "assets/images/markers/restaurant.png"
       },
     {
       "name": "Masala Bay",
       "description": "<h2>Masala Bay</h2><h4><i>Resturant</i></h4><p>Located in Marigot Bay Marina Village at Capella Resort. Serving authentic Indian and Indo Chinese (Hakka) cuisine.</p>", 
       "lat":  13.9653,
       "lng": -61.0242,
-      "icon": "assets/images/markers/restaurant.png",
+      "icon": "assets/images/markers/restaurant.png"
       },
   ]
