@@ -36,7 +36,7 @@ const data = [
       },
     {
       "name": "Petit Piton",
-      "description": "<h2>Petit Piton</h2><h4><i>Attraction</i></h4><p>This attraction was built in the 18th century by the British. Explore the ruins of Fort Rodney. It was converted to a US signal station in World War 2.</p>",
+      "description": "<h2>Petit Piton</h2><h4><i>Attraction</i></h4><p>The attraction is ideal if you love hiking and nature trails. This is a to do on everyone's bucket list!</p>",
       "lat":  13.8333,
       "lng": -61.0667,
       "icon": "assets/images/markers/attraction.png",
@@ -71,7 +71,7 @@ const data = [
       },
     {
       "name": "Treetop Adventure Park",
-      "description": "<h2>Treetop Adventure Park</h2><h4><i>Attraction</i></h4><p></p>",
+      "description": "<h2>Treetop Adventure Park</h2><h4><i>Attraction</i></h4><p>Travel along 12 ziplines through the beautiful rainforest with trained guides giving you information about the nature and wildlife in the rainforest.</p>",
       "lat":  13.9006,
       "lng": -60.9242,
       "icon": "assets/images/markers/attraction.png",
