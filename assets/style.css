@@ -19,6 +19,10 @@ html, body {
   background: yellow;
   padding: 10px;
 }
+
+.welcome-text {
+  padding: 15px;
+}
 /* End of the Header*/
 
 /* section*/
@@ -26,6 +30,21 @@ html, body {
 .card-img-top {
   width: 100%;
   height: 225;
+}
+
+.background-image-1{
+  width: 100%;
+  background-repeat: repeat;
+  position: relative;
+}
+
+.title {
+    position: relative;
+}
+
+.title-text {
+  color: black;
+  background: white;
 }
 
 /* end of section*/
