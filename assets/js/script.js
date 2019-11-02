@@ -1,3 +1,8 @@
+
+fetch('https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/data/data.json')
+  .then(response => response.json())
+  .then(json => console.log(json))
+
 //code for creating the map
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
