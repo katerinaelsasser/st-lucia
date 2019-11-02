@@ -12,12 +12,12 @@ html, body {
       
 .header-title {
   position: absolute;
-  top: 45vh;
-  left: 30vw;
+  top: 5vh;
+  left: 3vw;
   color: #fff;
   font-size: 4rem;
   background: yellow;
-  padding: 15px;
+  padding: 10px;
 }
 /* End of the Header*/
 
