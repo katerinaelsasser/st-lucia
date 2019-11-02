@@ -9,6 +9,16 @@ html, body {
   width: 100%;
   height: 100%;
       }
+      
+.header-title {
+  position: absolute;
+  top: 45vh;
+  left: 30vw;
+  color: #fff;
+  font-size: 4rem;
+  background: yellow;
+  padding: 15px;
+}
 /* End of the Header*/
 
 /* section*/
