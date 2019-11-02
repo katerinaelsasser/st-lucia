@@ -1,14 +1,16 @@
 const data = [
     {
       "name": "George F L Charles Airport",
-      "content": "<h2>George F L Charles Airport</h2><h4><i>Airport</i></h4>",
+      "description": "The smallest of the two airports.",
+      "type": "Airport",
       "lat": 14.0200, 
       "lng": -60.9931,
       "icon": "assets/images/markers/airport.png"
       },
     {
       "name": "Hewanorra International Airport",
-      "description": "<h2>Hewanorra International Airport</h2><h4><i>Airport</i></h4>",
+      "description": "The larger airport of the two on the island.",
+      "type": "Airport",
       "lat": 13.7334, 
       "lng": -60.9503,
       "icon": "assets/images/markers/airport.png"
