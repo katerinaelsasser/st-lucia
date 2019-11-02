@@ -99,25 +99,25 @@ function initMap() {
   
   
 //code for the markers/info windows  
-  for(var i = 0; i < data.length; i++) {
+  for(let i = 0; i < data.length; i++) {
     
     // Current object
-    var obj = data[i];
+    let obj = data[i];
 
     // Adding a new marker for the object
-    var marker = new google.maps.Marker({
+    const marker = new google.maps.Marker({
       position: new google.maps.LatLng(obj.lat,obj.lng),
       map: map,
       icon: obj.icon,
       title: obj.description
     });
     
-    var infowindow = new google.maps.InfoWindow({
+    const infowindow = new google.maps.InfoWindow({
     content: obj.description,
   });
     
     // Adding a new info window for the object
-    var clicker = addClicker(marker, obj.name);
+    let clicker = addClicker(marker, obj.name);
  
   // Adding a new click event listener for the object
   function addClicker(marker, content) {
@@ -133,36 +133,4 @@ function initMap() {
 
 //what the info window should have in it = ('<h2>'+obj.title+'</h2><h4><i>'+obj.type+'</i></h4><p>'+obj.description+'</p>')
 
-}
-
-
-// gallery js
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
 }
