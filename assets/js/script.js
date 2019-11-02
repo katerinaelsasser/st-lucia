@@ -105,31 +105,28 @@ function initMap() {
   
 //code for the markers/info windows  
   for(let i = 0; i < data.length; i++) {
-    
-    // Current object
-    let obj = data[i];
 
     // Adding a new marker for the object
     const marker = new google.maps.Marker({
-      position: new google.maps.LatLng(obj.lat,obj.lng),
+      position: new google.maps.LatLng(data.lat,data.lng),
       map: map,
-      icon: obj.icon,
-      title: obj.description
+      icon: data.icon,
+      title: data.name
     });
     
     const infowindow = new google.maps.InfoWindow({
-    content: obj.description,
+    content: data.description,
   });
     
     // Adding a new info window for the object
-    let clicker = addClicker(marker, obj.name);
+    let clicker = addClicker(marker, data.name);
  
   // Adding a new click event listener for the object
   function addClicker(marker, content) {
     google.maps.event.addListener(marker, 'click', function() {
       
       if (infowindow) {infowindow.close();}
-      infowindow = new google.maps.InfoWindow({content: obj.description});
+      infowindow = new google.maps.InfoWindow({content: data.description});
       infowindow.open(map, marker);
     
     });
