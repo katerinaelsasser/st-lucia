@@ -71,7 +71,7 @@ function initMap() {
   });
   
   
-   // Looping through all the entries from the JSON data
+//code for the markers/info windows  
   for(var i = 0; i < data.length; i++) {
     
     // Current object
@@ -103,6 +103,9 @@ function initMap() {
     });
   }
 }
+
+//what the info window should have in it = ('<h2>'+obj.title+'</h2><h4><i>'+obj.type+'</i></h4><p>'+obj.description+'</p>')
+
 }
 
 
