@@ -236,7 +236,7 @@
     {
       "id": 27,
       "name": "Marigot Bay Resort and Marina",
-      "description": "<h2>Marigot Bay Resort and Marina</h2><p>Hotel</p><p>At this St Lucian resort, you will experience the culture, cuisine and the traditions.<li>Suitable for couples and families.</li></p>",
+      "description": "At this St Lucian resort, you will experience the culture, cuisine and the traditions.",
       "type": "Hotel",
       "lat": 13.9644, 
       "lng": -61.0230,
@@ -245,7 +245,8 @@
     {
       "id": 28,
       "name": "Marigot Beach Club & Dive Resort",
-      "description": "<h2>Marigot Beach Club & Dive Resort</h2><h4><i>Hotel</i></h4><p>Travel to this stunning and secluded location.<li>Suitable for families and couples.</li><li>Free Wifi</li><li>Pool</li><li>Beach</li><li>Pets allowed/pet friendly</li><li>Free shuttle or taxi services</li><li>Spa</li><li>Non-smoking hotel</li><li>Bar/Lounge</li><li>Babysitting available</li><li>Fitness centre (including gym)</li></p>",
+      "description": "Travel to this stunning and secluded location.<li>Suitable for families and couples.",
+      "type": "Hotel",
       "lat":  13.9667,
       "lng": -61.0257,
       "icon": "assets/images/markers/hotel.png"
@@ -253,7 +254,8 @@
     {
       "id": 29,
       "name": "Oasis Marigot",
-      "description": "<h2>Oasis Marigot</h2><h4><i>Hotel</i></h4><p>Relax at this hotel which offers travellers the ideal holiday for a peaceful break.<li>Free parking</li><li>Free wifi</li><li>Non-smoking hotel</li><li>Laundry service</li></p>",
+      "description": "Relax at this hotel which offers travellers the ideal holiday for a peaceful break.",
+      "type": "Hotel",
       "lat":  13.9678,
       "lng": -61.0262,
       "icon": "assets/images/markers/hotel.png"
@@ -261,7 +263,8 @@
     {
       "id": 30,
       "name": "Royalton Resort & Spa",
-      "description": "<h2>Royalton Resort & Spa</h2><h4><i>Hotel</i></h4><p>Treat yourself to this luxuarious all-inclusive resort destination which over looks the carribean sea. This resort is split into 3 sections: the resort, the Diamond Club and the (adults only) Hideaway.<li>Suitable for couples and families</li><li>Free parking</li><li>Pools (including infinity pool)</li><li>Free WIFI</li><li>Beach</li><li>Bar/Lounge</li><li>Swimup bars</li><li>Kids Club</li><li>Spa</li><li>Banquet room</li><li>Meeting rooms</li><li>Butler service</li><li>Room service</li></p>",
+      "description": "Treat yourself to this luxuarious all-inclusive resort destination which over looks the carribean sea. This resort is split into 3 sections: the resort, the Diamond Club and the (adults only) Hideaway.",
+      "type": "Hotel",
       "lat":  14.0969,
       "lng": -60.9498,
       "icon": "assets/images/markers/hotel.png"
@@ -269,7 +272,8 @@
     {
       "id": 31,
       "name": "Samfi Gardens",
-      "description": "<h2>Samfi Gardens</h2><h4><i>Hotel</i></h4><p>This is a newly established family owned property. This has 8 self-contained villas; 7 of them are called Vacation homes and 1 is called Honeymoon Suite.<li>Suitable for families and couples.</li></p>",
+      "description": "This is a newly established family owned property. This has 8 self-contained villas; 7 of them are called Vacation homes and 1 is called Honeymoon Suite.",
+      "type": "Hotel",
       "lat":  13.8661,
       "lng": -61.0517,
       "icon": "assets/images/markers/hotel.png"
@@ -277,7 +281,8 @@
     {
       "id": 32,
       "name": "Sandals Grande St Lucian",
-      "description": "<h2>Sandals Grande St Lucian</h2><h4><i>Hotel</i></h4><p>This resort combines historic British and French flabor into one place.<li>Suitable for couples</li><li>Free parking</li><li>Free Wifi</li><li>Pool</li><li>Fitness centre (including a gym)</li><li>Beach</li><li>Free airport transportation</li><li>Bar/lounge</li><li>Swimup bar</li><li>Free shuttle bus or taxi service</li><li>Spa</li><li>Butler service</li><li>Non-smoking hotel</li><li>Laundry service</li></p>", 
+      "description": "This resort combines historic British and French flabor into one place.", 
+      "type": "Hotel",
       "lat":  14.0913,
       "lng": -60.9585,
       "icon": "assets/images/markers/hotel.png"
@@ -285,99 +290,125 @@
     {
       "id": 33,
       "name": "Sandals Halcyon Beach",
-      "description": "<h2>Sandals Halcyon Beach</h2><h4><i>Hotel</i></h4><p>Escape to this resort for a relaxing holiday.<li>Free parking</li><li>Pool (including adults only pool)</li><li>Free airport transportation</li><li>Bar/lounge</li><li>Swimup bar</li><li>Fitness centre (including gym)</li><li>Free shuttle bus or taxi services</li><li>Spa</li><li>Butler service</li><li>Laundry service</li></p>",
+      "description": "Escape to this resort for a relaxing holiday.",
+      "type": "Hotel",
       "lat":  14.0318,
       "lng": -60.9772,
       "icon": "assets/images/markers/hotel.png"
       },
     {
-      "id": 27,
+      "id": 34,
       "name": "Starfish St. Lucia",
-      "description": "<h2>Starfish St. Lucia</h2><h4><i>Hotel</i></h4><p>This tropical escape is ideal if you love white sand beaches and crystal clear water.<li>Suitable for families and couples.</li></p>",
+      "description": "This tropical escape is ideal if you love white sand beaches and crystal clear water.",
+      "type": "Hotel",
       "lat":  14.0717,
       "lng": -60.9566,
       "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 35,
       "name": "Stonefield Villa Resort",
-      "description": "<h2>Stonefield Villa Resort</h2><h4><i>Hotel</i></h4><p>This secluded location is ideal for all travellers.<li>Free parking</li><li>Free wifi</li>Pool</li><li>Fitness centre (including a gym)</li><li>Bar/lounge</li><li>Spa</li><li>Non smoking hotel</li></p>",
+      "description": "This secluded location is ideal for all travellers.",
+      "type": "Hotel",
       "lat":  13.8445,
       "lng": -61.0598,
       "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 36,
       "name": "Sugar Beach, A Viceroy Resort",
-      "description": "<h2>Sugar Beach, A Viceroy Resort</h2><h4><i>Hotel</i></h4><p>If you love white sand beaches, this is the hotel for you. Relax at the ultimate vacation experience.<li>Suiable for families and couple</li><li>Free parking</li><li>Pool</li><li>Bar/lounge</li><li>Fitness centre (including gym)</li><li>Babysitting available</li><li>Beach</li></p>",
+      "description": "If you love white sand beaches, this is the hotel for you. Relax at the ultimate vacation experience.",
+      "type": "Hotel",
       "lat": 13.8445, 
       "lng": -61.0598,
       "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 37,
       "name": "St James Club Morgan Bay",
-      "description": "<h2>St James Club Morgan Bay</h2><h4><i>Hotel</i></h4><p>This relaxing location for everyone. This is an all inclusive which includes meals and beverages.<li>Suitable for families and couples</li><li>Free parking</li><li>Pool (including adults only pool)</li><li>Spa</li><li>Free Wifi</li><li>Fitness Centre (including gym)</li><li>Tennis court</li><li>Beach</li><li>Babysitting available</li><li>Bar/lounge</li><li>Swimup bars</li><li>Kids Club</li><li>Shuttle bus service</li><li>Airport transportation</li><li>Meeting rooms</li><li>Housekeeping service</li></p>",
+      "description": "This relaxing location for everyone. This is an all inclusive which includes meals and beverages.",
+      "type": "Hotel",
       "lat":  14.0406,
       "lng": -60.9706,
       "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 38,
       "name": "Têt Rouge Resort",
       "description": "<h2>Têt Rouge Resort</h2><h4><i>Hotel</i></h4><p>This villa is the perfect getaway for all. With 6 sea-view studios featuring a specious terrace looking on to the blue Carribean. This is located near the Gros Piton.<li>Suitable for couples.</li><li>Free parking</li><li>Pool (including infinity pool)</li><li>Beach</li><li>Free Wifi</li><li>Bar/lounge</li><li>Swimup bar</li><li>Shuttle bus service</li><li>Ocean view</li></p>",
+      "type": "Hotel",
       "lat":  13.7931, 
       "lng": -61.0625,
       "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 39,
       "name": "Ti Kaye Resort & Spa",
       "description": "<h2>Ti Kaye Resort & Spa</h2><h4><i>Hotel</i></h4><p>This resort is located on the serene West Coast. This is the best place for a romantic relaxation.<li>Free parking</li><li>Free wifi</li><li>Beach</li><li>Pool (including adult only pool)</li><li>Spa</li><li>Laundry service</li><li>Bar/lounge</li></p>",
+      "type": "Hotel",
       "lat":  13.9261,
       "lng": -61.0572,
       "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 40,
       "name": "The Harbor Club",
       "description": "<h2>The Harbor Club</h2><h4><i>Hotel</i></h4><p>Part of the Hilton collection. Experience the tropical beauty and the maritime charm.<li>Suitable for families and couples.</li></p>",
+      "type": "Hotel",
       "lat":  14.0731,
       "lng": -60.9476,
       "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 41,
       "name": "Windjammer Landing Villa Beach Resort",
       "description": "<h2>Windjammer Landing Villa Beach Resort</h2><h4><i>Hotel</i></h4><p>Have a unforgettanle Carribean experience with this resort, with breathtaking views.<li>Free parking</li><li>Pool</li><li>Fitness centre (including a gym)</li><li>Babysitting available</li><li>Poolside bar</li><li>Kids club</li><li>Free shuttle bus or taxi services</li><li></li></p>", 
+      "type": "Hotel",
       "lat":  14.0589,
       "lng": -60.9742,
       "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 42,
       "name": "Big Chef Steakhouse",
       "description": "<h2>Big Chef Steakhouse</h2><h4><i>Resturant</i></h4><p>Known for flavour and flair, Big Chef Steakhouse takes the traditional steakhouse to another level of deliciousness, combining the satisfaction of home-cooked comfort food with an innovative, adventurous passion for excellence.</p>", 
+      "type": "Hotel",
       "lat":  14.0700,
       "lng": -60.9538,
       "icon": "assets/images/markers/restaurant.png"
       },
     {
+      "id": 43,
       "name": "Flavours of the Grill",
       "description": "<h2>Flavours of the Grill</h2><h4><i>Resturant</i></h4><p>This friendly, modest and colourful little restaurant - the wooden house is painted blue, pink and lime green - is one of the best places on St Lucia to sample authentic, inexpensive Caribbean cooking.</p>", 
+      "type": "Hotel",
       "lat":  14.0544,
       "lng": -60.9641,
       "icon": "assets/images/markers/restaurant.png"
       },
     {
+      "id": 44,
       "name": "Jacques Waterfront Dining",
       "description": "<h2>Jacques Waterfront Dining</h2><h4><i>Resturant</i></h4><p>Jacques Waterfront Dining is one of St. Lucia’s most popular restaurants, with a long-standing reputation for consistency in both the quality of the food and the service with which it is delivered.</p>", 
+      "type": "Hotel",
       "lat":  14.0727,
       "lng": -60.9540,
       "icon": "assets/images/markers/restaurant.png"
       },
     {
+      "id": 45,
       "name": "Maries Local Cuisine",
       "description": "<h2>Maries Local Cuisine</h2><h4><i>Resturant</i></h4><p>A welcoming restaurant next to the botanical gardens with a quality Creole lunch buffet. Good, hearty meals and a fair price.</p>", 
+      "type": "Hotel",
       "lat":  13.8521,
       "lng": -61.0473,
       "icon": "assets/images/markers/restaurant.png"
       },
     {
+      "id": 46,
       "name": "Masala Bay",
       "description": "<h2>Masala Bay</h2><h4><i>Resturant</i></h4><p>Located in Marigot Bay Marina Village at Capella Resort. Serving authentic Indian and Indo Chinese (Hakka) cuisine.</p>", 
+      "type": "Hotel",
       "lat":  13.9653,
       "lng": -61.0242,
       "icon": "assets/images/markers/restaurant.png"
