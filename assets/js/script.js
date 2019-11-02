@@ -13,35 +13,56 @@ function initMap() {
     //style of the map
     styles: [
     {
-        "featureType": "administrative",
-        "elementType": "labels.text.fill",
+        "featureType": "all",
+        "elementType": "all",
         "stylers": [
             {
-                "color": "#444444"
+                "saturation": "32"
+            },
+            {
+                "lightness": "-3"
+            },
+            {
+                "visibility": "on"
+            },
+            {
+                "weight": "1.18"
             }
         ]
     },
     {
-        "featureType": "administrative.country",
-        "elementType": "labels.text",
+        "featureType": "administrative",
+        "elementType": "labels",
         "stylers": [
             {
-                "visibility": "on"
+                "visibility": "off"
             }
         ]
     },
     {
         "featureType": "landscape",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.man_made",
         "elementType": "all",
         "stylers": [
             {
-                "color": "#f2f2f2"
+                "saturation": "-70"
+            },
+            {
+                "lightness": "14"
             }
         ]
     },
     {
         "featureType": "poi",
-        "elementType": "all",
+        "elementType": "labels",
         "stylers": [
             {
                 "visibility": "off"
@@ -50,28 +71,7 @@ function initMap() {
     },
     {
         "featureType": "road",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": -100
-            },
-            {
-                "lightness": 45
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "labels.icon",
+        "elementType": "labels",
         "stylers": [
             {
                 "visibility": "off"
@@ -80,7 +80,7 @@ function initMap() {
     },
     {
         "featureType": "transit",
-        "elementType": "all",
+        "elementType": "labels",
         "stylers": [
             {
                 "visibility": "off"
@@ -92,10 +92,22 @@ function initMap() {
         "elementType": "all",
         "stylers": [
             {
-                "color": "#46bcec"
+                "saturation": "100"
             },
             {
-                "visibility": "on"
+                "lightness": "-14"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            },
+            {
+                "lightness": "12"
             }
         ]
     }
