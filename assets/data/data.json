@@ -56,255 +56,296 @@
     {
       "id": 7,
       "name": "Pigeon Island",
-      "description": "<h2>Pigeon Island</h2><h4><i>Attraction</i></h4><p>Pigeon Island is a 44-acre islet located in Gros Islet in the northern region of Saint Lucia. Once isolated from the country in the Caribbean Sea, the island was artificially joined to the western coast of mainland in 1972 by a man-made causeway built from dirt excavated to form the Rodney Bay Marina.</p>",
+      "description": "Pigeon Island is a 44-acre islet located in Gros Islet in the northern region of Saint Lucia. Once isolated from the country in the Caribbean Sea, the island was artificially joined to the western coast of mainland in 1972 by a man-made causeway built from dirt excavated to form the Rodney Bay Marina.",
+      "type": "Attraction",
       "lat":  14.0931,
       "lng": -60.9646,
       "icon": "assets/images/markers/attraction.png"
       },
     {
+      "id": 8,
       "name": "Rodney Bay",
-      "description": "<h2>Rodney Bay</h2><h4><i>Attraction</i></h4><p>Rodney Bay is a bay located in the Gros Islet quarter on the island of Saint Lucia. Gros Islet is one of the ten quarters in the island.</p>",
+      "description": "Rodney Bay is a bay located in the Gros Islet quarter on the island of Saint Lucia. Gros Islet is one of the ten quarters in the island.",
+      "type": "Attraction",
       "lat":  14.0814,
       "lng": -60.9627, 
       "icon": "assets/images/markers/attraction.png"
       },
     {
+      "id": 9,
       "name": "Soufriere Drive In Volcano",
       "description": "<h2>Soufriere Drive In Volcano</h2><h4><i>Attraction</i></h4><p>Bubbling sulfur springs in the caldera of the dormant Qualibou volcano, with nearby mud baths.</p>",
+      "type": "Attraction",
       "lat":  13.8389,
       "lng": -61.0460,
       "icon": "assets/images/markers/attraction.png"
       },
     {
-      "name": "The Tet Paul Nature Trail",
-      "description": "<h2>The Tet Paul Nature Trail</h2><h4><i>Attraction</i></h4><p></p>",
-      "lat":  13.8201,
-      "lng": -61.0553,
-      "icon": "assets/images/markers/attraction.png"
-      },
-    {
+      "id": 10,
       "name": "Treetop Adventure Park",
-      "description": "<h2>Treetop Adventure Park</h2><h4><i>Attraction</i></h4><p>Travel along 12 ziplines through the beautiful rainforest with trained guides giving you information about the nature and wildlife in the rainforest.</p>",
+      "description": "Travel along 12 ziplines through the beautiful rainforest with trained guides giving you information about the nature and wildlife in the rainforest.",
+      "type": "Attraction",
       "lat":  13.9006,
       "lng": -60.9242,
       "icon": "assets/images/markers/attraction.png"
       },
     {
+      "id": 11,
       "name": "Vigie Beach",
-      "description": "<h2>Vigie Beach</h2><h4><i>Attraction</i></h4><p>Vigie Beach is located 2 km north of Castries, Saint Lucia, running paralle</p>",
+      "description": "Vigie Beach is located 2 km north of Castries, Saint Lucia, running paralle",
+      "type": "Attraction",
       "lat":  14.0249,
       "lng": -60.9846,
       "icon": "assets/images/markers/attraction.png"
       },
     {
+      "id": 12,
       "name": "Reduit Beach",
-      "description": "<h2>Reduit Beach</h2><h4><i>Attraction</i></h4><p>This beach has more than a mile of fine golden sand with lovely views across the bay to Pigeon Island</p>",
+      "description": "This beach has more than a mile of fine golden sand with lovely views across the bay to Pigeon Island.",
+      "type": "Attraction",
       "lat":  14.0746,
       "lng": -60.9554,
       "icon": "assets/images/markers/attraction.png"
       },
     {
+      "id": 13,
       "name": "Anse Cochon",
-      "description": "<h2>Anse Cochon</h2><h4><i>Beach</i></h4><p>This is located down the west coast of the island, between the CAstries and Soufriere. This has 200 metres of dark sand.</p>",
+      "description": "This is located down the west coast of the island, between the CAstries and Soufriere. This has 200 metres of dark sand.",
+      "type": "Attraction",
       "lat": 13.9271, 
       "lng": -61.0581,
       "icon": "assets/images/markers/attraction.png"
       },
     {
+      "id": 14,
       "name": "Anse Chastanet",
-      "description": "<h2>Anse Chastanet</h2><h4><i>Beach</i></h4><p>This has 150 metres of dark, silver sand.</p>",
+      "description": "This beach has 150 metres of dark, silver sand.",
+      "type": "Attraction",
       "lat": 13.8649, 
       "lng": -61.0778,
       "icon": "assets/images/markers/attraction.png"
       },
     {
+      "id": 15,
       "name": "Balenbouche Estate",
-      "description": "<h2>Balenbouche Estate</h2><h4><i>Hotel</i></h4><p>This family owned Historic Plantation Guesthosue has several vacation cottages. Cottages can sleep between 2 to 6 people, some include kitchens. This destination will make you feel at home.<li>Suitable for families and couples</li><li>Free parking</li><li>Wifi</li><li>Babysitting available</li><li>Non-smoking hotel</li><li>Laundry service</li></p>", 
+      "description": "This family owned Historic Plantation Guesthosue has several vacation cottages. Cottages can sleep between 2 to 6 people, some include kitchens. This destination will make you feel at home.", 
+      "type": "Hotel",
       "lat": 13.7575, 
       "lng": -61.0279,
       "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 16,
       "name": "Bay Gardens Beach Resort & Spa",
-      "description": "<h2>Bay Gardens Beach Resort & Spa</h2><h4><i>Hotel</i></h4><p>Stay at this inviting location to experience true adventure and relaxation.<li>Free parking</li><li>Free Wifi</li><li>Pool</li><li>Beach</li><li>Babysitting available</li><li></li>Kids club</li><li>Water park</li><li>Poolside bar</li><li>Spa</li><li>Shuttle bus service</li><li>Non-smoking hotel</li><li>Laundry service</li></p>", 
+      "description": "Stay at this inviting location to experience true adventure and relaxation.", 
+      "type": "Hotel",
       "lat":  14.0769,
       "lng": -60.9540,
       "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 17,
       "name": "Boucan By Hotel Chocolat",
-      "description": "<h2>Boucan By Hotel Chocolat</h2><h4><i>Hotel</i></h4><p>Located in the hills near Soufriere, this hotel will stun you with the views of the Piton mountains.<li>Suitable for families and couples</li><li>Free parking</li><li>Pool (including infinity pool)</li><li>Free Wifi</li><li>Free shuttle bus and taxi services</li><li>Bar/lounge</li><li>Poolside bar</li><li>Non-smoking hotel</li><li>Laundry service</li></p>",  
+      "description": "Located in the hills near Soufriere, this hotel will stun you with the views of the Piton mountains.",  
+      "type": "Hotel",
       "lat":  13.8332,
       "lng": -61.0503, 
       "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 18,
       "name": "Calabash Cove Resort & Spa",
-      "description": "<h2>Calabash Cove Resort & Spa</h2><h4><i>Hotel</i></h4><p>Nested in the sheltered bay of Bonaire Estate, this hotel is one of just a select few full service, bouquet luxary resorts on the island.<li>Suitable for families and couples</li><li>Free parking</li><li>Fitness Centre (Including gym)</li><li>Pool (including infinity pool and adults only pool)</li><li>Free Wifi</li><li>Poolside bar</li><li>Spa</li><li>Laundry service</li></p>",
+      "description": "Nested in the sheltered bay of Bonaire Estate, this hotel is one of just a select few full service, bouquet luxary resorts on the island.",
+      "type": "Hotel",
       "lat":  14.0504,
       "lng": -60.9727,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 19,
       "name": "Coco Palm Resort",
-      "description": "<h2>Coco Palm Resort</h2><h4><i>Hotel</i></h4><p>This award winning bouquet hotel is the perfect destination if you like classic Carribean French Creole decor.<li>Suitable for families and couples.</li><li>Free parking</li><li>Pool</li><li>Free Wifi</li><li>Poolside bar</li><li>Spa</li><li>Non-smoking hotel</li></p>", 
+      "description": "This award winning bouquet hotel is the perfect destination if you like classic Carribean French Creole decor.", 
+      "type": "Hotel",
       "lat":  14.0717,
       "lng": -60.9566,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 20,
       "name": "Fond Doux Plantation & Resort",
-      "description": "<h2>Fond Doux Plantation & Resort</h2><h4><i>Hotel</i></h4><p>If you want a romantic, intimate holiday, this location is the one for you. This has 15 private luxury cottages, two on-site restuarants, and a collage of outdoor swimming pools.<li>Suitable for families and couples</li><li>Free Wifi</li><li>Pool</li><li>Bar/lounge</li><li>Evening entertainment</li><li>Shuttle bus service</li><li>Spa</li></p>",
+      "description": "If you want a romantic, intimate holiday, this location is the one for you. This has 15 private luxury cottages, two on-site restuarants, and a collage of outdoor swimming pools.",
+      "type": "Hotel",
       "lat":  13.8220,
       "lng": -61.0502,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 21,
       "name": "Ginger Lily Hotel",
-      "description": "<h2>Ginger Lily Hotel</h2><h4><i>Hotel</i></h4><p>Escape to this family owned boutique hotel, which is moments away from Reduit Beach.<li>Free parking</li><li>Free Wifi</li><li>Pool</li><li>Bar/lounge</li><li>Airport transportation</li></p>",
+      "description": "Escape to this family owned boutique hotel, which is moments away from Reduit Beach.",
+      "type": "Hotel",
       "lat":  14.0755,
       "lng": -60.9533,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 22,
       "name": "Hummingbird Beach Resort",
-      "description": "<h2>Hummingbird Beach Resort</h2><h4><i>Hotel</i></h4><p>This affordable resort is perfect for nature lovers.<li>Suitable for couples and families</li><li>Free parking</li><li>Pool</li><li>Free Wifi</li><li>Beach</li><li>Babysitting available</li><li>Bar/lounge</li><li>Poolside bar</li><li>Car hire</li><li>Non-smoking hotel</li></p>",
+      "description": "This affordable resort is perfect for nature lovers.",
+      "type": "Hotel",
       "lat":  13.8583,
       "lng": -61.0622,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 23,
       "name": "Jade Mountain Resort",
-      "description": "<h2>Jade Mountain Resort</h2><h4><i>Hotel</i></h4><p>This Resort is the only property with the iconic view of both the Piti and Gros Piton mountains.<li>Suitable for couples</li><li>Free parking</li><li>Free Wifi</li><li>Pool (including infinity pool)</li><li>Fitness centre (including gym)</li><li>Bar/lounge</li><li>Beach</li><li>Tennis court</li><li></li>AirportRoodtop bar</li><li>Butler service</li><li>Shuttle bus service</li><li>Spa</li></p>",
+      "description": "This Resort is the only property with the iconic view of both the Piti and Gros Piton mountains.",
+      "type": "Hotel",
       "lat": 13.8646,
       "lng": -61.0757,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 24,
       "name": "Ladera Resort",
-      "description": "<h2>Ladera Resort</h2><h4><i>Hotel</i></h4><p>Experience St Lucia with this resprt whichs is set at the edge of the rainforest, overlooking both the Carribesn sea and the Piton Mountains.<li>Suitable for couples.</li><li>Free parking</li><li>Pool (including infinity pool)</li><li>Free Wifi</li><li>Fitness centre (including gym)</li><li>Bar/lounge</li><li>Free airport transportation</li><li>Spa</li><li>Butler service</li></p>",
+      "description": "Experience St Lucia with this resprt whichs is set at the edge of the rainforest, overlooking both the Carribesn sea and the Piton Mountains.",
+      "type": "Hotel",
       "lat":  13.8302,
       "lng": -61.0515,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 25,
       "name": "La Haut Resort",
-      "description": "<h2>La Haut Resort</h2><h4><i>Hotel</i></h4><p>This hotel sits overlooking Soufriere, one of the oldest towns on the island.<li>Free parking</li><li>Free Wifi</li><li>Pool (including infinity pool)<li>Non-smoking hotel</li><li>Game room</li><li>Bar/lounge</li></p>",
+      "description": "This hotel sits overlooking Soufriere, one of the oldest towns on the island.",
+      "type": "Hotel",
       "lat":  13.8635,
       "lng": -61.0536,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 26,
       "name": "Mango Beach Inn",
-      "description": "<h2>Mango Beach Inn</h2><p>Hotel</p><p>This location is ideal if you are curious about history, culture and music as well as rainforest, waterfalls, beaches and nature trails.<li>Suitable for families and couples</li></p>",
+      "description": "This location is ideal if you are curious about history, culture and music as well as rainforest, waterfalls, beaches and nature trails.",
+      "type": "Hotel",
       "lat":  13.9676, 
       "lng": -61.0244,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 27,
       "name": "Marigot Bay Resort and Marina",
       "description": "<h2>Marigot Bay Resort and Marina</h2><p>Hotel</p><p>At this St Lucian resort, you will experience the culture, cuisine and the traditions.<li>Suitable for couples and families.</li></p>",
+      "type": "Hotel",
       "lat": 13.9644, 
       "lng": -61.0230,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 28,
       "name": "Marigot Beach Club & Dive Resort",
       "description": "<h2>Marigot Beach Club & Dive Resort</h2><h4><i>Hotel</i></h4><p>Travel to this stunning and secluded location.<li>Suitable for families and couples.</li><li>Free Wifi</li><li>Pool</li><li>Beach</li><li>Pets allowed/pet friendly</li><li>Free shuttle or taxi services</li><li>Spa</li><li>Non-smoking hotel</li><li>Bar/Lounge</li><li>Babysitting available</li><li>Fitness centre (including gym)</li></p>",
       "lat":  13.9667,
       "lng": -61.0257,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 29,
       "name": "Oasis Marigot",
       "description": "<h2>Oasis Marigot</h2><h4><i>Hotel</i></h4><p>Relax at this hotel which offers travellers the ideal holiday for a peaceful break.<li>Free parking</li><li>Free wifi</li><li>Non-smoking hotel</li><li>Laundry service</li></p>",
       "lat":  13.9678,
       "lng": -61.0262,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 30,
       "name": "Royalton Resort & Spa",
       "description": "<h2>Royalton Resort & Spa</h2><h4><i>Hotel</i></h4><p>Treat yourself to this luxuarious all-inclusive resort destination which over looks the carribean sea. This resort is split into 3 sections: the resort, the Diamond Club and the (adults only) Hideaway.<li>Suitable for couples and families</li><li>Free parking</li><li>Pools (including infinity pool)</li><li>Free WIFI</li><li>Beach</li><li>Bar/Lounge</li><li>Swimup bars</li><li>Kids Club</li><li>Spa</li><li>Banquet room</li><li>Meeting rooms</li><li>Butler service</li><li>Room service</li></p>",
       "lat":  14.0969,
       "lng": -60.9498,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 31,
       "name": "Samfi Gardens",
       "description": "<h2>Samfi Gardens</h2><h4><i>Hotel</i></h4><p>This is a newly established family owned property. This has 8 self-contained villas; 7 of them are called Vacation homes and 1 is called Honeymoon Suite.<li>Suitable for families and couples.</li></p>",
       "lat":  13.8661,
       "lng": -61.0517,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 32,
       "name": "Sandals Grande St Lucian",
       "description": "<h2>Sandals Grande St Lucian</h2><h4><i>Hotel</i></h4><p>This resort combines historic British and French flabor into one place.<li>Suitable for couples</li><li>Free parking</li><li>Free Wifi</li><li>Pool</li><li>Fitness centre (including a gym)</li><li>Beach</li><li>Free airport transportation</li><li>Bar/lounge</li><li>Swimup bar</li><li>Free shuttle bus or taxi service</li><li>Spa</li><li>Butler service</li><li>Non-smoking hotel</li><li>Laundry service</li></p>", 
       "lat":  14.0913,
       "lng": -60.9585,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 33,
       "name": "Sandals Halcyon Beach",
       "description": "<h2>Sandals Halcyon Beach</h2><h4><i>Hotel</i></h4><p>Escape to this resort for a relaxing holiday.<li>Free parking</li><li>Pool (including adults only pool)</li><li>Free airport transportation</li><li>Bar/lounge</li><li>Swimup bar</li><li>Fitness centre (including gym)</li><li>Free shuttle bus or taxi services</li><li>Spa</li><li>Butler service</li><li>Laundry service</li></p>",
       "lat":  14.0318,
       "lng": -60.9772,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
+      "id": 27,
       "name": "Starfish St. Lucia",
       "description": "<h2>Starfish St. Lucia</h2><h4><i>Hotel</i></h4><p>This tropical escape is ideal if you love white sand beaches and crystal clear water.<li>Suitable for families and couples.</li></p>",
       "lat":  14.0717,
       "lng": -60.9566,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
       "name": "Stonefield Villa Resort",
       "description": "<h2>Stonefield Villa Resort</h2><h4><i>Hotel</i></h4><p>This secluded location is ideal for all travellers.<li>Free parking</li><li>Free wifi</li>Pool</li><li>Fitness centre (including a gym)</li><li>Bar/lounge</li><li>Spa</li><li>Non smoking hotel</li></p>",
       "lat":  13.8445,
       "lng": -61.0598,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
       "name": "Sugar Beach, A Viceroy Resort",
       "description": "<h2>Sugar Beach, A Viceroy Resort</h2><h4><i>Hotel</i></h4><p>If you love white sand beaches, this is the hotel for you. Relax at the ultimate vacation experience.<li>Suiable for families and couple</li><li>Free parking</li><li>Pool</li><li>Bar/lounge</li><li>Fitness centre (including gym)</li><li>Babysitting available</li><li>Beach</li></p>",
       "lat": 13.8445, 
       "lng": -61.0598,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
       "name": "St James Club Morgan Bay",
       "description": "<h2>St James Club Morgan Bay</h2><h4><i>Hotel</i></h4><p>This relaxing location for everyone. This is an all inclusive which includes meals and beverages.<li>Suitable for families and couples</li><li>Free parking</li><li>Pool (including adults only pool)</li><li>Spa</li><li>Free Wifi</li><li>Fitness Centre (including gym)</li><li>Tennis court</li><li>Beach</li><li>Babysitting available</li><li>Bar/lounge</li><li>Swimup bars</li><li>Kids Club</li><li>Shuttle bus service</li><li>Airport transportation</li><li>Meeting rooms</li><li>Housekeeping service</li></p>",
       "lat":  14.0406,
       "lng": -60.9706,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
       "name": "Têt Rouge Resort",
       "description": "<h2>Têt Rouge Resort</h2><h4><i>Hotel</i></h4><p>This villa is the perfect getaway for all. With 6 sea-view studios featuring a specious terrace looking on to the blue Carribean. This is located near the Gros Piton.<li>Suitable for couples.</li><li>Free parking</li><li>Pool (including infinity pool)</li><li>Beach</li><li>Free Wifi</li><li>Bar/lounge</li><li>Swimup bar</li><li>Shuttle bus service</li><li>Ocean view</li></p>",
       "lat":  13.7931, 
       "lng": -61.0625,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
       "name": "Ti Kaye Resort & Spa",
       "description": "<h2>Ti Kaye Resort & Spa</h2><h4><i>Hotel</i></h4><p>This resort is located on the serene West Coast. This is the best place for a romantic relaxation.<li>Free parking</li><li>Free wifi</li><li>Beach</li><li>Pool (including adult only pool)</li><li>Spa</li><li>Laundry service</li><li>Bar/lounge</li></p>",
       "lat":  13.9261,
       "lng": -61.0572,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
       "name": "The Harbor Club",
       "description": "<h2>The Harbor Club</h2><h4><i>Hotel</i></h4><p>Part of the Hilton collection. Experience the tropical beauty and the maritime charm.<li>Suitable for families and couples.</li></p>",
       "lat":  14.0731,
       "lng": -60.9476,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
       "name": "Windjammer Landing Villa Beach Resort",
       "description": "<h2>Windjammer Landing Villa Beach Resort</h2><h4><i>Hotel</i></h4><p>Have a unforgettanle Carribean experience with this resort, with breathtaking views.<li>Free parking</li><li>Pool</li><li>Fitness centre (including a gym)</li><li>Babysitting available</li><li>Poolside bar</li><li>Kids club</li><li>Free shuttle bus or taxi services</li><li></li></p>", 
       "lat":  14.0589,
       "lng": -60.9742,
-      "icon": "assets/images/markers/hotel.png",
+      "icon": "assets/images/markers/hotel.png"
       },
     {
       "name": "Big Chef Steakhouse",
