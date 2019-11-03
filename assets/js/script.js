@@ -1,6 +1,6 @@
 
-fetch('https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/data/data.json')
-  .then(response => response.json())
+fetch('assets/data/data.json')
+  .then(response => res.json())
   .then(json => console.log(data));
 
 //code for creating the map
