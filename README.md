@@ -61,7 +61,7 @@ As a user, I want to click on a marker and information about the location will a
 As a user, I want to see locations of where restuarants, hotels and other locations on the map.
 
 ## Features
-Throughout the website, there is a navigation bar in the header taking you to all three pages.
+Throughout the web page, there are buttons that take you to where the map is on the page.
 #### Existing Features
 * Buttons - 
 * Markers - 
