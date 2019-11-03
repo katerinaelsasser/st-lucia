@@ -41,7 +41,7 @@ html, body {
   height: 225;
 }
 
-.hotel-title{
+.hotel-title {
   background-image: url('../assets/images/title-images/title-1.jpg');
   height: 350px;
   width: 100%;
@@ -56,6 +56,23 @@ html, body {
   position: absolute;
     background-color: white;
 }
+
+.attraction-title {
+  background-image: url('../assets/images/title-images/title-2.jpg');
+  height: 350px;
+  width: 100%;
+  background-repeat: repeat;
+  position: relative;
+}
+
+.attraction-title-text {
+  padding: 5px;
+  top: 15vh;
+  left: 5vw;
+  position: absolute;
+    background-color: white;
+}
+
 
 .title-text {
   color: black;
