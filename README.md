@@ -3,22 +3,27 @@
 This project contains information about the Carribean island, St Lucia. 
 The aim of this single page website was to inform users about what 
 is on the island before they book the holiday/travel to the island. This includes
-the locations and information of hotels, restuarants, bars and more.
+a map of the location with markers on it and information about the hotels, 
+restuarants, bars and more.
 
 ## UX
 #### Surface
 I started to put together mock-ups of what I would like the layout to be. Before 
-creating them, I knew that it had to be very clear for user and easy to follow. 
-I put together two different mock-ups three different formats; mobile, tablet and 
-laptop view. All the mock-ups will help inspire the final outcome of this project. 
-![Mockup 1 - Mobile](https://github.com/katerinaelsasser/st-lucia-destination/blob/master/asscets/images/laptop-mockup.jpg "Mobile Phone Mockup 1")
------
-![Mockup 1 - Laptop](https://github.com/katerinaelsasser/st-lucia-destination/blob/master/asscets/images/laptop-mockup.jpg "Laptop Mockup 1")
------
-![Mockup 2 - Mobile](https://github.com/katerinaelsasser/st-lucia-destination/blob/master/asscets/images/mobile-phone-mockup_1.jpg "Mobile Phone Mockup 2")
------
-![Mockup 2 - Laptop](https://github.com/katerinaelsasser/st-lucia-destination/blob/master/asscets/images/laptop-mockup_1.jpg "Laptop Mockup 2")
+creating them, I knew that the website had to be very clear and easy 
+for users to follow. 
+I put together two different mock-ups with two formats; mobile and 
+laptop view. This was because I believe these two formats to be the ones used 
+the most. The tablet format was going to be identical to the laptop version. 
+All the mock-ups will help inspire the final outcome of this project. 
 
+![Mockup 1 - Mobile]( "Mobile Phone Mockup 1")
+-----
+![Mockup 1 - Laptop]( "Laptop Mockup 1")
+-----
+![Mockup 2 - Mobile]( "Mobile Phone Mockup 2")
+-----
+![Mockup 2 - Laptop]( "Laptop Mockup 2")
+-----
 #### Strategy
 This website is to inform users about the island and what is on the island, which means
 there must be information and images of the locations. The information that will
