@@ -2,7 +2,8 @@
 
 This project contains information about the Carribean island, St Lucia. 
 The aim of this single page website was to inform users about what 
-is on the island before they book the holiday/travel to the island. This includes
+is on the island before they book the holiday/travel to the island. This website 
+must sell the island, meaning the website needs to be appealing. This includes
 a map of the location with markers on it and information about the hotels, 
 restuarants, bars and more.
 
@@ -25,31 +26,38 @@ All the mock-ups will help inspire the final outcome of this project.
 ![Mockup 2 - Laptop]( "Laptop Mockup 2")
 -----
 #### Strategy
-This website is to inform users about the island and what is on the island, which means
-there must be information and images of the locations. The information that will
-will be collected from a number of sights, this information will be summaries 
-about that specific location. 
+This website is to inform users about the island and what is on the island so 
+that they will call the company and book a holiday through them. The information
+and images of the locations must be appealing as this will help sell the holiday.
+The information used on the website will be collected from a number of different 
+websites, this information will be summaries and NOT copied from the companies. 
 
 #### Structure
-This website will be structured around the map of the island, around the map 
-will be images and information that will appear when a pin point on the map has 
-been clicked on.
+This website will be structured to link to the map of the island, the map will 
+be near the buttom of the page with contact information of the company. There
+will be sections throughout the page that will advertise a few of the hotels,
+attractions and the restuarants that are on the island. In these sections, there
+will be a button that will take users to the map.
+
 
 #### Skeleton
-The map of the island will be the main focus and it will also help other features
-appear on the page. For example: when clicking on a pin point on the map, information
-about that location will appear.
+The map of the island will be the main focus, there will be buttons throughout 
+the page that links users to the map. On the map, there will be info windows 
+linked to the markers that give information about that location. For example: 
+when clicking on a pin point on the map, information about that location will appear.
 
 #### Scope
 Before I started putting together the website, I had to get all the information
-that I needed to put on it. I researched about the island and locations that 
-the user would want to see.
+that I needed to put on the data file. I researched about the island and 
+locations, finding information that the user would want to see on this website.
+I also found images of St Lucia of the island and of specific locations that will
+help sell the holiday.
 
 #### User Stories
-As a user, I want to see the island on the map.
+As a user, I want to see the map of the island.
 As a user, I want a clear display and can be understood.
-As a user, I want to click on a pin and information about the location will appear.
-As a user, I want to see pictures of the location.
+As a user, I want to see images of the island/locations.
+As a user, I want to click on a marker and information about the location will appear.
 As a user, I want to see locations of where restuarants, hotels and other locations on the map.
 
 ## Features
