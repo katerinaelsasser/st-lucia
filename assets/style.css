@@ -12,12 +12,12 @@ html, body {
       
 .header-title {
   position: absolute;
-  top: 5vh;
-  left: 3vw;
-  color: #fff;
-  font-size: 4rem;
-  background: yellow;
-  padding: 10px;
+  top: 13vh;
+  left: 26vw;
+  color: black;
+  font-size: 2.1rem;
+  background: white;
+  padding: 5px;
 }
 
 .welcome-text {
