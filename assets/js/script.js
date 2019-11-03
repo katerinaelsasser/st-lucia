@@ -1,7 +1,7 @@
 
 fetch('https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/data/data.json')
   .then(response => response.json())
-  .then(json => console.log(json))
+  .then(json => console.log(json));
 
 //code for creating the map
 function initMap() {
@@ -148,3 +148,9 @@ function initMap() {
 //what the info window should have in it = ('<h2>'+obj.title+'</h2><h4><i>'+obj.type+'</i></h4><p>'+obj.description+'</p>')
 
 }
+
+$("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#map").offset().top
+    }, 1000);
+});
