@@ -142,11 +142,3 @@ function initMap() {
 }
 
 //what the info window should have in it = ('<h2>'+obj.title+'</h2><h4><i>'+obj.type+'</i></h4><p>'+obj.description+'</p>')
-
-
-//scroll functions
-scrollToHash();
-
- $document.find('a[href^="#"], a[href^="."]').on('click', function(){
-      var href = $(this).attr('href');
-      }
