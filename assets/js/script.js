@@ -114,31 +114,19 @@ function initMap() {
 ]
   });
   
-for(var i = 0; i < json.length; i++) {
-    
-    // Current object
-    var data = json[i];
-
-    // Adding a new marker for the object
-    var marker = new google.maps.Marker({
-      position: new google.maps.LatLng(data.latitude,data.longitude),
-      map: map,
-      title: data.title // this works, giving the marker a title with the correct title
-    });
-    
-    // Adding a new info window for the object
-    var clicker = addClicker(marker, data.title);  
-  
-  
-    const infowindow = new google.maps.InfoWindow({
-    content: data.description,
-  });
-  
-  google.maps.event.addEventListener(marker, 'click', function(){
-      infowindow.open(map,marker);
-  });
-    
-}
+$.getJSON("assets/data/data.json", function(json1) {
+          $.each(json1, function(key, data) {
+            var latLng = new google.maps.LatLng(data.lat, data.lng); 
+            // Creating a marker and putting it on the map
+            var marker = new google.maps.Marker({
+                position: latLng,
+                title: data.title,
+                content: data.description
+            });
+            marker.setMap(map);
+          });
+        });
+      
 }
 
 //what the info window should have in it = ('<h2>'+obj.title+'</h2><h4><i>'+obj.type+'</i></h4><p>'+obj.description+'</p>')
