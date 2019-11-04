@@ -1,5 +1,5 @@
 
-fetch('assets/data/data.json')
+fetch('https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/data/data.json')
   .then(response => res.json())
   .then(json => console.log(data));
 
@@ -128,7 +128,8 @@ function initMap() {
       position: location,
       map: map,
       icon: data.icon,
-      title: data.name
+      title: data.name,
+      content: '<h2>'+data.title+'</h2><h4><i>'+data.type+'</i></h4><p>'+data.description+'</p>'
     });
     
     const infowindow = new google.maps.InfoWindow({
