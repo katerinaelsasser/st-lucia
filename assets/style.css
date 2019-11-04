@@ -45,7 +45,11 @@ html, body {
   background-image: url('../assets/images/title-images/title-1.jpg');
   height: 350px;
   width: 100%;
-  background-repeat: repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -61,7 +65,11 @@ html, body {
   background-image: url('../assets/images/title-images/title-2.jpg');
   height: 350px;
   width: 100%;
-  background-repeat: repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -73,6 +81,45 @@ html, body {
     background-color: white;
 }
 
+.restuarant-title {
+  background-image: url('../assets/images/title-images/title-3.jpg');
+  height: 350px;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.restuarant-title-text {
+  padding: 5px;
+  top: 15vh;
+  left: 5vw;
+  position: absolute;
+    background-color: white;
+}
+
+.map-title {
+  background-image: url('../assets/images/title-images/title-4.jpg');
+  height: 350px;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.map-title-text {
+  padding: 5px;
+  top: 15vh;
+  left: 5vw;
+  position: absolute;
+    background-color: white;
+}
 
 .title-text {
   color: black;
