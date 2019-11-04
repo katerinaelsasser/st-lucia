@@ -41,6 +41,10 @@ html, body {
   height: 225;
 }
 
+.clip-background {
+  background-color: #b3e6ff;
+}
+
 .hotel-title {
   background-image: url('../assets/images/title-images/title-1.jpg');
   height: 350px;
