@@ -1,7 +1,7 @@
 
 fetch('https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/data/data.json')
   .then(response => res.json())
-  .then(json => console.log(data));
+  .then(json => console.log(json));
 
 //code for creating the map
 function initMap() {
@@ -114,32 +114,31 @@ function initMap() {
 ]
   });
   
-  
-//code for the markers/info windows  
-  for(let x in data) {
-      let data = data;
-      let location = new google.maps.LatLng(data.lat,data.lng);
-      addMarker(map, data.name, location);
-  }
-}
+for(var i = 0; i < json.length; i++) {
+    
+    // Current object
+    var data = json[i];
+
     // Adding a new marker for the object
-    function addMarker(map,name,location) {
-    const marker = new google.maps.Marker({
-      position: location,
+    var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(data.latitude,data.longitude),
       map: map,
-      icon: data.icon,
-      title: data.name,
-      content: '<h2>'+data.title+'</h2><h4><i>'+data.type+'</i></h4><p>'+data.description+'</p>'
+      title: data.title // this works, giving the marker a title with the correct title
     });
     
+    // Adding a new info window for the object
+    var clicker = addClicker(marker, data.title);  
+  
+  
     const infowindow = new google.maps.InfoWindow({
     content: data.description,
   });
   
   google.maps.event.addEventListener(marker, 'click', function(){
-      infowindow.open(map,maker);
+      infowindow.open(map,marker);
   });
     
+}
 }
 
 //what the info window should have in it = ('<h2>'+obj.title+'</h2><h4><i>'+obj.type+'</i></h4><p>'+obj.description+'</p>')
