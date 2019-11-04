@@ -17,17 +17,17 @@ laptop view. This was because I believe these two formats to be the ones used
 the most. The tablet format was going to be identical to the laptop version. 
 All the mock-ups will help inspire the final outcome of this project. 
 
-![Mockup 1 - Mobile](https://github.com/katerinaelsasser/st-lucia-destination/tree/master/assets/images/mocksups/mobile-phone-mockup.jpg "Mobile Phone Mockup 1")
+![Mockup 1 - Mobile](https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination//master/assets/images/mockups/mobile-phone-mockup.jpg "Mobile Phone Mockup 1")
 -----
-![Mockup 1 - Laptop](https://github.com/katerinaelsasser/st-lucia-destination/tree/master/assets/mocksups/laptop-mockup.jpg "Laptop Mockup 1")
+![Mockup 1 - Laptop](https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/master/assets/images/mockups/laptop-mockup.jpg "Laptop Mockup 1")
 -----
-![Mockup 2 - Mobile](https://github.com/katerinaelsasser/st-lucia-destination/tree/master/assets/mocksups/mobile-phone-mockup_1.jpg "Mobile Phone Mockup 2")
+![Mockup 2 - Mobile](https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/master/assets/images/mockups/mobile-phone-mockup_1.jpg "Mobile Phone Mockup 2")
 -----
-![Mockup 2 - Laptop](https://github.com/katerinaelsasser/st-lucia-destination/tree/master/assets/mocksups/laptop-mockup_1.jpg "Laptop Mockup 2")
+![Mockup 2 - Laptop](https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/master/assets/images/mockups/laptop-mockup_1.jpg "Laptop Mockup 2")
 -----
-![Mockup 3 - Mobile](https://github.com/katerinaelsasser/st-lucia-destination/tree/master/assets/mocksups/mobile-phone-mockup_2.jpg "Mobile Phone Mockup 3")
+![Mockup 3 - Mobile](https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/master/assets/images/mockups/mobile-phone-mockup_2.jpg "Mobile Phone Mockup 3")
 -----
-![Mockup 3 - Laptop](https://github.com/katerinaelsasser/st-lucia-destination/tree/master/assets/mocksups/laptop-mockup_2.jpg "Laptop Mockup 3")
+![Mockup 3 - Laptop](hhttps://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/master/assets/images/mockups/laptop-mockup_2.jpg "Laptop Mockup 3")
 -----
 #### Strategy
 This website is to inform users about the island and what is on the island so 
