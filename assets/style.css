@@ -46,8 +46,6 @@ html, body {
 }
 
 .hotel-title {
-  height: 350px;
-  width: 100%;
   background-repeat: no-repeat;
   position: relative;
 }

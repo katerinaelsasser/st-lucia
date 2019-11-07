@@ -126,12 +126,24 @@ The user stories that I have made at the beginning will help with testing as wel
 7. Data appears on the map
 
 ## Deployment
+The website was deployed from the master branch and has been hosted on the GitHub pages. When i add a new commit to this master website, it will be automatically updated.
+I deployed it by doing the following steps:
+
+1. Going on to my GitHub page
+2. Clicking on the repository that holds it all
+3. Clicking on the tab called "Settings"
+4. Scrolling all the way down to the section on settings called "GitHub Pages"
+5. Clicking the dropdown that has the title "Source"
+6. I changed my source from "None"to "master branch"
+
 ## Credits
 #### Content
+Content has been created by myself. Info of locations for example about hotels, restuarants and activities have been inspired by information given on the websites [Tripadvisors](https://www.tripadvisor.co.uk/) and [Google](https://www.google.com/).
 #### Media
+All images were taken from [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/).
 #### Acknowledgements
 Code used throughout the website has been found throughout on Bootstrap, the courses "HTML Fundamentals", "CSS Fundamentals", "User Centric Frontend Development", "Javascript Fundamentals" and "Interactive Frontend Development". 
-map - https://developers.google.com/maps/documentation/javascript/tutorial &  https://codepen.io/schikulski/pen/urozH
+The map code has been inpsired by [Google Developers](https://developers.google.com/maps/documentation/javascript/tutorial)& 
 map data - 
 
 The gallery was inspired by the Bootstrap example called Carousel.
