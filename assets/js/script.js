@@ -113,32 +113,7 @@ function initMap() {
     }
 ]
   });
-  
-$.getJSON("assets/data/data.json", function(json1) {
-          $.each(json1, function(key, data) {
-            var latLng = new google.maps.LatLng(data.lat, data.lng); 
-            // Creating a marker and putting it on the map
-            var marker = new google.maps.Marker({
-                position: latLng,
-                title: data.title,
-                icon: data.icon
-            });
-            marker.setMap(map);
-          });
-        });
-  var contentString = '<h2>'+data.title+'</h2><p>'+data.description+'</p>'; //Address on pin click
-
-var infowindow = new google.maps.InfoWindow({
-  content: contentString
- });
- infowindow.open(theMap,marker); 
- google.maps.event.addListener(marker, "click", function (e) {
-    infowindow.open(theMap,marker); 
-  
- });
-  
-  
-      
+    
 }
 
 
