@@ -121,12 +121,23 @@ $.getJSON("assets/data/data.json", function(json1) {
             var marker = new google.maps.Marker({
                 position: latLng,
                 title: data.title,
-                content: data.description,
                 icon: data.icon
             });
             marker.setMap(map);
           });
         });
+  var contentString = '<h2>'+data.title+'</h2><p>'+data.description+'</p>'; //Address on pin click
+
+var infowindow = new google.maps.InfoWindow({
+  content: contentString
+ });
+ infowindow.open(theMap,marker); 
+ google.maps.event.addListener(marker, "click", function (e) {
+    infowindow.open(theMap,marker); 
+  
+ });
+  
+  
       
 }
 
