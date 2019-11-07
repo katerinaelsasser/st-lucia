@@ -1,4 +1,4 @@
-fetch('../data/data.json')
+fetch('https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/master/assets/data/data.json')
   .then(res => res.json())
   .then(json => {
     console.log(json);
