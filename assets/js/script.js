@@ -121,7 +121,8 @@ $.getJSON("assets/data/data.json", function(json1) {
             var marker = new google.maps.Marker({
                 position: latLng,
                 title: data.title,
-                content: data.description
+                content: data.description,
+                icon: data.icon
             });
             marker.setMap(map);
           });
