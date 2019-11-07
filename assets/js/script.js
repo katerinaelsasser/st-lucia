@@ -1,7 +1,27 @@
+fetch('../data/data.json')
+  .then(res => res.json())
+  .then(json => {
+    console.log(json);
+    json.forEach(element => {
+      let latLng = new google.maps.LatLng(element.lat, element.lng);
+      // Creating a marker and putting it on the map
+      let marker = new google.maps.Marker({
+        position: latLng,
+        title: element.name,
+        icon: element.icon
+      });
+      marker.setMap(map);
+    });
+    let contentString = '<h2>' + data.title + '</h2><p>' + data.description + '</p>';
+    let infowindow = new google.maps.InfoWindow({
+      content: contentString
+    });
+    infowindow.open(theMap, marker);
+    google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(theMap, marker);
+    });
+  });
 
-fetch('https://github.com/katerinaelsasser/st-lucia-destination/blob/master/assets/data/data.json')
-  .then(response => res.json())
-  .then(json => console.log(json));
 
 //code for creating the map
 function initMap() {
