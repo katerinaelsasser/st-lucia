@@ -1,5 +1,4 @@
 html, body {
-
   margin: 0;
   padding: 0;
 }
@@ -116,8 +115,11 @@ html, body {
   padding: 15px;
 }
 
-/* end of section*/
-
+.attraction-button
+.restuarant-button
+.hotel-button {
+  scroll-behaviour: smooth;
+}
 
 
 /* Start of Map Code */
@@ -129,5 +131,3 @@ html, body {
 .container-fluid {
   padding: 0px;
 }
-
-/* End of Map Code */
