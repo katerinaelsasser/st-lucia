@@ -51,46 +51,51 @@ html {
 }
 
 .hotel-title {
-  background-repeat: no-repeat;
   position: relative;
 }
 
 .hotel-title-text {
-  padding: 5px;
-  top: 15vh;
-  left: 5vw;
-  position: absolute;
-    background-color: white;
+  top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: #fff;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: 500;
+    border-radius: 5px;
 }
 
 .attraction-title {
-  height: 350px;
-  width: 100%;
-  background-repeat: no-repeat;
   position: relative;
 }
 
 .attraction-title-text {
-  padding: 5px;
-  top: 15vh;
-  left: 5vw;
-  position: absolute;
-    background-color: white;
+  top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: #fff;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    font-size: 2.3rem;
+    font-weight: 500;
+    border-radius: 5px;
 }
 
 .restuarant-title {
-  height: 350px;
-  width: 100%;
-  background-repeat: no-repeat;
   position: relative;
 }
 
 .restuarant-title-text {
-  padding: 5px;
-  top: 15vh;
-  left: 5vw;
-  position: absolute;
-    background-color: white;
+  top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: #fff;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    font-size: 2.3rem;
+    font-weight: 500;
+    border-radius: 5px;
 }
 
 .header-img {
