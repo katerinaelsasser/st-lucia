@@ -131,3 +131,7 @@ html {
 .container-fluid {
   padding: 0px;
 }
+
+.row {
+  padding: 10px;
+}
