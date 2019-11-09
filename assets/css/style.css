@@ -1,4 +1,10 @@
-html, body {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
 }
@@ -113,12 +119,6 @@ html, body {
 
 .contact-info {
   padding: 15px;
-}
-
-.attraction-button
-.restuarant-button
-.hotel-button {
-  scroll-behaviour: smooth;
 }
 
 
