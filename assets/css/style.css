@@ -32,6 +32,14 @@ html {
   padding: 15px;
 }
 
+nav {
+position: sticky;
+    top: 0;
+    font-size: 2rem;
+    color: #fff;
+    z-index: 999999999999;
+}
+
 .scroll-text{
   padding: 15px;
 }
