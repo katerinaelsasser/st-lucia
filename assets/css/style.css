@@ -13,16 +13,19 @@ html {
 .header-image {
   width: 100%;
   height: 100%;
+  position: relative;
       }
       
 .header-title {
-  position: absolute;
-  top: 13vh;
-  left: 26vw;
-  color: #000000;
-  font-size: 2.1rem;
-  background: #fff;
-  padding: 5px;
+  top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: #fff;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    font-size: 2.3rem;
+    font-weight: 500;
+    border-radius: 5px;
 }
 
 .welcome-text {
@@ -33,7 +36,6 @@ html {
   padding: 15px;
 }
 
-/* End of the Header*/
 
 /* section*/
 
