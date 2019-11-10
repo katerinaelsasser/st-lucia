@@ -19,9 +19,9 @@ html {
   position: absolute;
   top: 13vh;
   left: 26vw;
-  color: black;
+  color: #000000;
   font-size: 2.1rem;
-  background: white;
+  background: #fff;
   padding: 5px;
 }
 
@@ -122,8 +122,8 @@ html {
 }
 
 .title-text {
-  color: black;
-  background: white;
+  color: 	#000000;
+  background: #fff;
 }
 
 .contact-info {
