@@ -32,11 +32,9 @@ html {
   padding: 15px;
 }
 
-nav {
-position: sticky;
+.navbar {
+  position: sticky;
     top: 0;
-    font-size: 2rem;
-    color: #fff;
     z-index: 999999999999;
 }
 
