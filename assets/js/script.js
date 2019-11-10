@@ -27,7 +27,7 @@ fetch('https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/m
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     //zoom on the map
-    zoom: 10,
+    zoom: 11,
     //location of the map
     center: {lat: 13.9094, lng: -60.9789},
     //style of the map
