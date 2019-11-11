@@ -67,8 +67,10 @@ As a user, I want to see locations of where restuarants, hotels and other locati
 ## Features
 Throughout the web page, there are buttons that take you to where the map is on the page.
 #### Existing Features
-* Buttons - 
-* Markers - 
+* Buttons - Throughout the page there are buttons that are linked so that when they are clicked, they will take the user to the map section on the page.
+* Markers - When the user clicks the markers on the map, it will pop up with an infowindow that will have infomation about that location.
+* Navigation - The navigation bar has nav items that are linked to the different sections of the page. For example: the nav item "Attractions" will take you to the attraction section on the page.
+* Slideshow - The header has been turned into a slideshow, showing users images of the island. The slideshow is automatic with no controls.
 
 
 #### Features Left To Implement
