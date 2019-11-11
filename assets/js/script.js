@@ -16,11 +16,11 @@ fetch('https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/m
     let infowindow = new google.maps.InfoWindow({
       content: contentString
     });
-    infowindow.open(theMap, marker);
+    infowindow.open(map, marker);
     google.maps.event.addListener(marker, 'click', function() {
-      infowindow.open(theMap, marker);
+      infowindow.open(map, marker);
     });
-  });
+      });
 
 
 //code for creating the map
