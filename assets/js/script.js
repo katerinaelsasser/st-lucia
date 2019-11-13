@@ -136,12 +136,17 @@ function initMap() {
     
 }
 
-var slides = document.querySelectorAll('#slides .slide');
-var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,2000);
+var slideIndex = 0;
+carousel();
 
-function nextSlide() {
-    slides[currentSlide].className = 'slide';
-    currentSlide = (currentSlide+1)%slides.length;
-    slides[currentSlide].className = 'slide showing';
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
 }
