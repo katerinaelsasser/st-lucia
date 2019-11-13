@@ -27,7 +27,7 @@ All the mock-ups will help inspire the final outcome of this project.
 -----
 ![Mockup 3 - Mobile](https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/master/assets/images/mockups/mobile-phone-mockup_2.jpg "Mobile Phone Mockup 3")
 -----
-![Mockup 3 - Laptop](hhttps://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/master/assets/images/mockups/laptop-mockup_2.jpg "Laptop Mockup 3")
+![Mockup 3 - Laptop](https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/master/assets/images/mockups/laptop-mockup_2.jpg "Laptop Mockup 3")
 -----
 #### Strategy
 This website is to inform users about the island and what is on the island so 
@@ -121,7 +121,7 @@ The user stories that I have made at the beginning will help with testing as wel
 * Using Json file
 1. Create a json file
 2. Add the data on to the file by displaying it in rows (for example: name, description)
-3. Add code on the js file that will link to the json.
+3. Add fetch code on the js file that will link to the json.
 4. Test the code
 5. Add " around the data and the title of the rows"
 6. Testing the code
