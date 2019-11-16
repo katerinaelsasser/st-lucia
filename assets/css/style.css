@@ -127,6 +127,11 @@ html {
   padding: 15px;
 }
 
+.btn {
+  margin:auto;
+  display:block;
+}
+
 
 /* Start of Map Code */
 
