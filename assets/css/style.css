@@ -44,7 +44,9 @@ html {
 
 
 /* section*/
-
+.card-deck{
+margin: 10px;
+}
 .card {
   margin-bottom: 1.5rem;
 }
