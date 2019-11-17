@@ -148,3 +148,13 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+
+//navigation bar dropdown
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
