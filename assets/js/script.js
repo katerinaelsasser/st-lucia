@@ -11,13 +11,15 @@ fetch('https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/m
         icon: element.icon
       });
       marker.setMap(map);
-    });
-    let contentString = '<h2>' + element.title + '</h2><p>' + element.description + '</p>';
-
-    google.maps.event.addListener(marker, "click", function(e) {
+     
+      google.maps.event.addListener(marker, "click", function(e) {
   infoWindow.setContent(contentString);
   infoWindow.open(map, marker);
 });
+    });
+    let contentString = '<h2>' + element.title + '</h2><p>' + element.description + '</p>';
+
+    
       });
 
 
