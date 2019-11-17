@@ -45,6 +45,9 @@ html {
 
 /* section*/
 
+.card {
+  margin-bottom: 1.5rem;
+}
 .info-cards {
   padding: 15px;
 }
