@@ -11,20 +11,18 @@ fetch('https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/m
         icon: element.icon
       });
       marker.setMap(map);
+      
+      var infowindow = new google.maps.InfoWindow({
+  content: element.description
+});
+
+google.maps.event.addListener(marker, 'click', function() {
+  infowindow.open(map,marker);
+});
      
 });
     });
-    let contentString = '<h2>' + element.title + '</h2><p>' + element.description + '</p>';
-    
-                var infowindow = new google.maps.InfoWindow({
-                    content: element.description
-                });
-
-            google.maps.event.addListener(marker, 'click', function() {    
-                infowindow.open(map,marker);
-            });
-
-        
+   
 
 //code for creating the map
 function initMap() {
