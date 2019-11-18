@@ -13,7 +13,7 @@ fetch('https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/m
       marker.setMap(map);
       
       var infowindow = new google.maps.InfoWindow({
-  content: element.description
+  content: "<h5>"+element.name+"</h5><p>"+element.description+"</p>"
 });
 
 google.maps.event.addListener(marker, 'click', function() {
