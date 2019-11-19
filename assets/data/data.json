@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "George F L Charles Airport",
-      "description": "The smallest of the two airports.",
+      "description": "The smallest of the two airports.This is located 2km away from the capital, Castries. This is used mainly for coming from or departing to other Caribbean island.",
       "type": "Airport",
       "lat": 14.0200, 
       "lng": -60.9931,
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Hewanorra International Airport",
-      "description": "The larger airport of the two on the island.",
+      "description": "The larger airport of the two on the island. This airport is used for airplanes coming from other countries, this is where you will be flown to.",
       "type": "Airport",
       "lat": 13.7334, 
       "lng": -60.9503,
@@ -63,18 +63,9 @@
       "icon": "assets/images/markers/attraction.png"
       },
     {
-      "id": 8,
-      "name": "Rodney Bay",
-      "description": "Rodney Bay is a bay located in the Gros Islet quarter on the island of Saint Lucia. Gros Islet is one of the ten quarters in the island.",
-      "type": "Attraction",
-      "lat":  14.0814,
-      "lng": -60.9627, 
-      "icon": "assets/images/markers/attraction.png"
-      },
-    {
       "id": 9,
       "name": "Soufriere Drive In Volcano",
-      "description": "<h2>Soufriere Drive In Volcano</h2><h4><i>Attraction</i></h4><p>Bubbling sulfur springs in the caldera of the dormant Qualibou volcano, with nearby mud baths.</p>",
+      "description": "Bubbling sulfur springs in the caldera of the dormant Qualibou volcano, with nearby mud baths.",
       "type": "Attraction",
       "lat":  13.8389,
       "lng": -61.0460,
