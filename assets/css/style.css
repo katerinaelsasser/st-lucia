@@ -36,10 +36,20 @@ html {
   position: sticky;
     top: 0;
     z-index: 999999999999;
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+.navbar-collapse {
+  padding: 0px;
+}
+
+.nav-link {
+  font-size: 10px;
 }
 
 .scroll-text{
-  padding: 15px;
+  padding: 10px;
 }
 
 /*welcome section*/
