@@ -28,9 +28,9 @@ html {
     border-radius: 5px;
 }
 
-.welcome-text {
-  padding: 15px;
-}
+
+
+/*navigation*/
 
 .navbar {
   position: sticky;
@@ -42,11 +42,28 @@ html {
   padding: 15px;
 }
 
+/*welcome section*/
+
+.welcome-text {
+  padding: 15px;
+}
+
+
 
 /* section*/
 .card-deck{
-margin: 10px;
+margin: 5px;
 }
+
+.btn {
+  margin:auto;
+  display:block;
+}
+
+.row {
+  padding: 10px;
+}
+
 .card {
   margin-bottom: 1.5rem;
 }
@@ -62,6 +79,17 @@ margin: 10px;
 .clip-background {
   background-color: #b3e6ff;
 }
+
+.header-img {
+  position: relative;
+}
+
+.title-text {
+  color: 	#000000;
+  background: #fff;
+}
+
+/* hotel section*/
 
 .hotel-title {
   position: relative;
@@ -84,6 +112,8 @@ margin: 10px;
     border-radius: 5px;
 }
 
+/* attraction section*/
+
 .attraction-title {
     width: 100%;
   height: 100%;
@@ -101,6 +131,8 @@ margin: 10px;
     font-weight: 500;
     border-radius: 5px;
 }
+
+/* estuarant section*/
 
 .restuarant-title {
   position: relative;
@@ -120,22 +152,10 @@ margin: 10px;
     border-radius: 5px;
 }
 
-.header-img {
-  position: relative;
-}
-
-.title-text {
-  color: 	#000000;
-  background: #fff;
-}
+/*contact section*/
 
 .contact-info {
   padding: 15px;
-}
-
-.btn {
-  margin:auto;
-  display:block;
 }
 
 
@@ -143,14 +163,9 @@ margin: 10px;
 
 #map {
   height: 700px;
+  margin-top: 15px;
 }
 
 .container-fluid {
   padding: 0px;
 }
-
-.row {
-  padding: 10px;
-}
-
-
