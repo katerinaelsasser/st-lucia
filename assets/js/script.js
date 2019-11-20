@@ -12,7 +12,7 @@ fetch('https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/m
       marker.setMap(map);
    
       
-      var infowindow = new google.maps.InfoWindow({
+      let infowindow = new google.maps.InfoWindow({
   content: '<h4>'+element.name+'</h4><p><h5>'+element.type+'</h5></p><p>'+element.description+'</p>'
 });
 
@@ -137,12 +137,12 @@ function initMap() {
     
 }
 
-var slideIndex = 0;
+let slideIndex = 0;
 carousel();
 
 function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
+  let i;
+  let x = document.getElementsByClassName("mySlides");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
