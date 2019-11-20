@@ -161,11 +161,11 @@ The website was deployed from the master branch and has been hosted on the GitHu
 I deployed it by doing the following steps:
 
 1. Going on to my GitHub page
-2. Clicking on the repository that holds it all
+2. Clicking on the repository that I would like to deploy
 3. Clicking on the tab called "Settings"
 4. Scrolling all the way down to the section on settings called "GitHub Pages"
-5. Clicking the dropdown that has the title "Source"
-6. I changed my source from "None"to "master branch"
+5. Clicking the dropdown button that has the title "Source"
+6. Change the source from "None"to "master branch"
 
 ## Credits
 #### Content
