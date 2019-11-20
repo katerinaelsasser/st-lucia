@@ -1,7 +1,6 @@
 fetch('https://raw.githubusercontent.com/katerinaelsasser/st-lucia-destination/master/assets/data/data.json')
   .then(res => res.json())
   .then(json => {
-    console.log(json);
     json.forEach(element => {
       let latLng = new google.maps.LatLng(element.lat, element.lng);
       // Creating a marker and putting it on the map
@@ -151,14 +150,4 @@ function carousel() {
   if (slideIndex > x.length) {slideIndex = 1}
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-
-//navigation bar dropdown
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
 }
