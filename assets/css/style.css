@@ -7,6 +7,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-size: 16px;
 }
 
 /*Header*/
@@ -22,9 +23,8 @@ body {
     position: absolute;
     background-color: #fff;
     transform: translate(-50%,-50%);
-    padding: 20px;
+    padding: 1.25rem;
     font-size: 2.3rem;
-    font-weight: 500;
     border-radius: 5px;
      margin-right: 0;
 }
@@ -52,28 +52,28 @@ body {
 }
 
 .nav-link {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 
 .scroll-text{
-  padding: 10px;
+  padding: 	0.625rem;
 }
 
 /*welcome section*/
 
 .welcome-text {
-  padding: 15px;
+  padding: 0.9375rem;
    margin-right: 0;
 }
 
 /* section*/
 
 .album {
-  padding: 50px;
+  padding: 3.125rem;
 }
 
 .card-deck{
-margin-bottom: 50px;
+margin-bottom: 3.125rem;
 }
 
 .btn {
@@ -81,7 +81,7 @@ margin-bottom: 50px;
 }
 
 .row {
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .card {
@@ -124,9 +124,8 @@ margin-bottom: 50px;
     position: absolute;
     background-color: #fff;
     transform: translate(-50%,-50%);
-    padding: 15px;
+    padding: 0.9375rem;
     font-size: 3rem;
-    font-weight: 500;
     border-radius: 5px;
 }
 
@@ -144,9 +143,8 @@ margin-bottom: 50px;
     position: absolute;
     background-color: #fff;
     transform: translate(-50%,-50%);
-    padding: 15px;
+    padding: 0.9375rem;
     font-size: 3rem;
-    font-weight: 500;
     border-radius: 5px;
 }
 
@@ -164,24 +162,24 @@ margin-bottom: 50px;
     position: absolute;
     background-color: #fff;
     transform: translate(-50%,-50%);
-    padding: 15px;
+    padding: 0.9375rem;
     font-size: 3rem;
-    font-weight: 500;
     border-radius: 5px;
 }
 
 /*contact section*/
 
 .contact-info {
-  padding: 10px;
+  padding: 0.625rem;
 }
+
 
 
 /* Start of Map Code */
 
 #map {
   height: 700px;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
 }
 
 .icon-title, .icon-display-row {
@@ -191,7 +189,7 @@ margin-bottom: 50px;
 
 .icons-display {
   padding: 5px;
-  margin: 10px;
+  margin: 0.625rem;
 }
 
 .container-fluid {
