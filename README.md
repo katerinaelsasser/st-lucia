@@ -67,22 +67,40 @@ help sell the holiday.
 
 #### User Stories
 As a user, I want to see the map of the island.
+
 As a user, I want a clear display and can be understood.
+
 As a user, I want to see images of the island/locations.
+
 As a user, I want to click on a marker and information about the location will appear.
+
 As a user, I want to see locations of where restuarants, hotels and other locations on the map.
 
 ## Features
-Throughout the web page, there are buttons that take you to where the map is on the page.
+At the top of the website, there is a automatic slideshow displaying images of the island. This gallery will adjust to all devices.
+
+The website has a responsive sticky navigation bar. When the user scrolls down the website, the navigation will stick to the top of the page. 
+On the navigation bar, there are buttons on it that will take you to the different sections on the page. For example: the 'Hotel' button will take the user to the Hotel section on the page.
+
+For each of the sections, there is a large image as the header with the title in the middle of it. 
+Underneath the header image, there is a row of three images and text explaining differernt things on the island. 
+For example: the attraction section, there are three different images of attractions on the island with text advertsing them.
+At the bottom of the section, there are buttons that will take the user to the map which is located at the bottom of the website.
+
+At the buttom of the website, there is a map which displays the whole of the island. On the map, there are markers with custom icons. When the user clicks on the markers, there an info window appears with info about that location.
+
 #### Existing Features
 * Buttons - Throughout the page there are buttons that are linked so that when they are clicked, they will take the user to the map section on the page.
 * Markers - When the user clicks the markers on the map, it will pop up with an infowindow that will have infomation about that location.
 * Navigation - The navigation bar has nav items that are linked to the different sections of the page. For example: the nav item "Attractions" will take you to the attraction section on the page.
-* Slideshow - The header has been turned into a slideshow, showing users images of the island. The slideshow is automatic with no controls.
+* Slideshow - The slideshow automatically displays images of the island to advertise it to the user.
 
 
 #### Features Left To Implement
-In the future, the website could add reviews to the page or the info window for the locations. They could also have a button that adjusts what the map shows. For example, only showing the hotel markers. 
+
+* More data - Adding to the JSON file more locations on the island. 
+* More images - Adding more images to the website of specific locations on the island like hotels.
+* Switch for the markers - Adding buttons that would display specific markers on the map and hide the other markers. For example: When clicking on a marker for the restaurants, the markers for the restaurants would stay on the website and the markers for the hotels and the attractions would disappear.
 
 ## Technologies Used
 * HTML5

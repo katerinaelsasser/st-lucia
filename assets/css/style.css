@@ -26,6 +26,7 @@ html {
     font-size: 2.3rem;
     font-weight: 500;
     border-radius: 5px;
+     margin-right: 0;
 }
 
 
@@ -39,6 +40,7 @@ html {
     margin-bottom: 0;
     padding: 5px;
     width: 100%;
+    margin-right: 0;
 }
 
 .navbar-brand {
@@ -61,6 +63,7 @@ html {
 
 .welcome-text {
   padding: 15px;
+   margin-right: 0;
 }
 
 /* section*/
@@ -127,7 +130,7 @@ margin: 5px;
 /* attraction section*/
 
 .attraction-title {
-    width: 100%;
+  width: 100%;
   height: 100%;
   position: relative;
 }
@@ -144,7 +147,7 @@ margin: 5px;
     border-radius: 5px;
 }
 
-/* estuarant section*/
+/* restuarant section*/
 
 .restuarant-title {
   position: relative;
@@ -167,7 +170,7 @@ margin: 5px;
 /*contact section*/
 
 .contact-info {
-  padding: 15px;
+  padding: 10px;
 }
 
 
