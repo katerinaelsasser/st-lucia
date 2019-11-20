@@ -5,7 +5,7 @@ The aim of this single page website was to inform users about what
 is on the island before they book the holiday/travel to the island. This website 
 must sell the island, meaning the website needs to be appealing. This includes
 a map of the location with markers on it and information about the hotels, 
-restuarants, bars and more.
+restaurants, bars and more.
 
 ## UX
 #### Surface
@@ -46,9 +46,9 @@ websites, this information will be summaries and NOT copied from the companies.
 
 #### Structure
 This website will be structured to link to the map of the island, the map will 
-be near the buttom of the page with contact information of the company. There
+be near the bottom of the page with contact information of the company. There
 will be sections throughout the page that will advertise a few of the hotels,
-attractions and the restuarants that are on the island. In these sections, there
+attractions and restaurants that are on the island. In these sections, there
 will be a button that will take users to the map.
 
 
@@ -66,7 +66,7 @@ I also found images of St Lucia of the island and of specific locations that wil
 help sell the holiday.
 
 #### User Stories
-As a user, I want to see the map of the island.
+As a user, I want to see a map of the island.
 
 As a user, I want a clear display and can be understood.
 
@@ -74,7 +74,7 @@ As a user, I want to see images of the island/locations.
 
 As a user, I want to click on a marker and information about the location will appear.
 
-As a user, I want to see locations of where restuarants, hotels and other locations on the map.
+As a user, I want to see locations of where restaurants, hotels and other locations on the map.
 
 ## Features
 At the top of the website, there is a automatic slideshow displaying images of the island. This gallery will adjust to all devices.
@@ -82,16 +82,16 @@ At the top of the website, there is a automatic slideshow displaying images of t
 The website has a responsive sticky navigation bar. When the user scrolls down the website, the navigation will stick to the top of the page. 
 On the navigation bar, there are buttons on it that will take you to the different sections on the page. For example: the 'Hotel' button will take the user to the Hotel section on the page.
 
-For each of the sections, there is a large image as the header with the title in the middle of it. 
-Underneath the header image, there is a row of three images and text explaining differernt things on the island. 
-For example: the attraction section, there are three different images of attractions on the island with text advertsing them.
+For each of the sections, there is a large image as a header with the title in the middle of it. 
+Underneath the header image, there is a row of three images and text explaining different things on the island. 
+For example: the attraction section, there are three different images of attractions on the island with text advertising them.
 At the bottom of the section, there are buttons that will take the user to the map which is located at the bottom of the website.
 
-At the buttom of the website, there is a map which displays the whole of the island. On the map, there are markers with custom icons. When the user clicks on the markers, there an info window appears with info about that location.
+At the bottom of the website, there is a map which displays the whole of the island. On the map, there are markers with custom icons. When the user clicks on the markers, there an info window appears with info about that location.
 
 #### Existing Features
 * Buttons - Throughout the page there are buttons that are linked so that when they are clicked, they will take the user to the map section on the page.
-* Markers - When the user clicks the markers on the map, it will pop up with an infowindow that will have infomation about that location.
+* Markers - When the user clicks the markers on the map, it will pop up with an infowindow that will have information about that location.
 * Navigation - The navigation bar has nav items that are linked to the different sections of the page. For example: the nav item "Attractions" will take you to the attraction section on the page. When the page is viewed on a mobile, the navigation changes so it has a drop down feature that holds all the buttons to the sections.
 * Slideshow - The slideshow automatically displays images of the island to advertise it to the user.
 
@@ -144,20 +144,20 @@ The user stories that I have made at the beginning will help with testing as wel
 6. icons disappeared
 7. checked the code to see if any of the links where incorrect (for example: the info window code said icons where as the code that links the images says 'icon', this was changed to 'icon').
 8. applied this
-9. refeshed the page
+9. refreshed the page
 10. icons still are not appearing
 
 ###### Using Json file
 1. Create a json file
 2. Add the data on to the file by displaying it in rows (for example: name, description)
-3. Add fetch code on the js file that will link to the json.
+3. Add fetch code on the js file that will link to the JSON.
 4. Test the code
 5. Add " around the data and the title of the rows
 6. Testing the code
 7. Data appears on the map
 
 ## Deployment
-The website was deployed from the master branch and has been hosted on the GitHub pages. When i add a new commit to this master website, it will be automatically updated.
+The website was deployed from the master branch and has been hosted on the GitHub pages. When I add a new commit to this master website, it will be automatically updated.
 I deployed it by doing the following steps:
 
 1. Going on to my GitHub page
@@ -169,14 +169,15 @@ I deployed it by doing the following steps:
 
 ## Credits
 #### Content
-Content has been created by myself. Info of locations for example about hotels, restuarants and activities have been inspired by information given on the websites [Tripadvisors](https://www.tripadvisor.co.uk/) and [Google](https://www.google.com/).
+Content has been created by myself. Info of locations for example about hotels, restaurants and activities have been inspired by information given on the websites [Tripadvisors](https://www.tripadvisor.co.uk/) and [Google](https://www.google.com/).
 #### Media
 All images were taken from [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/).
 #### Acknowledgements
 Code used throughout the website has been found throughout on Bootstrap, the courses "HTML Fundamentals", "CSS Fundamentals", "User Centric Frontend Development", "Javascript Fundamentals" and "Interactive Frontend Development". 
-The map code has been inpsired by [Google Developers](https://developers.google.com/maps/documentation/javascript/tutorial)& 
+The map code has been inspired by [Google Developers](https://developers.google.com/maps/documentation/javascript/tutorial)& 
 map data - 
 
 The gallery was inspired by the Bootstrap example called Carousel.
 
 #### Please note that this is for educational use only.
+
