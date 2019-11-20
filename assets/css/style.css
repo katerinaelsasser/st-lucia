@@ -1,197 +1,153 @@
 html {
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
+     scroll-behavior: smooth;
+     margin: 0;
+     padding: 0;
 }
-
-body {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
+ body {
+     margin: 0;
+     padding: 0;
+     font-size: 16px;
 }
-
 /*Header*/
-.mySlides {
-  position: relative;
-  width: 100%;
-      }
-      
-
-.header-title {
-  top: 50%;
-    left: 50%;
-    position: absolute;
-    background-color: #fff;
-    transform: translate(-50%,-50%);
-    padding: 1.25rem;
-    font-size: 2.3rem;
-    border-radius: 5px;
+ .mySlides {
+     position: relative;
+     width: 100%;
+}
+ .header-title {
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     background-color: #fff;
+     transform: translate(-50%,-50%);
+     padding: 1.25rem;
+     font-size: 2.3rem;
+     border-radius: 5px;
      margin-right: 0;
 }
-
-
-
 /*navigation*/
-
-.navbar {
-  position: sticky;
-    top: 0;
-    z-index: 999999999999;
-    margin-bottom: 0;
-    padding: 5px;
-    width: 100%;
-    margin-right: 0;
+ .navbar {
+     position: sticky;
+     top: 0;
+     z-index: 999999999999;
+     margin-bottom: 0;
+     padding: 5px;
+     width: 100%;
+     margin-right: 0;
 }
-
-.navbar-brand {
-  padding: 5px;
+ .navbar-brand {
+     padding: 5px;
 }
-
-.navbar-collapse {
-  padding: 0;
+ .navbar-collapse {
+     padding: 0;
 }
-
-.nav-link {
-  font-size: 0.625rem;
+ .nav-link {
+     font-size: 0.625rem;
 }
-
-.scroll-text{
-  padding: 	0.625rem;
+ .scroll-text{
+     padding: 0.625rem;
 }
-
 /*welcome section*/
-
-.welcome-text {
-  padding: 0.9375rem;
-   margin-right: 0;
+ .welcome-text {
+     padding: 0.9375rem;
+     margin-right: 0;
 }
-
 /* section*/
-
-.album {
-  padding: 3.125rem;
+ .album {
+     padding: 3.125rem;
 }
-
-.card-deck{
-margin-bottom: 3.125rem;
+ .card-deck{
+     margin-bottom: 3.125rem;
 }
-
-.btn {
-  display:block;
+ .btn {
+     display:block;
 }
-
-.row {
-  padding: 0.625rem;
+ .row {
+     padding: 0.625rem;
 }
-
-.card {
-  margin-bottom: 1.5rem;
+ .card {
+     margin-bottom: 1.5rem;
 }
-
-.card-img-top {
-  width: 100%;
-  height: 225;
+ .card-img-top {
+     width: 100%;
+     height: 225;
 }
-
-.clip-background {
-  background-color: #b3e6ff;
+ .clip-background {
+     background-color: #b3e6ff;
 }
-
-.header-img {
-  position: relative;
+ .header-img {
+     position: relative;
 }
-
-.title-text {
-  color: 	#000000;
-  background: #fff;
+ .title-text {
+     color: #000000;
+     background: #fff;
 }
-
-
 /* hotel section*/
-
-.hotel-title {
-  position: relative;
-  width: 100%;
+ .hotel-title {
+     position: relative;
+     width: 100%;
 }
-
-.hotel-img {
-  position: relative;
+ .hotel-img {
+     position: relative;
 }
-
-.hotel-title-text {
-  top: 50%;
-    left: 50%;
-    position: absolute;
-    background-color: #fff;
-    transform: translate(-50%,-50%);
-    padding: 0.9375rem;
-    font-size: 3rem;
-    border-radius: 5px;
+ .hotel-title-text {
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     background-color: #fff;
+     transform: translate(-50%,-50%);
+     padding: 0.9375rem;
+     font-size: 3rem;
+     border-radius: 5px;
 }
-
 /* attraction section*/
-
-.attraction-title {
-  width: 100%;
-  height: 100%;
-  position: relative;
+ .attraction-title {
+     width: 100%;
+     height: 100%;
+     position: relative;
 }
-
-.attraction-title-text {
-  top: 50%;
-    left: 50%;
-    position: absolute;
-    background-color: #fff;
-    transform: translate(-50%,-50%);
-    padding: 0.9375rem;
-    font-size: 3rem;
-    border-radius: 5px;
+ .attraction-title-text {
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     background-color: #fff;
+     transform: translate(-50%,-50%);
+     padding: 0.9375rem;
+     font-size: 3rem;
+     border-radius: 5px;
 }
-
 /* restuarant section*/
-
-.restuarant-title {
-  position: relative;
-  width: 100%;
-  height: 100%;
+ .restuarant-title {
+     position: relative;
+     width: 100%;
+     height: 100%;
 }
-
-.restuarant-title-text {
-  top: 50%;
-    left: 50%;
-    position: absolute;
-    background-color: #fff;
-    transform: translate(-50%,-50%);
-    padding: 0.9375rem;
-    font-size: 3rem;
-    border-radius: 5px;
+ .restuarant-title-text {
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     background-color: #fff;
+     transform: translate(-50%,-50%);
+     padding: 0.9375rem;
+     font-size: 3rem;
+     border-radius: 5px;
 }
-
 /*contact section*/
-
-.contact-info {
-  padding: 0.625rem;
+ .contact-info {
+     padding: 0.625rem;
 }
-
-
-
 /* Start of Map Code */
-
-#map {
-  height: 700px;
-  margin-top: 0.9375rem;
+ #map {
+     height: 700px;
+     margin-top: 0.9375rem;
 }
-
-.icon-title, .icon-display-row {
-  padding: 0;
-  margin: 0;
+ .icon-title, .icon-display-row {
+     padding: 0;
+     margin: 0;
 }
-
-.icons-display {
-  padding: 5px;
-  margin: 0.625rem;
+ .icons-display {
+     padding: 5px;
+     margin: 0.625rem;
 }
-
-.container-fluid {
-  padding: 0;
+ .container-fluid {
+     padding: 0;
 }
