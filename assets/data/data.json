@@ -19,9 +19,9 @@
       },
     {
       "id": 3,
-      "name": "Diamond Botinical Gardens",
+      "name": "Diamond Botanical Gardens",
       "description": "Explore this magical location where a majestic waterfall stands, one of the most popular tourist attractions on the island. This location is both a historic and naturally beautiful site.",
-      "type": "Atraction",
+      "type": "Attraction",
       "lat": 13.8524,
       "lng": -61.0483,
       "icon":"assets/images/markers/attraction.png"
@@ -83,7 +83,7 @@
     {
       "id": 11,
       "name": "Vigie Beach",
-      "description": "Vigie Beach is located 2 km north of Castries, Saint Lucia, running paralle",
+      "description": "Vigie Beach is located 2 km north of Castries, Saint Lucia, running parallel",
       "type": "Attraction",
       "lat":  14.0249,
       "lng": -60.9846,
@@ -119,7 +119,7 @@
     {
       "id": 15,
       "name": "Balenbouche Estate",
-      "description": "This family owned Historic Plantation Guesthosue has several vacation cottages. Cottages can sleep between 2 to 6 people, some include kitchens. This destination will make you feel at home.", 
+      "description": "This family owned Historic Plantation Guesthouse has several vacation cottages. Cottages can sleep between 2 to 6 people, some include kitchens. This destination will make you feel at home.", 
       "type": "Hotel",
       "lat": 13.7575, 
       "lng": -61.0279,
@@ -146,7 +146,7 @@
     {
       "id": 18,
       "name": "Calabash Cove Resort & Spa",
-      "description": "Nested in the sheltered bay of Bonaire Estate, this hotel is one of just a select few full service, bouquet luxary resorts on the island.",
+      "description": "Nested in the sheltered bay of Bonaire Estate, this hotel is one of just a select few full service, bouquet luxury resorts on the island.",
       "type": "Hotel",
       "lat":  14.0504,
       "lng": -60.9727,
@@ -164,7 +164,7 @@
     {
       "id": 20,
       "name": "Fond Doux Plantation & Resort",
-      "description": "If you want a romantic, intimate holiday, this location is the one for you. This has 15 private luxury cottages, two on-site restuarants, and a collage of outdoor swimming pools.",
+      "description": "If you want a romantic, intimate holiday, this location is the one for you. This has 15 private luxury cottages, two on-site restaurants, and a collage of outdoor swimming pools.",
       "type": "Hotel",
       "lat":  13.8220,
       "lng": -61.0502,
@@ -200,7 +200,7 @@
     {
       "id": 24,
       "name": "Ladera Resort",
-      "description": "Experience St Lucia with this resprt whichs is set at the edge of the rainforest, overlooking both the Carribesn sea and the Piton Mountains.",
+      "description": "Experience St Lucia with this resort which is set at the edge of the rainforest, overlooking both the Carribesn sea and the Piton Mountains.",
       "type": "Hotel",
       "lat":  13.8302,
       "lng": -61.0515,
@@ -236,7 +236,7 @@
     {
       "id": 28,
       "name": "Marigot Beach Club & Dive Resort",
-      "description": "Travel to this stunning and secluded location.<li>Suitable for families and couples.",
+      "description": "Travel to this stunning and secluded location.",
       "type": "Hotel",
       "lat":  13.9667,
       "lng": -61.0257,
@@ -254,7 +254,7 @@
     {
       "id": 30,
       "name": "Royalton Resort & Spa",
-      "description": "Treat yourself to this luxuarious all-inclusive resort destination which over looks the carribean sea. This resort is split into 3 sections: the resort, the Diamond Club and the (adults only) Hideaway.",
+      "description": "Treat yourself to this luxurious all-inclusive resort destination which over looks the carribean sea. This resort is split into 3 sections: the resort, the Diamond Club and the (adults only) Hideaway.",
       "type": "Hotel",
       "lat":  14.0969,
       "lng": -60.9498,
@@ -272,7 +272,7 @@
     {
       "id": 32,
       "name": "Sandals Grande St Lucian",
-      "description": "This resort combines historic British and French flabor into one place.", 
+      "description": "This resort combines historic British and French flavor into one place.", 
       "type": "Hotel",
       "lat":  14.0913,
       "lng": -60.9585,
@@ -326,7 +326,7 @@
     {
       "id": 38,
       "name": "Têt Rouge Resort",
-      "description": "<h2>Têt Rouge Resort</h2><h4><i>Hotel</i></h4><p>This villa is the perfect getaway for all. With 6 sea-view studios featuring a specious terrace looking on to the blue Carribean. This is located near the Gros Piton.<li>Suitable for couples.</li><li>Free parking</li><li>Pool (including infinity pool)</li><li>Beach</li><li>Free Wifi</li><li>Bar/lounge</li><li>Swimup bar</li><li>Shuttle bus service</li><li>Ocean view</li></p>",
+      "description": "This villa is the perfect getaway for all. With 6 sea-view studios featuring a specious terrace looking on to the blue Carribean. This is located near the Gros Piton.",
       "type": "Hotel",
       "lat":  13.7931, 
       "lng": -61.0625,
@@ -335,7 +335,7 @@
     {
       "id": 39,
       "name": "Ti Kaye Resort & Spa",
-      "description": "<h2>Ti Kaye Resort & Spa</h2><h4><i>Hotel</i></h4><p>This resort is located on the serene West Coast. This is the best place for a romantic relaxation.<li>Free parking</li><li>Free wifi</li><li>Beach</li><li>Pool (including adult only pool)</li><li>Spa</li><li>Laundry service</li><li>Bar/lounge</li></p>",
+      "description": "This resort is located on the serene West Coast. This is the best place for a romantic relaxation.",
       "type": "Hotel",
       "lat":  13.9261,
       "lng": -61.0572,
@@ -344,7 +344,7 @@
     {
       "id": 40,
       "name": "The Harbor Club",
-      "description": "<h2>The Harbor Club</h2><h4><i>Hotel</i></h4><p>Part of the Hilton collection. Experience the tropical beauty and the maritime charm.<li>Suitable for families and couples.</li></p>",
+      "description": "Part of the Hilton collection. Experience the tropical beauty and the maritime charm.",
       "type": "Hotel",
       "lat":  14.0731,
       "lng": -60.9476,
@@ -353,7 +353,7 @@
     {
       "id": 41,
       "name": "Windjammer Landing Villa Beach Resort",
-      "description": "<h2>Windjammer Landing Villa Beach Resort</h2><h4><i>Hotel</i></h4><p>Have a unforgettanle Carribean experience with this resort, with breathtaking views.<li>Free parking</li><li>Pool</li><li>Fitness centre (including a gym)</li><li>Babysitting available</li><li>Poolside bar</li><li>Kids club</li><li>Free shuttle bus or taxi services</li><li></li></p>", 
+      "description": "Have an unforgettable Carribean experience with this resort, with breathtaking views.", 
       "type": "Hotel",
       "lat":  14.0589,
       "lng": -60.9742,
@@ -362,7 +362,7 @@
     {
       "id": 42,
       "name": "Big Chef Steakhouse",
-      "description": "<h2>Big Chef Steakhouse</h2><h4><i>Resturant</i></h4><p>Known for flavour and flair, Big Chef Steakhouse takes the traditional steakhouse to another level of deliciousness, combining the satisfaction of home-cooked comfort food with an innovative, adventurous passion for excellence.</p>", 
+      "description": "Known for flavour and flair, Big Chef Steakhouse takes the traditional steakhouse to another level of deliciousness, combining the satisfaction of home-cooked comfort food with an innovative, adventurous passion for excellence.", 
       "type": "Hotel",
       "lat":  14.0700,
       "lng": -60.9538,
@@ -371,7 +371,7 @@
     {
       "id": 43,
       "name": "Flavours of the Grill",
-      "description": "<h2>Flavours of the Grill</h2><h4><i>Resturant</i></h4><p>This friendly, modest and colourful little restaurant - the wooden house is painted blue, pink and lime green - is one of the best places on St Lucia to sample authentic, inexpensive Caribbean cooking.</p>", 
+      "description": "This friendly, modest and colourful little restaurant - the wooden house is painted blue, pink and lime green - is one of the best places on St Lucia to sample authentic, inexpensive Caribbean cooking.", 
       "type": "Hotel",
       "lat":  14.0544,
       "lng": -60.9641,
@@ -380,7 +380,7 @@
     {
       "id": 44,
       "name": "Jacques Waterfront Dining",
-      "description": "<h2>Jacques Waterfront Dining</h2><h4><i>Resturant</i></h4><p>Jacques Waterfront Dining is one of St. Lucia’s most popular restaurants, with a long-standing reputation for consistency in both the quality of the food and the service with which it is delivered.</p>", 
+      "description": "Jacques Waterfront Dining is one of St. Lucia’s most popular restaurants, with a long-standing reputation for consistency in both the quality of the food and the service with which it is delivered.", 
       "type": "Hotel",
       "lat":  14.0727,
       "lng": -60.9540,
@@ -389,7 +389,7 @@
     {
       "id": 45,
       "name": "Maries Local Cuisine",
-      "description": "<h2>Maries Local Cuisine</h2><h4><i>Resturant</i></h4><p>A welcoming restaurant next to the botanical gardens with a quality Creole lunch buffet. Good, hearty meals and a fair price.</p>", 
+      "description": "A welcoming restaurant next to the botanical gardens with a quality Creole lunch buffet. Good, hearty meals and a fair price.", 
       "type": "Hotel",
       "lat":  13.8521,
       "lng": -61.0473,
@@ -398,10 +398,11 @@
     {
       "id": 46,
       "name": "Masala Bay",
-      "description": "<h2>Masala Bay</h2><h4><i>Resturant</i></h4><p>Located in Marigot Bay Marina Village at Capella Resort. Serving authentic Indian and Indo Chinese (Hakka) cuisine.</p>", 
+      "description": "Located in Marigot Bay Marina Village at Capella Resort. Serving authentic Indian and Indo Chinese (Hakka) cuisine.", 
       "type": "Hotel",
       "lat":  13.9653,
       "lng": -61.0242,
       "icon": "assets/images/markers/restaurant.png"
       }
   ]
+
