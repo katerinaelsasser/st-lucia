@@ -103,7 +103,7 @@ At the bottom of the website, there is a map which displays the whole of the isl
 * Switch for the markers - Adding buttons that would display specific markers on the map and hide the other markers. For example: When clicking on a marker for the restaurants, the markers for the restaurants would stay on the website and the markers for the hotels and the attractions would disappear.
 
 ## Technologies Used
-* HTML5
+* HTML
 * CSS
 * Javascript
 * JQuery
@@ -166,6 +166,8 @@ I deployed it by doing the following steps:
 4. Scrolling all the way down to the section on settings called "GitHub Pages"
 5. Clicking the dropdown button that has the title "Source"
 6. Change the source from "None"to "master branch"
+
+## How to run this project locally
 
 ## Credits
 #### Content
