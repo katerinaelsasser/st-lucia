@@ -92,7 +92,7 @@ At the buttom of the website, there is a map which displays the whole of the isl
 #### Existing Features
 * Buttons - Throughout the page there are buttons that are linked so that when they are clicked, they will take the user to the map section on the page.
 * Markers - When the user clicks the markers on the map, it will pop up with an infowindow that will have infomation about that location.
-* Navigation - The navigation bar has nav items that are linked to the different sections of the page. For example: the nav item "Attractions" will take you to the attraction section on the page.
+* Navigation - The navigation bar has nav items that are linked to the different sections of the page. For example: the nav item "Attractions" will take you to the attraction section on the page. When the page is viewed on a mobile, the navigation changes so it has a drop down feature that holds all the buttons to the sections.
 * Slideshow - The slideshow automatically displays images of the island to advertise it to the user.
 
 
