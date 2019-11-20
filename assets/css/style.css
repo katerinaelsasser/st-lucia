@@ -67,6 +67,11 @@ html {
 }
 
 /* section*/
+
+.album {
+  padding: 50px;
+}
+
 .card-deck{
 margin: 5px;
 }
@@ -100,6 +105,8 @@ margin: 5px;
   color: 	#000000;
   background: #fff;
 }
+
+/* About section*/
 
 /* hotel section*/
 
