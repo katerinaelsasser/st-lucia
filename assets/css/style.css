@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-collapse {
-  padding: 0px;
+  padding: 0;
 }
 
 .nav-link {
@@ -195,5 +195,5 @@ margin-bottom: 50px;
 }
 
 .container-fluid {
-  padding: 0px;
+  padding: 0;
 }
