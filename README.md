@@ -106,7 +106,7 @@ At the bottom of the website, there is a map which displays the whole of the isl
 * HTML
 * CSS
 * Javascript
-* JQuery
+* [JQuery](https://jquery.com/)
 * JSON
 * [Bootstrap](https://getbootstrap.com/)
 * [Bootswatch](https://bootswatch.com/yeti/)
@@ -162,12 +162,21 @@ I deployed it by doing the following steps:
 
 1. Going on to my GitHub page
 2. Clicking on the repository that I would like to deploy
-3. Clicking on the tab called "Settings"
-4. Scrolling all the way down to the section on settings called "GitHub Pages"
-5. Clicking the dropdown button that has the title "Source"
-6. Change the source from "None"to "master branch"
+3. Clicking on the tab called **Settings**
+4. Scrolling all the way down to the section on settings called **GitHub Pages**
+5. Clicking the dropdown button that has the title **Source**
+6. Change the source from **None** to **Master Branch**
 
 ## How to run this project locally
+
+The following steps are how you can clone this project from GitHub.
+
+1. Head over to the repsositpory for the project. In this case it would be this [link](https://github.com/katerinaelsasser/st-lucia-destination).
+2. Underneath the name of the repository, there is a coloured button called **Clone or Download**.
+3. When this button is clicked it will pop up with a link. Copy the URL for the repository.
+4. In the local IDE open Git Bash
+5. Where the clone directory is to be made, change the current working directory.
+6. Type in the git clone and then insert the URL that has been copied.
 
 ## Credits
 #### Content
@@ -175,11 +184,8 @@ Content has been created by myself. Info of locations for example about hotels, 
 #### Media
 All images were taken from [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/).
 #### Acknowledgements
-Code used throughout the website has been found throughout on Bootstrap, the courses "HTML Fundamentals", "CSS Fundamentals", "User Centric Frontend Development", "Javascript Fundamentals" and "Interactive Frontend Development". 
-The map code has been inspired by [Google Developers](https://developers.google.com/maps/documentation/javascript/tutorial)& 
-map data - 
-
-The gallery was inspired by the Bootstrap example called Carousel.
+Inspiration for this website came from a holiday trip that I went on. I travelled around St Lucia and saw all locations that have been included on this page. 
+My mentor, Simen Daehlin, inspired my fetch code on my Javascript page.
 
 #### Please note that this is for educational use only.
 
