@@ -145,3 +145,23 @@ html {
  .container-fluid {
      padding: 0;
 }
+
+.fa-bed {
+ color: green;
+ font-size: 2rem;
+}
+
+.fa-star {
+ color: yellow;
+  font-size: 2rem;
+}
+
+.fa-plane {
+ color: purple;
+  font-size: 2rem;
+}
+
+.fa-cutlery {
+ color: brown;
+  font-size: 2rem;
+}
