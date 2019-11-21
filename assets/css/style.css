@@ -57,6 +57,8 @@ html {
 }
  .card-deck{
      margin-bottom: 3.125rem;
+     margin-left: 0;
+     margin-right: 0;
 }
  .btn {
      display:block;
