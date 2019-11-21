@@ -51,6 +51,7 @@ html {
      padding: 0.9375rem;
      margin-right: 0;
 }
+
 /* section*/
  .album {
      padding: 3.125rem;
@@ -83,14 +84,26 @@ html {
      color: #000000;
      background: #fff;
 }
-/* hotel section*/
- .hotel-title {
-     position: relative;
+
+
+/*img title*/
+
+.header-title-div {
+ position: relative;
      width: 100%;
 }
- .hotel-img {
+
+.header-title-image {
+     width: 100%;
+     height: 100%;
      position: relative;
 }
+
+
+
+
+/* hotel section*/
+ 
  .hotel-title-text {
      top: 50%;
      left: 50%;
@@ -118,11 +131,7 @@ html {
      border-radius: 5px;
 }
 /* restuarant section*/
- .restuarant-title {
-     position: relative;
-     width: 100%;
-     height: 100%;
-}
+
  .restuarant-title-text {
      top: 50%;
      left: 50%;
