@@ -114,6 +114,18 @@ html {
  .contact-info {
      padding: 0.625rem;
 }
+
+.contact-text {
+ top: 50%;
+     left: 50%;
+     position: absolute;
+     background-color: #fff;
+     transform: translate(-50%,-50%);
+     padding: 0.9375rem;
+     font-size: 3rem;
+     border-radius: 5px;
+}
+
 /* Start of Map Code */
  #map {
      height: 700px;
