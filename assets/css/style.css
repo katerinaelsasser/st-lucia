@@ -56,11 +56,14 @@ html {
  .album {
      padding: 3.125rem;
 }
- .card-deck{
-     margin-bottom: 3.125rem;
-     margin-left: 0;
-     margin-right: 0;
+
+.card-deck {
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%,-50%);
 }
+
  .btn {
      display:block;
 }
