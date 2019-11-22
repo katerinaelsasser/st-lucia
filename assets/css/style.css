@@ -8,6 +8,10 @@ html {
      padding: 0;
      font-size: 16px;
 }
+
+section {
+ padding-top: 2rem;
+}
 /*Header*/
  .mySlides {
      position: relative;
