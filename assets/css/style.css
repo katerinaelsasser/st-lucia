@@ -68,7 +68,6 @@ section {
      transform: translate(-50%,-50%);
 }
 
-
  .btn {
      display:block;
 }
@@ -122,11 +121,13 @@ section {
 /*travellers info*/
 
 .traveller-info-text {
- display: inline;
-     background-color: #fff;
-padding: 1.5rem;
+padding: 0.625rem;
 border: 2rem;
-border-radius: 5px; 
+}
+
+.traveller-info-table {
+position: absolute;
+
 }
 
 /*contact section*/
