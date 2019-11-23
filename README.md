@@ -92,7 +92,7 @@ At the bottom of the website, there is a map which displays the whole of the isl
 #### Existing Features
 * Buttons - Throughout the page there are buttons that are linked so that when they are clicked, they will take the user to the map section on the page.
 * Markers - When the user clicks the markers on the map, it will pop up with an infowindow that will have information about that location.
-* Navigation - The navigation bar has nav items that are linked to the different sections of the page. For example: the nav item "Attractions" will take you to the attraction section on the page. When the page is viewed on a mobile, the navigation changes so it has a drop down feature that holds all the buttons to the sections.
+* Navigation - The navigation bar has nav items that are linked to the different sections of the page. For example: the nav item **Attractions** will take you to the attraction section on the page. When the page is viewed on a mobile, the navigation changes so it has a drop down feature that holds all the buttons to the sections.
 * Slideshow - The slideshow automatically displays images of the island to advertise it to the user.
 
 
@@ -115,11 +115,11 @@ At the bottom of the website, there is a map which displays the whole of the isl
 The user stories that I have made at the beginning will help with testing as well as being a check list.
 #### Check List
 #### Tests Done To Create Website
-###### Map Error
-1. Added the code that creates the map.
+###### Adding a map
+1. Added the code that creates the map to the javascript file.
 2. When refreshing the page, the map doesn't appear.
 3. Check code where the error is.
-4. Find I forgot to add a ';' to the end of a line.
+4. Find I forgot to add a ';' to the end of a line. 
 5. I apply this.
 6. Check the page, the map appears.
 
@@ -131,21 +131,21 @@ The user stories that I have made at the beginning will help with testing as wel
 5. Don't notice anything, copy the code again from Google.
 6. Reload the page.
 7. Map doesn't appear still.
-8. Look at my code again and notice I put it in the wrong section and added it to the code that created the map.
-9. Moved the code onto another section.
+8. Check the code again and notice I put it outside of the map code. Move the marker code inside of it.
+9. Moved the code into the map section.
 10. Reload page, map and marker appear.
 
 ###### Changing the marker icons to all be different
 1. Chose the icons that I wanted to use on the map
-2. added the code of the different icons that will be used
-3. create the snippet of icon code that will change the marker.
-4. applied the code
-5. refreshed the page
-6. icons disappeared
-7. checked the code to see if any of the links where incorrect (for example: the info window code said icons where as the code that links the images says 'icon', this was changed to 'icon').
-8. applied this
-9. refreshed the page
-10. icons still are not appearing
+2. Added the code of the different icons that will be used
+3. Create the snippet of icon code that will change the marker.
+4. Applied the code
+5. Refreshed the page
+6. Icons disappeared
+7. Checked the code to see if any of the links where incorrect (for example: the info window code said icons where as the code that links the images says 'icon', this was changed to 'icon').
+8. Applied this
+9. Refreshed the page
+10. Icons still are not appearing
 
 ###### Using Json file
 1. Create a json file
