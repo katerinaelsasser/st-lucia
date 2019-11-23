@@ -118,6 +118,17 @@ section {
      border-radius: 5px;
 }
 
+
+/*travellers info*/
+
+.traveller-info-text {
+ display: inline;
+     background-color: #fff;
+padding: 1.5rem;
+border: 2rem;
+border-radius: 5px; 
+}
+
 /*contact section*/
  .contact-info {
      padding: 0.625rem;
@@ -134,7 +145,7 @@ section {
      border-radius: 5px;
 }
 
-/* Start of Map Code */
+/* Map */
  #map {
      height: 700px;
      margin-top: 0.9375rem;
