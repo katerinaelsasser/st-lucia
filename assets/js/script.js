@@ -24,7 +24,10 @@ google.maps.event.addListener(marker, 'click', function() {
     });
    
 
-//code for creating the map
+/**
+ * map function generates google map
+ * 
+ */
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     //zoom on the map
@@ -140,6 +143,10 @@ function initMap() {
 let slideIndex = 0;
 carousel();
 
+/**
+ * Gallery function generates slides for images
+ * 
+ */
 function carousel() {
   let i;
   let x = document.getElementsByClassName("mySlides");
