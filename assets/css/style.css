@@ -140,23 +140,31 @@ html {
  .icons-display {
      padding: 0.625rem;
 }
+
+.icon-text {
+ margin-right: 1.5rem;
+} 
  .container-fluid {
      padding: 0;
 }
  .fa-bed {
-     color: green;
+     color: #009900;
      font-size: 2rem;
+     text-align: center;
 }
  .fa-star {
-     color: yellow;
+     color: #ffff00;
      font-size: 2rem;
+     text-align: center;
 }
  .fa-plane {
-     color: purple;
+     color: #ac00e6;
      font-size: 2rem;
+     text-align: center;
 }
  .fa-cutlery {
-     color: brown;
+     color: #b35900;
      font-size: 2rem;
+     text-align: center;
 }
  
